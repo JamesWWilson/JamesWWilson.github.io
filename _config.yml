@@ -4,7 +4,7 @@ email:       canadianj@sbcglobal.net
 author:      James Wilson
 description: "Personal Blog."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://jameswwilson.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
