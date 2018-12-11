@@ -1,16 +1,11 @@
 ---
 layout:     post
-title:      Announcing Version 2.0
-date:       2015-07-11
-summary:    Now, Pixyll is lighter weight and more customizable than before.
+title:      Project 1
+date:       2018-12-08
+summary:    Deep dive.
 categories: jekyll pixyll
 ---
 
-In an effort to make Pixyll easier to customize and more aesthetically pleasing, we've released version `2.0`.
-
-Pixyll now features:
-
-* Line anchors in code blocks and new syntax highlighting
-* A customizable variables file
-* Modular, and lighter weight CSS
-* No more `max-width` media queries
+Here I discuss a project I like that includes:
+* thing 1
+* thing 2
