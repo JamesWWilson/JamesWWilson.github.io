@@ -1,11 +1,12 @@
 # Site settings
-title:       James Wilson's Blog
+title:       James Wilson
 email:       canadianj@sbcglobal.net
 author:      James Wilson
 description: "Personal Blog."
 baseurl:     ""
 url:         "https://jameswwilson.github.io/"
 date_format: "%b %-d, %Y"
+header: images/James.jpeg
 header_pages:
  - about.md
  #- contact.html
