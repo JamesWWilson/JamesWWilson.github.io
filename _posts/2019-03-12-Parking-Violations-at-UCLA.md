@@ -115,6 +115,9 @@ Where are violations happening?
 
 <img src="FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
 
+![HeatMap](/Users/JamesW/Desktop/Github Repository/JamesWWilson.github.io/_posts/2019-03-12-Parking-Violations-at-UCLA_files/figure-markdown_strict/heatmap.jpg){:class="img-responsive"}
+
+
 How much money is being made from Westwood?
 -------------------------------------------
 
