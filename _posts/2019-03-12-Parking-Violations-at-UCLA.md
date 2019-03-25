@@ -92,6 +92,8 @@ right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
+![GitHub Logo](FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+
 <img src="FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 Additionally, we see that Sundays have the least violations. This is due
