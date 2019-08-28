@@ -1,4 +1,4 @@
-Where, when, and why are students getting ticketed in Westwood?
+Where, when, and why are students getting ticketed?
 ---------------------------------------------------------------
 
 Picture this: you're walking home on a bright, sunny UCLA day. Life is
@@ -9,7 +9,7 @@ parking ticket*.
 
 For many students with cars, parking is daily hassle on the residential
 side of Westwood. With rising rates of congestion<sup>1</sup> and a lack
-of infrasture to handle more car owners, the competition for students to
+of infrastructure to handle more car owners, the competition for students to
 fit cars wherever possible increases. I myself, along with most other
 drivers in Westwood, have been face to face with a ticket at some point
 or another. This led me to the question: how are students getting
@@ -28,7 +28,7 @@ violations in our local area. The raw data set is quite messy, and can
 use some further investigation.
 
 For instance; several of the violation descriptions and street names are
-often mismtached, and need to be cleaned and aggregated.
+often mismatched, and need to be cleaned and aggregated.
 
 <table>
 <thead>
@@ -70,8 +70,8 @@ of the total share of tickets.
     ## # A tibble: 6 x 3
     ##   violation_category       counts percent_total
     ##   <chr>                     <int>         <dbl>
-    ## 1 NO PARK/STREET CLEAN      21223         39.1 
-    ## 2 PARKED OVER TIME LIMIT    14303         26.4 
+    ## 1 NO PARK/STREET CLEAN      21223         39.1
+    ## 2 PARKED OVER TIME LIMIT    14303         26.4
     ## 3 DISPLAY OF PLATES / TABS   4082          7.52
     ## 4 METER EXPIRED              2503          4.61
     ## 5 REFERENTIAL PARKING        2329          4.29
@@ -91,6 +91,15 @@ Now lets look at the *time* that violations happen. First, we notice
 right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
+
+<img src="/assets/images/James.jpg" alt="">
+
+![image](/assets/images/James.jpg)
+
+CHECK IT OUT HOLLA I AM MAKING CHANGES TO THE SCRIPT PLEASE
+LET
+ME
+Updated
 
 ![G](FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-3-1.png)
 
