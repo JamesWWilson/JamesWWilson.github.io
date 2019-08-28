@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Data Science Project 
+title:      Data Science Project
 date:       2018-12-08
 summary:    Deep dive into a cool statistics project!!
 categories: jekyll pixyll
