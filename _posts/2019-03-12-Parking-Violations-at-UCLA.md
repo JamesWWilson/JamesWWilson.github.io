@@ -86,24 +86,17 @@ Talk about commonly ticket streets for categories
 
 When are tickets given?
 -----------------------
+![image](/assets/images/violations_per_day.png)
 
 Now lets look at the *time* that violations happen. First, we notice
 right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
-<img src="/assets/images/James.jpg" alt="">
+![image](/assets/images/violations_per_hour.png)
+![image](/assets/images/select.jpg)
 
-![image](/assets/images/James.jpg)
 
-CHECK IT OUT HOLLA I AM MAKING CHANGES TO THE SCRIPT PLEASE
-LET
-ME
-Updated
-
-![G](FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-3-1.png)
-
-<img src="FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
 
 Additionally, we see that Sundays have the least violations. This is due
 to many streets with two hour parking limits waiving this condition on
@@ -114,7 +107,8 @@ we look at the time of day tickets are being given. A staggering amount
 of tickets are given bright and early at 8 AM, an uncomfortable time of
 day for many sleep deprived UCLA students.
 
-<img src="FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
+
+
 
 There are also bumps in tickets given from 9 AM to 11AM, as well as 3 PM
 to 5PM. \* explain this \*
@@ -122,11 +116,8 @@ to 5PM. \* explain this \*
 Where are violations happening?
 -------------------------------
 
-    ## Source : https://maps.googleapis.com/maps/api/staticmap?center=34.066312,-118.451253&zoom=16&size=640x640&scale=2&maptype=terrain&language=en-EN&key=xxx
 
-<img src="FINAL_-_Project_Analysis_files/figure-markdown_strict/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
-
-![HeatMap](/Users/JamesW/Desktop/Github Repository/JamesWWilson.github.io/_posts/2019-03-12-Parking-Violations-at-UCLA_files/figure-markdown_strict/heatmap.jpg){:class="img-responsive"}
+![image](/assets/images/heatmap.png)
 
 
 How much money is being made from Westwood?
