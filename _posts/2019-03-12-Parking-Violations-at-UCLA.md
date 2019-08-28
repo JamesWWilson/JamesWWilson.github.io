@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      Parking Violations at UCLA
+date:       2019-09-18
+summary:    Where, when, and why are students getting ticketed?
+categories: jekyll pixyll
+---
+
+
 Where, when, and why are students getting ticketed?
 ---------------------------------------------------------------
 
@@ -94,7 +103,7 @@ given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
 ![image](/assets/images/violations_per_hour.png)
-![image](/assets/images/select.jpg)
+
 
 
 
@@ -118,6 +127,12 @@ Where are violations happening?
 
 
 ![image](/assets/images/heatmap.png)
+
+We can see a concentration of
+
+
+
+
 
 
 How much money is being made from Westwood?
