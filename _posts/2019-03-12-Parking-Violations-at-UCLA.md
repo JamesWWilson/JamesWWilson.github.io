@@ -11,7 +11,6 @@ A deep dive into how students get ticketed in Westwood.
 
 {:refdef: style="text-align: center;"}
 ![Heat Map](/assets/images/heatmap.png)
-*image_caption*
 {: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
