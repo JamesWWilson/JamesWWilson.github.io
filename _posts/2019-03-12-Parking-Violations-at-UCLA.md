@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Parking Violations at UCLA
-date:       2019-09-18
+date:       2019-09-08
 summary:    Where, when, and why are students getting ticketed?
 categories: jekyll pixyll
 ---
@@ -16,7 +16,7 @@ great.
 That is until you find that dreaded slip on your car's front dash: *a
 parking ticket*.
 
-For many students with cars, parking is daily hassle on the residential
+For many students with cars, parking is a daily hassle on the residential
 side of Westwood. With rising rates of congestion<sup>1</sup> and a lack
 of infrastructure to handle more car owners, the competition for students to
 fit cars wherever possible increases. I myself, along with most other
