@@ -9,7 +9,9 @@ categories:
 A deep dive into how UCLA students get ticketed in Westwood.
 ---------------------------------------------------------------
 
-![Heat map](/assets/images/heatmap.png){:class="img-responsive" height="400px" width="400px"}
+{:refdef: style="text-align: center;"}
+![Heat map](/assets/images/heatmap.png){height="400px" width="400px"}
+{: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
 SoCal day. Life is great.
