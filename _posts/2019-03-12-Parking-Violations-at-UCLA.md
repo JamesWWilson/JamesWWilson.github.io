@@ -10,7 +10,8 @@ A deep dive into how students get ticketed in Westwood.
 ---------------------------------------------------------------
 
 {:refdef: style="text-align: center;"}
-![Heat map](/assets/images/heatmap.png)
+![Heat Map](/assets/images/heatmap.png)
+*image_caption*
 {: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
@@ -154,7 +155,9 @@ right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
+{:refdef: style="text-align: center;"}
 ![image](/assets/images/violations_per_day.png){: .center-image }
+{: refdef}
 
 Additionally, we see that Sundays have the least violations. This is
 likely due to many streets that normally have two hour parking limits
@@ -165,7 +168,9 @@ ticketing when we look at the time of day tickets are being given. A
 staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
+{:refdef: style="text-align: center;"}
 ![image](/assets/images/violations_per_hour.png){: .center-image }
+{: refdef}
 
 Street cleaning continues until 10 for Westwood streets. So why are
 there no drop-in violations until 12ish? A second round of ticketing
@@ -183,10 +188,7 @@ Avoiding the Street Cleaning Ticket
 
 
 
-
-
-
-How much money does the city make from Westwood tickets?
+How much money does LA make from Westwood tickets?
 --------------------------------------------------------
 
 Ticket prices have continued to climb over the years. At present, five
@@ -195,7 +197,9 @@ Given the already rising tuition, rent, and general fees associated with
 being a UCLA student, having to contribute to pay an additional fee can
 put one over the edge.
 
+{:refdef: style="text-align: center;"}
 ![image](/assets/images/costs.png){: .center-image }
+{: refdef}
 
 From 2015 to the end of 2018, *$3,702,125* in revenue has been made from
 the Westwood area in tickets. This is a huge amount of money to be taken
