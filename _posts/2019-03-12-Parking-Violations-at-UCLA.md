@@ -6,10 +6,12 @@ summary:    Where, when, and why are students getting ticketed?
 categories: jekyll pixyll
 ---
 
-A deep dive look into how UCLA students get ticketed in Westwood, CA.
+A deep dive into how UCLA students get ticketed in Westwood, CA.
 ---------------------------------------------------------------
 
-![image](/assets/images/heatmap.png){: .center-image }
+![Heat map](/assets/images/heatmap.png){:class="img-responsive" height="700px" width="400px"}
+
+<img src="/assets/images/heatmap.png" width="200"/>
 
 Picture this: you're a UCLA student walking home on a bright, sunny
 SoCal day. Life is great.
@@ -204,10 +206,12 @@ with fines.
 Citations
 ---------
 
-Find the data for this project [here](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
+[Data](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
 
-The code for this project is on my Github
+Code
 
 1 [Traffic Congestion in Los Angeles will get Worse](https://www.citywatchla.com/index.php/2016-01-01-13-17-00/los-angeles/17537-traffic-congestion-in-los-angeles-will-get-worse)
+
 2 [Los Angeles's Open Data Initiative](https://data.lacity.org/)
+
 3 [Mapping the Most Parking-Ticketed Blocks in All of Los Angeles](https://la.curbed.com/2014/12/30/10006936/mapping-the-most-parkingticketed-blocks-in-all-of-los-angeles#more)
