@@ -3,15 +3,13 @@ layout:     post
 title:      Parking Violations at UCLA
 date:       2019-09-08
 summary:    Where, when, and why are students getting ticketed?
-categories: jekyll pixyll
+categories:
 ---
 
-A deep dive into how UCLA students get ticketed in Westwood, CA.
+A deep dive into how UCLA students get ticketed in Westwood.
 ---------------------------------------------------------------
 
-![Heat map](/assets/images/heatmap.png){:class="img-responsive" height="700px" width="400px"}
-
-<img src="/assets/images/heatmap.png" width="200"/>
+![Heat map](/assets/images/heatmap.png){:class="img-responsive" height="400px" width="400px"}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
 SoCal day. Life is great.
@@ -27,6 +25,10 @@ increases. I myself, along with many other drivers in Westwood, have
 been face to face with a ticket at some point or another. This lead me
 to the question: how are students getting ticketed, and are there
 possible ways to minimize such tickets?
+
+(Note: I am taking the assumption that *a large majority* of those living
+  in this part of Westwood are students, having lived in the area for
+  four years.)
 
 Utilizing Los Angeles's Open Data Initiative<sup>2</sup>, started by
 Mayor Eric Garceti in 2013, we can collect every parking ticket handed
