@@ -9,8 +9,7 @@ categories: jekyll pixyll
 A deep dive look into how UCLA students get ticketed in Westwood, CA.
 ---------------------------------------------------------------
 
-Heatmap
-=======
+![image](/assets/images/heatmap.png){: .center-image }
 
 Picture this: you're a UCLA student walking home on a bright, sunny
 SoCal day. Life is great.
@@ -125,8 +124,8 @@ The majority of parking tickets, nearly 40%, are due to street cleaning
 violations. We can get even more granular and see which of these
 violations are most common per street in Westwood.
 
-insert
-======
+![image](/assets/images/street_violations.jpeg){: .center-image }
+
 
 The dreaded Landfair Avenue still holds the title of being the worst
 street in Westwood, namely due to its rough roads, tandem parking, and
@@ -171,6 +170,14 @@ comes once again from another round of time limit violations.
 Avoiding the Street Cleaning Ticket
 -----------------------------------
 
+
+
+
+
+
+
+
+
 How much money does the city make from Westwood tickets?
 --------------------------------------------------------
 
@@ -180,8 +187,7 @@ Given the already rising tuition, rent, and general fees associated with
 being a UCLA student, having to contribute to pay an additional fee can
 put one over the edge.
 
-insert
-======
+![image](/assets/images/costs.png){: .center-image }
 
 From 2015 to the end of 2018, *$3,702,125* in revenue has been made from
 the Westwood area in tickets. This is a huge amount of money to be taken
