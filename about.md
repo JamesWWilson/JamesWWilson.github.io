@@ -5,10 +5,8 @@ permalink: /about/
 tags: about
 ---
 
-![image](/assets/images/James.jpg)
-
 Hello! My name is James Wilson ([@jwilson2032](https://twitter.com/jwilson2032)).
-I am an Associate for Ankura Consulting, focusing on applying Data Science to economic and litigation problems. I graduated from UCLA in 2019 with a B.S. in Statistics & minor in Digital Humanities. 
+I am an Associate for Ankura Consulting, focusing on applying Data Science to economic and litigation problems. I graduated from UCLA in 2019 with a B.S. in Statistics & minor in Digital Humanities.
 
 Previously, I was a Data Analytics Intern for ChowNow, where I worked on analyzing customer retention rates and automating our marketing email catalog.
 
