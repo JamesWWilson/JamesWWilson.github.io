@@ -6,11 +6,11 @@ summary:    Where, when, and why are students getting ticketed?
 categories:
 ---
 
-A deep dive into how UCLA students get ticketed in Westwood.
+A deep dive into how students get ticketed in Westwood.
 ---------------------------------------------------------------
 
 {:refdef: style="text-align: center;"}
-![Heat map](/assets/images/heatmap.png){height="400px" width="400px"}
+![Heat map](/assets/images/heatmap.png)
 {: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
@@ -26,11 +26,11 @@ owners, the competition for students to fit cars wherever possible
 increases. I myself, along with many other drivers in Westwood, have
 been face to face with a ticket at some point or another. This lead me
 to the question: how are students getting ticketed, and are there
-possible ways to minimize such tickets?
+possible ways to minimize such tickets? *
 
-(Note: I am taking the assumption that *a large majority* of those living
+ * I am making the assumption that *a large majority* of those living
   in this part of Westwood are students, having lived in the area for
-  four years.)
+  four years.
 
 Utilizing Los Angeles's Open Data Initiative<sup>2</sup>, started by
 Mayor Eric Garceti in 2013, we can collect every parking ticket handed
@@ -130,7 +130,9 @@ The majority of parking tickets, nearly 40%, are due to street cleaning
 violations. We can get even more granular and see which of these
 violations are most common per street in Westwood.
 
+{:refdef: style="text-align: center;"}
 ![image](/assets/images/street_violations.jpeg){: .center-image }
+{: refdef}
 
 
 The dreaded Landfair Avenue still holds the title of being the worst
