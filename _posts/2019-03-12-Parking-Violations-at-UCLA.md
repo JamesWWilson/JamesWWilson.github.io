@@ -95,14 +95,14 @@ Talk about commonly ticket streets for categories
 
 When are tickets given?
 -----------------------
-![image](/assets/images/violations_per_day.png)
+![image](/assets/images/violations_per_day.png){: .center-image }
 
 Now lets look at the *time* that violations happen. First, we notice
 right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
-![image](/assets/images/violations_per_hour.png)
+![image](/assets/images/violations_per_hour.png){: .center-image }
 
 
 
@@ -126,7 +126,7 @@ Where are violations happening?
 -------------------------------
 
 
-![image](/assets/images/heatmap.png)
+![image](/assets/images/heatmap.png){: .center-image }
 
 We can see a concentration of
 
