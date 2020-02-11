@@ -72,7 +72,7 @@ little over 9%. Westwood is already one of the most ticketed
 neighborhoods in all of Los Angeles <sup>3</sup>.
 
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center;"}
 ![Timeseries of Tickets](/assets/images/______.png)
 {: refdef}
 
@@ -96,32 +96,32 @@ least 3% of the total share of tickets.
 <tbody>
 <tr class="odd">
 <td>NO PARK/STREET CLEAN</td>
-<td>20965</td>
+<td>20,965</td>
 <td>39.97</td>
 </tr>
 <tr class="even">
 <td>PARKED OVER TIME LIMIT</td>
-<td>14149</td>
+<td>14,149</td>
 <td>26.98</td>
 </tr>
 <tr class="odd">
 <td>DISPLAY OF PLATES/ TABS</td>
-<td>3868</td>
+<td>3,868</td>
 <td>7.38</td>
 </tr>
 <tr class="even">
 <td>METER EXPIRED</td>
-<td>2479</td>
+<td>2,479</td>
 <td>4.73</td>
 </tr>
 <tr class="odd">
 <td>RED ZONE</td>
-<td>1907</td>
+<td>1,907</td>
 <td>3.64</td>
 </tr>
 <tr class="even">
 <td>PARKED ON SIDEWALK</td>
-<td>1851</td>
+<td>1,851</td>
 <td>3.53</td>
 </tr>
 </tbody>
@@ -155,11 +155,9 @@ hotspots for ticketing occurs:
 code for plot
 ```
 
-Overall, a high density of violations seems to occur around __, ___, ___,...
-
+Overall, a high density of violations seems to occur around the Strathmore & Landfair, the bottom of Roebling, and the southern top of Westwood village.
 
 Subsetting for the type of violation lets us get more granular:
-
 
 
 t1 _ t2
@@ -170,11 +168,7 @@ t3 _ t4
 
 
 
-
-What street you live on makes a huge difference for how significant ticketing will affect you, as well as
-what types of tickets will bother you.
-
-
+What street you live on makes a huge difference for how significant ticketing will affect you, as well as what types of tickets will end up bothering you.
 
 
 When are tickets given?
