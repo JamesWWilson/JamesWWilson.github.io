@@ -72,7 +72,7 @@ little over 9%. Westwood is already one of the most ticketed
 neighborhoods in all of Los Angeles <sup>3</sup>.
 
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 80%;"}
 ![Timeseries of Tickets](/assets/images/______.png)
 {: refdef}
 
