@@ -131,7 +131,7 @@ The majority of parking tickets, nearly 40%, are due to street cleaning
 violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 80%;"}
 ![image](/assets/images/street_violations.jpeg){: .center-image }
 {: refdef}
 
@@ -179,7 +179,7 @@ right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 80%;"}
 ![image](/assets/images/violations_per_day.png){: .center-image }
 {: refdef}
 
@@ -192,7 +192,7 @@ ticketing when we look at the time of day tickets are being given. A
 staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 80%;"}
 ![image](/assets/images/violations_per_hour.png){: .center-image }
 {: refdef}
 
@@ -234,7 +234,7 @@ Given the already rising tuition, rent, and general fees associated with
 being a UCLA student, getting an additional fee can put someone over the
 financial edge.
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 80%;"}
 ![image](/assets/images/costs.png){: .center-image }
 {: refdef}
 
