@@ -148,7 +148,7 @@ We can create a heatmap of the tickets given to create a better visual of where
 hotspots for ticketing occurs:
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![HeatMap](/assets/images/street_clean_heatmap.png)
+![HeatMap](/assets/images/overall_heatmap.png)
 {: refdef}
 
 ```r
@@ -245,7 +245,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![firstticket](/assets/images/first_ticketcopy.png){: .center-image , height=75%,width=75%}
+![firstticket](/assets/images/first_ticket_copy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
@@ -253,7 +253,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![lastticket](/assets/images/last_ticket_givencopy.png){: .center-image , height=75%,width=75%}
+![lastticket](/assets/images/last_ticket_given_copy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 
@@ -263,7 +263,7 @@ The last tickets given are significantly different by street.
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![nn_ticket](/assets/images/nn_perc_tickets_givencopy.png){: .center-image, height=75%,width=75%}
+![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 
