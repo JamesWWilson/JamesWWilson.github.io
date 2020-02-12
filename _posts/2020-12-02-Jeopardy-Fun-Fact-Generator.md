@@ -49,6 +49,8 @@ data set of details for each contestant on each show.
 
 ### Archive Scraper Function
 
+```Python
+
     # Load packages
     from bs4 import BeautifulSoup
     import requests
@@ -111,6 +113,8 @@ data set of details for each contestant on each show.
         jeopardy_archive_link
         #update iterator
         index = index + 1
+```
+
 
 For the “fun fact” part of the analysis, we rely on the work of Chad
 Mosher, as there are no episode transcripts easily available
@@ -121,6 +125,8 @@ perfect representations, they get to the meat of the stories and should
 work for our purposes.
 
 ### Twitter API Pull
+
+```Python
 
     # -*- coding: utf-8 -*-
     import tweepy
@@ -175,6 +181,8 @@ work for our purposes.
     df = DataFrame(outtweets,columns=["id","created_at","favorite_count","retweet_count", "text"])
     df.to_csv('%s_tweets.csv' % userID,index=False)
 
+```
+
 We can merge these datasets together on their respective player\_id and
 show\_date fields to create a full data set of contestant details.
 
@@ -188,65 +196,6 @@ Part 2: Player Statistics
 
 So who are these contestants? First, lets look at where they list their
 Hometowns across the United States\[2\].
-
-<table>
-<thead>
-<tr class="header">
-<th>Hometown</th>
-<th>Contestant Count</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>New York, New York</td>
-<td>133</td>
-</tr>
-<tr class="even">
-<td>Chicago, Illinois</td>
-<td>104</td>
-</tr>
-<tr class="odd">
-<td>Los Angeles, California</td>
-<td>99</td>
-</tr>
-<tr class="even">
-<td>Brooklyn, New York</td>
-<td>70</td>
-</tr>
-<tr class="odd">
-<td>Seattle, Washington</td>
-<td>45</td>
-</tr>
-<tr class="even">
-<td>Atlanta, Georgia</td>
-<td>44</td>
-</tr>
-<tr class="odd">
-<td>Austin, Texas</td>
-<td>39</td>
-</tr>
-<tr class="even">
-<td>Las Vegas, Nevada</td>
-<td>37</td>
-</tr>
-<tr class="odd">
-<td>Arlington, Virginia</td>
-<td>31</td>
-</tr>
-<tr class="even">
-<td>San Diego, California</td>
-<td>30</td>
-</tr>
-<tr class="odd">
-<td>Portland, Oregon</td>
-<td>29</td>
-</tr>
-<tr class="even">
-<td>…</td>
-<td>…</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -311,7 +260,8 @@ We can take these hometowns and plot them to their respective FIP codes
 (using data from the U.S. Census Bureau) across the United States\[3\].
 
 {:refdef: style=“text-align: center;”}
-![Map](assests/jeopardy_images/uscountymap.png) {: refdef}
+![Map](assets/jeopardy_images/uscountymap.png)
+{: refdef}
 
 Contestants appear to make it onto Jeopardy in proportion with
 population centers across the country. Put more aptly, while higher
@@ -327,7 +277,7 @@ Now lets
 What sort of jobs ? Need to recast these as best as we can \# - highest
 & lowest job values
 
-Any correlation to winnings?
+
 
 Part 3: Sentiment Analysis
 --------------------------
@@ -339,6 +289,23 @@ After cleaning the
 
 Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
+
+{:refdef: style=“text-align: center;”}
+![Map](assets/jeopardy_images/uscountymap.png)
+{: refdef}
+
+
+
+
+
+
+```Python
+## four lines of code for TextGenRNN
+
+
+```
+
+
 
 Discuss LSTM model
 
