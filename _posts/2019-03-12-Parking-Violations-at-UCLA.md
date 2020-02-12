@@ -71,11 +71,6 @@ in ticketing in 2019. From the start of 2015 through most of 2018, there was a
 rise in ticketing by a little over 9%. Westwood is already one of the most
 ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
 
-{:refdef: style="text-align: center; "}
-![Timeseries of Tickets](/assets/images/monthly_violations.png){: .center-image ; height="550px" width="550px"}
-{: refdef}
-
-
 Where are tickets given?
 ----------------
 
@@ -152,6 +147,7 @@ hotspots for ticketing occurs:
 {: refdef}
 
 ```r
+# Generating the Heat Map in GGPlot2
 cols <- c("#a7e7f6","#5fb2e2","#006ac4","#0d188f")
 heatmap <- westwood_map +
   geom_density2d(data = WWParking, aes(x = longitude,
@@ -173,8 +169,9 @@ heatmap <- westwood_map +
 ```
 
 Overall, a high density of violations seems to occur on street corners, likely
-due to how the tickets are geo encoded originally. Gayley, Landfair, Roebling,
-and Midvale all are high density areas for ticketing.   
+due to how the tickets are geo-encoded. Gayley, Landfair, Roebling,
+and Midvale are all high density areas for ticketing, regardless of the category
+of ticket being handed out.  
 
 Subsetting for different types of violations lets us get a more granular look:
 
@@ -248,30 +245,34 @@ if you could move your car back before the designated time? Lets look at when ev
 ![firstticket](/assets/images/first_ticket_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
-The first tickets given consistently make the 8AM mark,
-
-
+The first tickets given<sup>4</sup> consistently make the 8AM mark, with parking enforcement officers
+getting to their designated spots right on time for their daily bounty. This leaves little wriggle room
+for error when moving your car in the morning. It is interesting to note that the tickets
+seem to work their way into Westwood, from Gayley and Veteran slowly inwards toward Glenrock, where you have a few additional minutes after 8 to get to your car.
 
 {:refdef: style="text-align: center;"}
 ![lastticket](/assets/images/last_ticket_given_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
+The last tickets given<sup>5</sup> are significantly different by street. Not only are they all over
+the place, their range given can vary widely by the day. Variations can be attributed to how
+many spots are available on a particular street in the first place, as well as the route chosen
+by the parking violation officers in the morning. While its safe to say that some spots
+open up as early as 10:20, the bulk of last tickets are given out until closer to 11 at roughly
+10:50, when some officers might be gracious enough to look the other way.
 
-The last tickets given are significantly different by street.
-
-
-
+But what if you have a tolerance for risk? Would you take a 1% chance at a ticket?
 
 {:refdef: style="text-align: center; max-height: 60%;"}
 ![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
+This last graphic illustrates when 99% of tickets have been given out on a particular
+street. Most of Strathmore and Landfair have their last tickets given by 10:17,  
+and the bottom of Kelton and Midvale open up again before 10:00!
 
-
-But what if you have a tolerance for risk?
-
-
-
+If you are running late to your class at 11, hopefully you can refer to this to shift
+the parking odds into your favor.
 
 
 How much money does Los Angeles make from Westwood tickets?
@@ -300,7 +301,7 @@ informed decision making. Hopefully, this information can help car owners in red
 the chaos and problems associated with parking in the hills of Westwood.
 
 
-Citations
+Citations / Footnotes
 ---------
 
 [Data](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
@@ -312,3 +313,7 @@ Citations
 2 [Los Angeles's Open Data Initiative](https://data.lacity.org/)
 
 3 [Mapping the Most Parking-Ticketed Blocks in All of Los Angeles](https://la.curbed.com/2014/12/30/10006936/mapping-the-most-parkingticketed-blocks-in-all-of-los-angeles#more)
+
+4 First 1% of Tickets given on particular street.
+
+5 Last 1% of Tickets given on particular street.
