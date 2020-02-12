@@ -6,9 +6,9 @@ summary: Who makes it onto Jeopardy, and just how interesting are they?
 categories: null
 ---
 
-
-
-
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){:height="550px" width="750px"}
+{: refdef}
 
 
 Who makes it onto Jeopardy? And are they more interesting than a robot?
@@ -280,7 +280,7 @@ We can take these hometowns and plot them to their respective FIP codes
 (using data from the U.S. Census Bureau) across the United States\[3\].
 
 {:refdef: style=“text-align: center;”}
-![Map](/assets/jeopardy_images/uscountymap.png){:height="550px" width="750px"}
+![Map](/assets/jeopardy_images/uscountymap.png)
 {: refdef}
 
 Contestants appear to make it onto Jeopardy in proportion with
@@ -316,7 +316,7 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
 
 {:refdef: style=“text-align: center;”}
-![watson](/assets/jeopardy_images/ibm-watson-logo.jpeg){:height="550px" width="750px"}
+![watson](/assets/jeopardy_images/ibm_watson_logo.jpg){:height="550px" width="750px"}
 {: refdef}
 
 
