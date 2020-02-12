@@ -132,7 +132,7 @@ violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/street_violations.png){: .center-image }
+![image](/assets/images/street_violations.png){: .center-image , height=70%, width=70%}
 {: refdef}
 
 
@@ -178,7 +178,7 @@ Subsetting for different types of violations lets us get a more granular look:
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![Heat Maps](/assets/images/heatmap_matrix.png)
+![Heat Maps](/assets/images/heatmap_matrix.png){: height=75%,width=75%}
 {: refdef}
 
 
@@ -200,7 +200,7 @@ given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/violations_per_day.png){: .center-image }
+![image](/assets/images/violations_per_day.png){: .center-image ,height=75%,width=75%}
 {: refdef}
 
 Additionally, we see that Sundays have the least violations. This is
@@ -213,7 +213,7 @@ staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/violations_per_hour.png){: .center-image }
+![image](/assets/images/violations_per_hour.png){: .center-image, height=75%,width=75%}}
 {: refdef}
 
 Street cleaning continues until 10 AM for Westwood streets. So why is
@@ -232,7 +232,7 @@ could move your car back early? Lets look at when every street cleaning ticket
 was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![firstticket](/assets/images/first_ticket.png){: .center-image }
+![firstticket](/assets/images/first_ticket.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
@@ -240,7 +240,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![lastticket](/assets/images/last_ticket_given.png){: .center-image }
+![lastticket](/assets/images/last_ticket_given.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 
@@ -250,7 +250,7 @@ The last tickets given are significantly different by street.
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![nn_ticket](/assets/images/nn_perc_tickets_given.png){: .center-image }
+![nn_ticket](/assets/images/nn_perc_tickets_given.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 
@@ -271,7 +271,7 @@ being a UCLA student, getting an additional fee can put someone over the
 financial edge.
 
 {:refdef: style="text-align: center; max-height: 80%;"}
-![image](/assets/images/costs.png){: .center-image }
+![image](/assets/images/costs.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 From 2015 to the through August 2019, *$4,280,750* in revenue has been made from
