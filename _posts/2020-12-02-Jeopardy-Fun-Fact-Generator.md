@@ -7,7 +7,7 @@ categories: null
 ---
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 
@@ -16,14 +16,14 @@ Who makes it onto Jeopardy? And are they more interesting than a robot?
 
     #“I walked 10 2nd graders on my grandma.”
 
-7PM PST on a weeknight means Jeopardy. I’ll watch the show with anyone
+7 PM PST on a weeknight means Jeopardy. I’ll watch the show with anyone
 that’s willing to listen as I mutter answers at a television screen
 while Alex Trebek asks challenging trivia questions. Jeopardy has been a
 central feature of my life, bonding with my Dad over dinner or competing
 with college roommates to see who is the “smartest”.
 
 The show is known for its structured and professional manner, where
-contestants are cordial with one another and all demonstrate a sort of
+contestants are cordial with one another, and everyone demonstrates a sort of
 deference to the show and its now legendary host. After the first
 commercial break, however, all contestants are given a chance to discuss
 something interesting about themselves. This is where, in my opinion,
@@ -32,13 +32,13 @@ snack: human judgement. It’s fun watching contestants talk about being
 mistaken for Nicolas Cage in Mexico, or tell embarassing stories about
 coaching Quidditch teams (these are real examples!)
 
-In celebration of the Ultimate Champions tournament that took place this
+In celebration of the Ultimate Champions tournament that took place this past
 month, I thought it would be fun to look at anyone but the Champions.
 More specifically, I want to take a deep dive into the types of people
 that make it onto the show, and what aspect of their lives they think is
-worth discussing in front of a live audience. And more importantly, from
-a data perspective, can we simulate and create our own faux Jeopardy
-contestants and “fun facts”?
+worth discussing in front of a live audience. From a data perspective, can we
+simulate the contestant's fun facts and create a Jeopardy *Watson* with its
+own personality?
 
 Part 1: The Data
 ----------------
@@ -317,10 +317,10 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
 
 {:refdef: style=“text-align: center;”}
-![watson](/assets/jeopardy_images/ibm_watson_logo.jpg){:height="550px" width="550px"}
+![watson](/assets/jeopardy_images/ibm_watson_logo.jpg){: .center-image ; height="550px" width="750px"}
 {: refdef}
 
-Each contestants fun fact about themselves makes for perfect text bot fuel. I cleaned
+Each contestant's fun fact about themselves makes for perfect text bot fuel. I cleaned
 each tweet for punctuation and correct name formatting, as well as stringing them
 together ...
 
