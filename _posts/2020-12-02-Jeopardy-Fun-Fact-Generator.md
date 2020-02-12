@@ -201,8 +201,8 @@ df.to_csv('%s_tweets.csv' % userID,index=False)
 
 ```
 
-We can merge these datasets together on their respective player\_id and
-show\_date fields to create a full data set of contestant details.
+We can merge these datasets together on their respective player id and
+show date fields to create a full data set of contestant details.
 
 ```Python
     #jeopardy_df.head()
@@ -296,6 +296,7 @@ We can also take a glimpse at which states have the highest winnings overall!
 
 
 
+# Occupation Types & Winnings
 
 
 
@@ -319,6 +320,11 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 ![watson](/assets/jeopardy_images/ibm_watson_logo.jpg){:height="550px" width="550px"}
 {: refdef}
 
+Each contestants fun fact about themselves makes for perfect text bot fuel. I cleaned
+each tweet for punctuation and correct name formatting, as well as stringing them
+together ...
+
+Once done, we can now
 
 
 
