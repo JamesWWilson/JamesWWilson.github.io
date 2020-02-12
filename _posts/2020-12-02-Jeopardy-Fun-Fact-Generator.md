@@ -9,7 +9,9 @@ categories: null
 
 
 
-Who makes it onto Jeopardy, and just how interesting are they?
+
+
+Who makes it onto Jeopardy? And are they more interesting than a robot?
 ---------------------------------------------------------------
 
     #“I walked 10 2nd graders on my grandma.”
@@ -41,8 +43,12 @@ contestants and “fun facts”?
 Part 1: The Data
 ----------------
 
+{:refdef: style=“text-align: center;”}
+![archive](/assets/jeopardy_images/jeopardy-archive.jpeg){:height="550px" width="750px"}
+{: refdef}
+
 We can collect information on Jeopardy contestants from two sources: the
-Offical Jeopardy Archive & the @CoolJeopardyStories account on Twitter.
+Offical Jeopardy Archive & the Twitter account *@CoolJeopardyStories*.
 The Jeopardy Archive collects and maintains all details related to the
 show, including each contestant’s name, occupation, hometown, number of
 games won, cash winnings, and more. Using the BeautifulSoup library in
@@ -125,9 +131,13 @@ while index < 2000:
 
 ```
 
+{:refdef: style=“text-align: center;”}
+![CoolJeopardyStores](/assets/jeopardy_images/cooljepstories.jpeg){:height="550px" width="750px"}
+{: refdef}
+
 For the “fun fact” part of the analysis, we rely on the work of Chad
 Mosher, as there are no episode transcripts easily available
-online\[1\]. Chad ran the @CoolJeopardyStories account from February
+online<sup>1</sup>. Chad ran the @CoolJeopardyStories account from February
 11th, 2014 to July 26th, 2019, where he created tweet length version’s
 of each show contestant’s story. While these transcription aren’t
 perfect representations, they get to the meat of the stories and should
@@ -205,7 +215,7 @@ Part 2: Player Statistics
 -------------------------
 
 So who are these contestants? First, lets look at where they list their
-Hometowns across the United States\[2\].
+Hometowns across the United States<sup>2</sup>.
 
 <table>
 <thead>
@@ -270,7 +280,7 @@ We can take these hometowns and plot them to their respective FIP codes
 (using data from the U.S. Census Bureau) across the United States\[3\].
 
 {:refdef: style=“text-align: center;”}
-![Map](assets/jeopardy_images/uscountymap.png){:height="550px" width="750px"}
+![Map](/assets/jeopardy_images/uscountymap.png){:height="550px" width="750px"}
 {: refdef}
 
 Contestants appear to make it onto Jeopardy in proportion with
@@ -306,7 +316,7 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
 
 {:refdef: style=“text-align: center;”}
-![Map](assets/jeopardy_images/ibm-watson-logo.jpeg){:height="550px" width="750px"}
+![watson](/assets/jeopardy_images/ibm-watson-logo.jpeg){:height="550px" width="750px"}
 {: refdef}
 
 
@@ -363,15 +373,26 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 Part 5: Conclusion
 ------------------
 
+
+
+
 Data
 ====
+
+[Jeopardy Archive](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
+
+[@CoolJeopardyStores](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
 
 Code
 ====
 
+[Github](https://github.com/JamesWWilson/Jeopardy-Fun-Facts)
+
 Citations
 =========
 
-\[1\] If you work for Jeopardy or \_\_\_, I would love access to these !
-\[2\] Excluding contestants from Canada, Alaska, and Hawaii. \[3\]
-<a href="https://simplemaps.com/data/us-cities" class="uri">https://simplemaps.com/data/us-cities</a>
+1 If you work for Jeopardy or NBC, I would love access to transcripts from the show to analyze!
+
+2 Excluding contestants from Canada, Alaska, and Hawaii.
+
+3 [Simple Maps Data](https://simplemaps.com/data/us-cities)
