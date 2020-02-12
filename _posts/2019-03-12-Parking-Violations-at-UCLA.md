@@ -35,8 +35,8 @@ set contains upwards of nine million parking tickets total. Using the data's
 longitude and latitude variables, we can subset our data to just the
 village of Westwood.
 
-From January 1st, 2015 to December 31st, 2018, there have been some
-**52,447** tickets written for over fifty different type of parking
+From January 1st, 2015 to September 9th, 2019, there have been over
+**61,000** tickets written for over fifty different type of parking
 violations in Westwood's local area. The raw data set is quite messy,
 and needs some further investigation.
 
@@ -96,38 +96,38 @@ least 3% of the total share of tickets.
 <tbody>
 <tr class="odd">
 <td>NO PARK/STREET CLEAN</td>
-<td>20,965</td>
-<td>39.97</td>
+<td>24,529</td>
+<td>40.20</td>
 </tr>
 <tr class="even">
 <td>PARKED OVER TIME LIMIT</td>
-<td>14,149</td>
-<td>26.98</td>
+<td>15,645</td>
+<td>25.60</td>
 </tr>
 <tr class="odd">
 <td>DISPLAY OF PLATES/ TABS</td>
-<td>3,868</td>
-<td>7.38</td>
+<td>4,607</td>
+<td>7.55</td>
 </tr>
 <tr class="even">
 <td>METER EXPIRED</td>
-<td>2,479</td>
-<td>4.73</td>
+<td>2,624</td>
+<td>4.36</td>
 </tr>
 <tr class="odd">
 <td>RED ZONE</td>
-<td>1,907</td>
-<td>3.64</td>
+<td>2,624</td>
+<td>4.30</td>
 </tr>
 <tr class="even">
 <td>PARKED ON SIDEWALK</td>
-<td>1,851</td>
-<td>3.53</td>
+<td>2,170</td>
+<td>3.56</td>
 </tr>
 </tbody>
 </table>
 
-The majority of parking tickets, nearly 40%, are due to street cleaning
+The majority of parking tickets, just over 40%, are due to street cleaning
 violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
@@ -151,7 +151,7 @@ hotspots for ticketing occurs:
 ![HeatMap](/assets/images/street_clean_heatmap.png)
 {: refdef}
 
-```
+```r
 cols <- c("#a7e7f6","#5fb2e2","#006ac4","#0d188f")
 heatmap <- ww +
   geom_density2d(data = WWParking,
@@ -172,23 +172,37 @@ heatmap <- ww +
   labs(title = "Heatmap of Parking Violatons 2015-2019")
 ```
 
-Overall, a high density of violations seems to occur around Strathmore & Landfair, the bottom of Roebling, and the southern top of Westwood village.
+Overall, a high density of violations seems to occur on street corners, likely
+due to how the tickets are geo encoded originally. Gayley, Landfair, Roebling,
+and Midvale all are high density areas for ticketing.   
 
 Subsetting for different types of violations lets us get a more granular look:
-
 
 {:refdef: style="text-align: center; max-height: 60%;"}
 ![Heat Maps](/assets/images/heatmap_matrix.png){: height=75%,width=75%}
 {: refdef}
 
+In detail:
+  * Red Zone. This happens all throughout Westwood, BUT the red zones
+  around the local Chevron station are a hot spot for getting caught.
+  Even if you think you have time to run in for a quick slushie or bag of chips,
+  think twice about parking in the red.
+
+  * Parked on the Sidewalk. This is a big one for me, as I have gotten this ticket TWICE. If you have
+  tandem parking you know the struggle of making sure to not park onto the curb.
+  If you are ever in doubt if you are in the "parkway apron" or not,
+  just make the move and save yourself a few bucks.
+
+  * Parked during Street Cleaning. Read the sign and avoid the fine. No matter
+  where you live (even parts of Veteran!) you are in danger of the street clean.
+
+  * Parked over Time Limit. A more obvious one relative to restrictions on how
+  long you can park in certain zones (e.g. zipcar spots, 2 hours park zones, etc.)
+  Roebling and Strathmore are dangerous for this one.
 
 
-
-
-
-
-
-What street you live on makes a huge difference for how significant ticketing will affect you, as well as what types of tickets will end up bothering you.
+What street you live on makes a huge difference for how significant ticketing
+will affect you, as well as what types of tickets will end up bothering you.
 
 
 When are tickets given?
@@ -227,12 +241,12 @@ comes once again from another round of time limit violations.
 Avoiding the Street Cleaning Ticket
 -----------------------------------
 
-Instead of idiling in your car from 8am to 11am once a week, wouldn't it be great if you
-could move your car back early? Lets look at when every street cleaning ticket
-was given, and determine when you do and don't have to move your car.
+Instead of idiling in your car from 8am to 11am once a week, wouldn't it be great
+if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
 ![firstticket](/assets/images/first_ticket.png){: .center-image , height=75%,width=75%}
+Red ~ 8:00-8:01 /  Orange ~ 8:03-8:04 / Yellow ~ 8:05-8:11
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
