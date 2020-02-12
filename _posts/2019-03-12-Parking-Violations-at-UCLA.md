@@ -10,7 +10,7 @@ A deep dive into how students get ticketed in Westwood.
 ---------------------------------------------------------------
 
 {:refdef: style="text-align: center;"}
-![Parking Ticket Picture](/assets/images/no_parking_photo.jpeg){: height=80% width=80%}
+![Parking Ticket Picture](/assets/images/no_parking_photo.jpeg){:height="550px" width="750px"}
 {: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
@@ -72,7 +72,7 @@ rise in ticketing by a little over 9%. Westwood is already one of the most
 ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
 
 {:refdef: style="text-align: center; "}
-![Timeseries of Tickets](/assets/images/monthly_violations.png){: .center-image ; height="500px" width="500px"}
+![Timeseries of Tickets](/assets/images/monthly_violations.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 
@@ -132,7 +132,7 @@ violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/street_violations.png){: .center-image ; height="500px" width="500px"}
+![image](/assets/images/street_violations.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 
@@ -148,7 +148,7 @@ We can create a heatmap of the tickets given to create a better visual of where
 hotspots for ticketing occurs:
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![HeatMap](/assets/images/overall_heatmap.png){: .center-image ; height="500px" width="500px"}
+![HeatMap](/assets/images/overall_heatmap.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 ```r
@@ -179,7 +179,7 @@ and Midvale all are high density areas for ticketing.
 Subsetting for different types of violations lets us get a more granular look:
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![Heat Maps](/assets/images/heatmap_matrix.png){: height=75%,width=75%}
+![Heat Maps](/assets/images/heatmap_matrix.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 Reviewing each category:
@@ -214,7 +214,7 @@ given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/violations_per_day.png){: .center-image ; height="500px" width="500px"}
+![image](/assets/images/violations_per_day.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 Additionally, we see that Sundays have the least violations. This is
@@ -227,7 +227,7 @@ staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/violations_per_hour.png){: .center-image; height="500px" width="500px"}
+![image](/assets/images/violations_per_hour.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 Street cleaning continues until 10 AM for Westwood streets. So why is
@@ -245,7 +245,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; "}
-![firstticket](/assets/images/first_ticket_copy.png){:height="500px" width="500px"}
+![firstticket](/assets/images/first_ticket_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
@@ -253,7 +253,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 {:refdef: style="text-align: center;"}
-![lastticket](/assets/images/last_ticket_given_copy.png){:height="450px" width="450px"}
+![lastticket](/assets/images/last_ticket_given_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 
@@ -263,7 +263,7 @@ The last tickets given are significantly different by street.
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){:height="550px" width="550px"}
+![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 
@@ -284,7 +284,7 @@ being a UCLA student, getting an additional fee can put someone over the
 financial edge.
 
 {:refdef: style="text-align: center; max-height: 80%;"}
-![image](/assets/images/costs.png){: .center-image, height=75%,width=75%}
+![image](/assets/images/costs.png){: .center-image ; height="550px" width="550px"}
 {: refdef}
 
 From 2015 to the through August 2019, *$4,280,750* in revenue has been made from
