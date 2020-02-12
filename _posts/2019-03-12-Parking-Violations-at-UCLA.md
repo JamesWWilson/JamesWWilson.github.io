@@ -66,15 +66,15 @@ mismatched, and need to be corrected and aggregated.
 </tbody>
 </table>
 
-The overall trend in ticketed violations is on the rise. From the start
-of 2015 to the beginning of 2018, there was a rise in tickets given by a
-little over 9%. Westwood is already one of the most ticketed
-neighborhoods in all of Los Angeles <sup>3</sup>.
-
+The overall trend in ticketed violations has been on the rise, despite a drop
+in ticketing in 2019. From the start of 2015 through most of 2018, there was a
+rise in ticketing by a little over 9%. Westwood is already one of the most
+ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
 
 {:refdef: style="text-align: center;"}
-![Timeseries of Tickets](/assets/images/______.png)
+![Timeseries of Tickets](/assets/images/monthly_violations.png)
 {: refdef}
+
 
 Where are tickets given?
 ----------------
@@ -132,7 +132,7 @@ violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
 {:refdef: style="text-align: center; max-height: 80%;"}
-![image](/assets/images/street_violations.jpeg){: .center-image }
+![image](/assets/images/street_violations.png){: .center-image }
 {: refdef}
 
 
@@ -148,22 +148,42 @@ We can create a heatmap of the tickets given to create a better visual of where
 hotspots for ticketing occurs:
 
 {:refdef: style="text-align: center;"}
-![Heat Map](/assets/images/heatmap.png)
+![Heat Map](/assets/images/street_clean_heat_map.png)
 {: refdef}
 
 ```
-code for plot
+cols <- c("#a7e7f6","#5fb2e2","#006ac4","#0d188f")
+heatmap <- ww +
+  geom_density2d(data = WWParking,
+                 aes(x = longitude, y = latitude, color=..level..)) +
+  stat_density2d(data = WWParking,
+                 aes(x = longitude, y = latitude,  fill = (log10(stat(level))-4), alpha = (stat(level))),
+                 size = 0.01, bins = 10, geom = 'polygon') +
+  scale_color_gradient(low = "black", high = "black") +  
+  scale_fill_gradientn(colours = cols) +
+  scale_alpha(range = c(0.25, 0.5), guide = FALSE) +
+  labs(fill = "Density") +
+  guides(alpha = F, color = F) +
+  theme(#legend.position = "none",
+    axis.title = element_blank(),
+    axis.text.x = element_blank(),
+    axis.text.y = element_blank(),
+    text = element_text(size = 12)) +
+  labs(title = "Heatmap of Parking Violatons 2015-2019")
 ```
 
-Overall, a high density of violations seems to occur around the Strathmore & Landfair, the bottom of Roebling, and the southern top of Westwood village.
+Overall, a high density of violations seems to occur around Strathmore & Landfair, the bottom of Roebling, and the southern top of Westwood village.
 
-Subsetting for the type of violation lets us get more granular:
-
-
-t1 _ t2
+Subsetting for different types of violations lets us get a more granular look:
 
 
-t3 _ t4
+{:refdef: style="text-align: center;"}
+![Heat Maps](/assets/images/heatmap_matrix.png)
+{: refdef}
+
+
+
+
 
 
 
@@ -211,15 +231,31 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 could move your car back early? Lets look at when every street cleaning ticket
 was given, and determine when you do and don't have to move your car.
 
-
-
+{:refdef: style="text-align: center; max-height: 80%;"}
+![firstticket](/assets/images/first_ticket.png){: .center-image }
+{: refdef}
 
 The first tickets given consistently make the 8AM mark,
+
+
+
+{:refdef: style="text-align: center; max-height: 80%;"}
+![lastticket](/assets/images/last_ticket_given.png){: .center-image }
+{: refdef}
 
 
 The last tickets given are significantly different by street.
 
 
+
+
+{:refdef: style="text-align: center; max-height: 80%;"}
+![nn_ticket](/assets/images/nn_perc_tickets_given.png){: .center-image }
+{: refdef}
+
+
+
+But what if you have a tolerance for risk?
 
 
 
@@ -238,7 +274,7 @@ financial edge.
 ![image](/assets/images/costs.png){: .center-image }
 {: refdef}
 
-From 2015 to the end of 2018, *$3,702,125* in revenue has been made from
+From 2015 to the through August 2019, *$4,280,750* in revenue has been made from
 the Westwood area in tickets. This is a staggering amount of money to be taken
 from the Westwood general area, largely due to the poor infrastructure
 currently available for the growing UCLA community.
