@@ -71,7 +71,7 @@ in ticketing in 2019. From the start of 2015 through most of 2018, there was a
 rise in ticketing by a little over 9%. Westwood is already one of the most
 ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![Timeseries of Tickets](/assets/images/monthly_violations.png)
 {: refdef}
 
@@ -131,7 +131,7 @@ The majority of parking tickets, nearly 40%, are due to street cleaning
 violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![image](/assets/images/street_violations.png){: .center-image }
 {: refdef}
 
@@ -147,8 +147,8 @@ some point from street cleaning violations, as well as cars parked over the time
 We can create a heatmap of the tickets given to create a better visual of where
 hotspots for ticketing occurs:
 
-{:refdef: style="text-align: center;"}
-![Heat Map](/assets/images/street_clean_heat_map.png)
+{:refdef: style="text-align: center; max-height: 60%;"}
+![HeatMap](/assets/images/street_clean_heatmap.png)
 {: refdef}
 
 ```
@@ -177,7 +177,7 @@ Overall, a high density of violations seems to occur around Strathmore & Landfai
 Subsetting for different types of violations lets us get a more granular look:
 
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![Heat Maps](/assets/images/heatmap_matrix.png)
 {: refdef}
 
@@ -199,7 +199,7 @@ right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![image](/assets/images/violations_per_day.png){: .center-image }
 {: refdef}
 
@@ -212,7 +212,7 @@ ticketing when we look at the time of day tickets are being given. A
 staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![image](/assets/images/violations_per_hour.png){: .center-image }
 {: refdef}
 
@@ -231,7 +231,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 could move your car back early? Lets look at when every street cleaning ticket
 was given, and determine when you do and don't have to move your car.
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![firstticket](/assets/images/first_ticket.png){: .center-image }
 {: refdef}
 
@@ -239,7 +239,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![lastticket](/assets/images/last_ticket_given.png){: .center-image }
 {: refdef}
 
@@ -249,7 +249,7 @@ The last tickets given are significantly different by street.
 
 
 
-{:refdef: style="text-align: center; max-height: 80%;"}
+{:refdef: style="text-align: center; max-height: 60%;"}
 ![nn_ticket](/assets/images/nn_perc_tickets_given.png){: .center-image }
 {: refdef}
 
