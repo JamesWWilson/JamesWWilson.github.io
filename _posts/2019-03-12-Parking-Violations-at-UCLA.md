@@ -183,20 +183,20 @@ Subsetting for different types of violations lets us get a more granular look:
 {: refdef}
 
 In detail:
-  * Red Zone. This happens all throughout Westwood, BUT the red zones
+  * *Red Zone.* This happens all throughout Westwood, BUT the red zones
   around the local Chevron station are a hot spot for getting caught.
   Even if you think you have time to run in for a quick slushie or bag of chips,
   think twice about parking in the red.
 
-  * Parked on the Sidewalk. This is a big one for me, as I have gotten this ticket TWICE. If you have
+  * *Parked on the Sidewalk.* This is a big one for me, as I have gotten this ticket TWICE. If you have
   tandem parking you know the struggle of making sure to not park onto the curb.
   If you are ever in doubt if you are in the "parkway apron" or not,
   just make the move and save yourself a few bucks.
 
-  * Parked during Street Cleaning. Read the sign and avoid the fine. No matter
+  * *Parked during Street Cleaning.* Read the sign and avoid the fine. No matter
   where you live (even parts of Veteran!) you are in danger of the street clean.
 
-  * Parked over Time Limit. A more obvious one relative to restrictions on how
+  * *Parked over Time Limit.* A more obvious one relative to restrictions on how
   long you can park in certain zones (e.g. zipcar spots, 2 hours park zones, etc.)
   Roebling and Strathmore are dangerous for this one.
 
@@ -245,7 +245,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![firstticket](/assets/images/first_ticket_copy.png){: .center-image , height=75%,width=75%}
+![firstticket](/assets/images/first_ticketcopy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
@@ -253,7 +253,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![lastticket](/assets/images/last_ticket_given_copy.png){: .center-image , height=75%,width=75%}
+![lastticket](/assets/images/last_ticket_givencopy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 
@@ -263,7 +263,7 @@ The last tickets given are significantly different by street.
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){: .center-image, height=75%,width=75%}
+![nn_ticket](/assets/images/nn_perc_tickets_givencopy.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 
