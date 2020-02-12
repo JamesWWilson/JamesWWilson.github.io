@@ -10,7 +10,7 @@ A deep dive into how students get ticketed in Westwood.
 ---------------------------------------------------------------
 
 {:refdef: style="text-align: center;"}
-![Parking Ticket Picture](/assets/images/no_parking_photo.jpeg)
+![Parking Ticket Picture](/assets/images/no_parking_photo.jpeg) { height=80% width=80% }
 {: refdef}
 
 Picture this: you're a UCLA student walking home on a bright, sunny
@@ -71,8 +71,8 @@ in ticketing in 2019. From the start of 2015 through most of 2018, there was a
 rise in ticketing by a little over 9%. Westwood is already one of the most
 ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
 
-{:refdef: style="text-align: center; max-height: 60%;"}
-![Timeseries of Tickets](/assets/images/monthly_violations.png)
+{:refdef: style="text-align: center; "}
+![Timeseries of Tickets](/assets/images/monthly_violations.png) { height=80%, width=80% }
 {: refdef}
 
 
@@ -131,8 +131,8 @@ The majority of parking tickets, nearly 40%, are due to street cleaning
 violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
-{:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/street_violations.png){: .center-image }
+{:refdef: style="text-align: center; "}
+![image](/assets/images/street_violations.png){ height=50% width=50% }
 {: refdef}
 
 
