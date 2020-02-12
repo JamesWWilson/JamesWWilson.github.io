@@ -245,8 +245,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![firstticket](/assets/images/first_ticket.png){: .center-image , height=75%,width=75%}
-Red ~ 8:00-8:01 /  Orange ~ 8:03-8:04 / Yellow ~ 8:05-8:11
+![firstticket](/assets/images/first_ticket_copy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
@@ -254,7 +253,7 @@ The first tickets given consistently make the 8AM mark,
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![lastticket](/assets/images/last_ticket_given.png){: .center-image , height=75%,width=75%}
+![lastticket](/assets/images/last_ticket_given_copy.png){: .center-image , height=75%,width=75%}
 {: refdef}
 
 
@@ -264,7 +263,7 @@ The last tickets given are significantly different by street.
 
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![nn_ticket](/assets/images/nn_perc_tickets_given.png){: .center-image, height=75%,width=75%}
+![nn_ticket](/assets/images/nn_perc_tickets_given_copy.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 
