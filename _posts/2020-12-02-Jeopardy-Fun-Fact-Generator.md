@@ -6,10 +6,12 @@ summary: Who makes it onto Jeopardy, and just how interesting are they?
 categories: null
 ---
 
+
+
+
 Who makes it onto Jeopardy, and just how interesting are they?
 ---------------------------------------------------------------
 
-    # example
     #“I walked 10 2nd graders on my grandma.”
 
 7PM PST on a weeknight means Jeopardy. I’ll watch the show with anyone
@@ -50,71 +52,78 @@ data set of details for each contestant on each show.
 ### Archive Scraper Function
 
 ```Python
+# Load packages
+from bs4 import BeautifulSoup
+import requests
 
-    # Load packages
-    from bs4 import BeautifulSoup
-    import requests
+# Prep Variables
+index = 0
+output = []
+archive_link = "http://www.j-archive.com/showgame.php?game_id="
+game_id = 6389
+new_game_id = 0
+jeopardy_archive_link = archive_link + str(game_id)
 
-    # Prep Variables
-    index = 0
-    output = []
-    archive_link = "http://www.j-archive.com/showgame.php?game_id="
-    game_id = 6389
-    new_game_id = 0
-    jeopardy_archive_link = archive_link + str(game_id)
+#Start Extraction -
+while index < 2000:
+  # pull page
+  page_response = requests.get(jeopardy_archive_link, timeout=5)
+  page_content = BeautifulSoup(page_response.content, "html.parser")
 
-    #Start Extraction -
-    while index < 2000:
-        # pull page
-        page_response = requests.get(jeopardy_archive_link, timeout=5)
-        page_content = BeautifulSoup(page_response.content, "html.parser")
-        # empty variables
-        anecdotes = []
-        final_scores = []
-        names = []
-        show_info1 = []
-        show_info2 = []
-        show_info3 = []
-        #title date
-        title_date = page_content.find_all('title')[0].text # clean to just date
-        for j in range(0, 3):
-            #Find all anecdotes for contestants
-            paragraphs = page_content.find_all("p")[j].text
-            # Final all final scores for contestants
-            try:
-                table1 = page_content.find_all(lambda tag: tag.name == 'td' and
-                                       tag.get('class') == ['score_positive'])[9:12][j].text
-                pass
-            except IndexError:
-                print("error" + str(new_game_id)) # ignore error output - used to locate mismatched fields from archive (special events)
-            #find all names
-            table2 = page_content.find_all(lambda tag: tag.name == 'td' and
-                                       tag.get('class') == ['score_player_nickname'])[j].text
-            # append those players together
-            anecdotes.append(paragraphs)
-            final_scores.append(table1)
-            names.append(table2)
-        # reorder and correct data
-        show_info1.extend([names[0],anecdotes[2],final_scores[0],title_date])
-        show_info2.extend([names[1],anecdotes[1],final_scores[1],title_date])
-        show_info3.extend([names[2],anecdotes[0],final_scores[2],title_date])
-        #create output file
-        output.append(show_info1)
-        output.append(show_info2)
-        output.append(show_info3)
-        #create link to next page
-            #create previous page number
-        new_game_id = page_content.find_all(lambda tag: tag.name == 'a' and
-                                            tag.get('href') and
-                                            tag.text == "[<< previous game]")
-        new_game_id = re.findall(r'\d+', str(new_game_id[0]))[0]
-            # create link
-        jeopardy_archive_link = archive_link + new_game_id
-        jeopardy_archive_link
-        #update iterator
-        index = index + 1
+  # empty variables
+  anecdotes = []
+  final_scores = []
+  names = []
+  show_info1 = []
+  show_info2 = []
+  show_info3 = []
+
+  #title date
+  title_date = page_content.find_all('title')[0].text # clean to just date
+
+  for j in range(0, 3):
+    #Find all anecdotes for contestants
+    paragraphs = page_content.find_all("p")[j].text
+
+    # Final all final scores for contestants
+    try:
+    table1 = page_content.find_all(lambda tag: tag.name == 'td' and
+    tag.get('class') == ['score_positive'])[9:12][j].text
+    pass
+    except IndexError:
+    print("error" + str(new_game_id))
+    # ignore error output -
+      # used to locate mismatched fields from archive (special events)
+
+    #find all names
+    table2 = page_content.find_all(lambda tag: tag.name == 'td' and
+    tag.get('class') == ['score_player_nickname'])[j].text
+    # append those players together
+    anecdotes.append(paragraphs)
+    final_scores.append(table1)
+    names.append(table2)
+
+  # reorder and correct data
+  show_info1.extend([names[0],anecdotes[2],final_scores[0],title_date])
+  show_info2.extend([names[1],anecdotes[1],final_scores[1],title_date])
+  show_info3.extend([names[2],anecdotes[0],final_scores[2],title_date])
+  #create output file
+  output.append(show_info1)
+  output.append(show_info2)
+  output.append(show_info3)
+  #create link to next page
+  #create previous page number
+  new_game_id = page_content.find_all(lambda tag: tag.name == 'a' and
+  tag.get('href') and
+  tag.text == "[<< previous game]")
+  new_game_id = re.findall(r'\d+', str(new_game_id[0]))[0]
+  # create link
+  jeopardy_archive_link = archive_link + new_game_id
+  jeopardy_archive_link
+  #update iterator
+  index = index + 1
+
 ```
-
 
 For the “fun fact” part of the analysis, we rely on the work of Chad
 Mosher, as there are no episode transcripts easily available
@@ -128,65 +137,66 @@ work for our purposes.
 
 ```Python
 
-    # -*- coding: utf-8 -*-
-    import tweepy
-    import pandas as pd
-    from pandas import DataFrame
+# -*- coding: utf-8 -*-
+import tweepy
+import pandas as pd
+from pandas import DataFrame
 
-    jeopardy_funfact_twitter_link = 'https://twitter.com/cooljepstories?lang=en'
-    consumer_key= '###############################'
-    consumer_secret= '###############################'
-    access_key = '###############################'-'###############################'
-    access_secret= '###############################'
+consumer_key= '###############################'
+consumer_secret= '###############################'
+access_key = '###############################'
+access_secret= '###############################'
 
-    #User ID
-    userID = "@CoolJepStories"
-    # Authorization to consumer key and consumer secret
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    # Access to user's access key and access secret
-    auth.set_access_token(access_key, access_secret)
-    # Calling api
-    api = tweepy.API(auth)
+#User ID
+userID = "@CoolJepStories"
+# Authorization to consumer key and consumer secret
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+# Access to user's access key and access secret
+auth.set_access_token(access_key, access_secret)
+# Calling api
+api = tweepy.API(auth)
 
-    # 1750 tweets to be extracted
-    number_of_tweets=1750
-    tweets = api.user_timeline(screen_name=userID, count = number_of_tweets,
-                               include_rts = False, tweet_mode="extended")
+# 1750 tweets to be extracted
+number_of_tweets=1750
+tweets = api.user_timeline(screen_name=userID, count = number_of_tweets,
+                           include_rts = False, tweet_mode="extended")
 
-    all_tweets = []
-    all_tweets.extend(tweets)
+all_tweets = []
+all_tweets.extend(tweets)
+oldest_id = tweets[-1].id
+while True:
+    tweets = api.user_timeline(screen_name=userID,
+                           count=200, # max allowed count
+                           include_rts = False,
+                           max_id = oldest_id - 1,
+                           # Necessary to keep full_text
+                           # otherwise only the first 140 words are extracted
+                           tweet_mode = 'extended'
+                           )
+    if len(tweets) == 0:
+        break
     oldest_id = tweets[-1].id
-    while True:
-        tweets = api.user_timeline(screen_name=userID,
-                               count=200, # max allowed count
-                               include_rts = False,
-                               max_id = oldest_id - 1,
-                               # Necessary to keep full_text
-                               # otherwise only the first 140 words are extracted
-                               tweet_mode = 'extended'
-                               )
-        if len(tweets) == 0:
-            break
-        oldest_id = tweets[-1].id
-        all_tweets.extend(tweets)
-        print('N of tweets downloaded till now {}'.format(len(all_tweets)))
+    all_tweets.extend(tweets)
+    print('N of tweets downloaded till now {}'.format(len(all_tweets)))
 
-    #transform the tweepy tweets into a 2D array that will populate the csv
-    outtweets = [[tweet.id_str,
-                  tweet.created_at,
-                  tweet.favorite_count,
-                  tweet.retweet_count,
-                  tweet.full_text.encode("utf-8").decode("utf-8")]
-                 for idx,tweet in enumerate(all_tweets)]
-    df = DataFrame(outtweets,columns=["id","created_at","favorite_count","retweet_count", "text"])
-    df.to_csv('%s_tweets.csv' % userID,index=False)
+#transform the tweepy tweets into a 2D array that will populate the csv
+outtweets = [[tweet.id_str,
+              tweet.created_at,
+              tweet.favorite_count,
+              tweet.retweet_count,
+              tweet.full_text.encode("utf-8").decode("utf-8")]
+             for idx,tweet in enumerate(all_tweets)]
+df = DataFrame(outtweets,columns=["id","created_at","favorite_count","retweet_count", "text"])
+df.to_csv('%s_tweets.csv' % userID,index=False)
 
 ```
 
 We can merge these datasets together on their respective player\_id and
 show\_date fields to create a full data set of contestant details.
 
+```Python
     #jeopardy_df.head()
+```
 
 The final dataset for our analysis contains *1,971* contestants playing
 in games ranging from October 24th, 2010 to July 26th, 2019.
@@ -260,7 +270,7 @@ We can take these hometowns and plot them to their respective FIP codes
 (using data from the U.S. Census Bureau) across the United States\[3\].
 
 {:refdef: style=“text-align: center;”}
-![Map](assets/jeopardy_images/uscountymap.png)
+![Map](assets/jeopardy_images/uscountymap.png){:height="550px" width="750px"}
 {: refdef}
 
 Contestants appear to make it onto Jeopardy in proportion with
@@ -269,30 +279,38 @@ numbers of contestants come from dense coastal cities, we also see
 individuals popping up from small towns across the US. In reality, 51%
 of contestants come from their own unique hometown!
 
-Winnings by state ?
-===================
+We can also take a glimpse at which states have the highest winnings overall!
 
-Now lets
 
-What sort of jobs ? Need to recast these as best as we can \# - highest
-& lowest job values
+
+
+
+
+
+
+
 
 
 
 Part 3: Sentiment Analysis
 --------------------------
 
-We can conduct a simple NLP analysis of these anecotes, and determine
-whether stories tend to be more positive or negative …
 
-After cleaning the
+
+
+
+
+
 
 Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
 
 {:refdef: style=“text-align: center;”}
-![Map](assets/jeopardy_images/uscountymap.png)
+![Map](assets/jeopardy_images/ibm-watson-logo.jpeg){:height="550px" width="750px"}
 {: refdef}
+
+
+
 
 
 
@@ -306,10 +324,16 @@ Part 4: Fun Fact Text-Bot Using TextGenRNN
 ```
 
 
+### The LSTM Model
 
-Discuss LSTM model
 
-different temperatue uses
+
+
+
+
+
+
+
 
 <table>
 <thead>
