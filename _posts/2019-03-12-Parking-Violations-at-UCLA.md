@@ -227,7 +227,7 @@ staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
 {:refdef: style="text-align: center; max-height: 60%;"}
-![image](/assets/images/violations_per_hour.png){: .center-image, height=75%,width=75%}}
+![image](/assets/images/violations_per_hour.png){: .center-image, height=75%,width=75%}
 {: refdef}
 
 Street cleaning continues until 10 AM for Westwood streets. So why is
@@ -245,7 +245,7 @@ Instead of idiling in your car from 8am to 11am once a week, wouldn't it be grea
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
 {:refdef: style="text-align: center; "}
-![firstticket](/assets/images/first_ticket_copy.png){: .center-image; height=75%, width=75%}
+![firstticket](/assets/images/first_ticket_copy.png){:height="700px" width="400px"}
 {: refdef}
 
 The first tickets given consistently make the 8AM mark,
