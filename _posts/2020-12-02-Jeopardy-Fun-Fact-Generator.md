@@ -10,6 +10,21 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
 {: refdef}
 
+{:refdef: style=“text-align: center;”}
+![archive|512x397,20%](/assets/jeopardy_images/jeopardy_pic.jpeg)
+{: refdef}
+
+{:refdef: style=“text-align: center;”}
+![archive|512x397,50%](/assets/jeopardy_images/jeopardy_pic.jpeg)
+{: refdef}
+
+{:refdef: style=“text-align: center;”}
+![archive](/assets/jeopardy_images/jeopardy_pic.jpeg){width=50%}
+{: refdef}
+
+<p style="text-align:center;"><img src="/assets/jeopardy_images/jeopardy_pic.jpeg" alt="Logo"></p>
+
+
 
 Who makes it onto Jeopardy? And are they more interesting than a robot?
 ---------------------------------------------------------------
@@ -47,19 +62,6 @@ Part 1: The Data
 ![archive](/assets/jeopardy_images/jeopardy-archive.jpeg){:height="550px" width="750px"}
 {: refdef}
 
-{:refdef: style=“text-align: center;”}
-![archive|512x397,20%](/assets/jeopardy_images/jeopardy-archive.jpeg)
-{: refdef}
-
-{:refdef: style=“text-align: center;”}
-![archive|512x397,50%](/assets/jeopardy_images/jeopardy-archive.jpeg)
-{: refdef}
-
-{:refdef: style=“text-align: center;”}
-![archive](/assets/jeopardy_images/jeopardy-archive.jpeg){width=50%}
-{: refdef}
-
-<p style="text-align:center;"><img src="/assets/jeopardy_images/jeopardy-archive.jpeg" alt="Logo"></p>
 
 
 
