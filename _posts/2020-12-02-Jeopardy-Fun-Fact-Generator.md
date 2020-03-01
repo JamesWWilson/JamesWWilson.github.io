@@ -10,24 +10,25 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height:"550px" width:"750px"}
 {: refdef}
 
+
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height=550px}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px"; width="750px"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; width="750px"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; width:"550px"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; width="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height: auto}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto"}
 {: refdef}
 
 
