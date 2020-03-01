@@ -7,9 +7,16 @@ categories: null
 ---
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height:"550px" width:"750px"}
 {: refdef}
 
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height:550px width:750px}
+{: refdef}
+
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height:550px; width:750px}
+{: refdef}
 
 {:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height: auto}
