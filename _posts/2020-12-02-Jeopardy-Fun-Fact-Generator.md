@@ -15,44 +15,22 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px"; width="750px"}
 {: refdef}
 
-{:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
-{: refdef}
 
 {:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; width="50%"}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%"; width="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto"}
 {: refdef}
 
-
-<p align="center">
-  <img alt="img-name" src="/assets/jeopardy_images/jeopardy_pic.jpg" width=50%>
-  <br>
-    <em>test</em>
-</p>
-
-
 {:refdef: style=“text-align: center;”}
-![archive1|512x397,20%](/assets/jeopardy_images/jeopardy_pic copy.jpeg)
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto"; width="auto"}
 {: refdef}
-
-{:refdef: style=“text-align: center;”}
-![archive2|512x397,50%](/assets/jeopardy_images/jeopardy_pic copy 2.jpeg)
-{: refdef}
-
-{:refdef: style=“text-align: center;”}
-![archive3](/assets/jeopardy_images/jeopardy_pic copy 3.jpeg){width=50%}
-{: refdef}
-
-<p style="text-align:center;"><img src="/assets/jeopardy_images/jeopardy_pic copy 4.jpeg" alt="Logo"></p>
-
 
 
 Who makes it onto Jeopardy? And are they more interesting than a robot?
