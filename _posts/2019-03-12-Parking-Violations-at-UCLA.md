@@ -13,6 +13,8 @@ A deep dive into how students get ticketed in Westwood.
 ![Parking Ticket Picture](/assets/images/no_parking_photo.jpeg){:height="550px" width="750px"}
 {: refdef}
 
+<div style="text-align: center"><img src="/assets/images/no_parking_photo.jpeg" height="80%" width="80%" /></div>
+
 Picture this: you're a UCLA student walking home on a bright, sunny
 SoCal day. Life is great.
 
