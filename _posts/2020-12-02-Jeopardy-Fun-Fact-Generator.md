@@ -7,21 +7,15 @@ categories: null
 ---
 
 {:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height:"550px" width:"750px"}
-{: refdef}
-
-
-{:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px"; width="750px"}
-{: refdef}
-
-
-{:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%"; width="50%"}
+{: refdef}
+
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="50%" width="50%"}
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
@@ -32,6 +26,9 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto"; width="auto"}
 {: refdef}
 
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto" width="auto"}
+{: refdef}
 
 Who makes it onto Jeopardy? And are they more interesting than a robot?
 ---------------------------------------------------------------
