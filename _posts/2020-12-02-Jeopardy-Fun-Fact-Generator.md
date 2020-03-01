@@ -11,6 +11,12 @@ categories: null
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: height="90%" width="90%"}
+{: refdef}
+
+<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg" width="90" /></div>
+
+{:refdef: style=“text-align: center;”}
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto" width="auto"}
 {: refdef}
 
