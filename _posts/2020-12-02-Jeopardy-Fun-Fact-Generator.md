@@ -6,24 +6,7 @@ summary: Who makes it onto Jeopardy, and just how interesting are they?
 categories: null
 ---
 
-{:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="90%" width="90%"}
-{: refdef}
-
-{:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: height="90%" width="90%"}
-{: refdef}
-
-<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg" width="90" /></div>
-
-<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg" width="90%" /></div>
-
 <div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg" height="90%" width="90%" /></div>
-
-
-{:refdef: style=“text-align: center;”}
-![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="auto" width="auto"}
-{: refdef}
 
 Who makes it onto Jeopardy? And are they more interesting than a robot?
 ---------------------------------------------------------------
@@ -57,12 +40,7 @@ own personality?
 Part 1: The Data
 ----------------
 
-{:refdef: style=“text-align: center;”}
-![archive](/assets/jeopardy_images/jeopardy-archive.jpeg){:height="550px" width="750px"}
-{: refdef}
-
-
-
+<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy-archive.jpg" height="90%" width="90%" /></div>
 
 We can collect information on Jeopardy contestants from two sources: the
 Offical Jeopardy Archive & the Twitter account *@CoolJeopardyStories*.
@@ -333,9 +311,7 @@ Part 3: Sentiment Analysis
 Part 4: Fun Fact Text-Bot Using TextGenRNN
 ------------------------------------------
 
-{:refdef: style=“text-align: center;”}
-![watson](/assets/jeopardy_images/ibm_watson_logo.jpg){: .center-image ; height="550px" width="750px"}
-{: refdef}
+<div style="text-align: center"><img src="/assets/jeopardy_images/ibm_watson_logo.jpg" height="90%" width="90%" /></div>
 
 Each contestant's fun fact about themselves makes for perfect text bot fuel. I cleaned
 each tweet for punctuation and correct name formatting, as well as stringing them
