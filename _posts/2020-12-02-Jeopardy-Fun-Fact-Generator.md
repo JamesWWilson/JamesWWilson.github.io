@@ -10,6 +10,12 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
 {: refdef}
 
+
+{:refdef: style=“text-align: center;”}
+![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height: auto}
+{: refdef}
+
+
 <p align="center">
   <img alt="img-name" src="/assets/jeopardy_images/jeopardy_pic.jpg" width=50%>
   <br>
