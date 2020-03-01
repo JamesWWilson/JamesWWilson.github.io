@@ -10,16 +10,23 @@ categories: null
 ![title](/assets/jeopardy_images/jeopardy_pic.jpg){: .center-image ; height="550px" width="750px"}
 {: refdef}
 
+<p align="center">
+  <img alt="img-name" src="/assets/jeopardy_images/jeopardy_pic.jpg" width=50%>
+  <br>
+    <em>test</em>
+</p>
+
+
 {:refdef: style=“text-align: center;”}
-![archive|512x397,20%](/assets/jeopardy_images/jeopardy_pic copy.jpeg)
+![archive1|512x397,20%](/assets/jeopardy_images/jeopardy_pic copy.jpeg)
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![archive|512x397,50%](/assets/jeopardy_images/jeopardy_pic copy 2.jpeg)
+![archive2|512x397,50%](/assets/jeopardy_images/jeopardy_pic copy 2.jpeg)
 {: refdef}
 
 {:refdef: style=“text-align: center;”}
-![archive](/assets/jeopardy_images/jeopardy_pic copy 3.jpeg){width=50%}
+![archive3](/assets/jeopardy_images/jeopardy_pic copy 3.jpeg){width=50%}
 {: refdef}
 
 <p style="text-align:center;"><img src="/assets/jeopardy_images/jeopardy_pic copy 4.jpeg" alt="Logo"></p>
