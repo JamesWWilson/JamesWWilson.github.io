@@ -124,7 +124,7 @@ The majority of parking tickets, just over 40%, are due to street cleaning
 violations. We can get even more granular and see which
 violations are most common per street in Westwood.
 
-<div style="text-align: center"><img src="/assets/images/street_violations.jpeg" height="75%" width="75%" /></div>
+<div style="text-align: center"><img src="/assets/images/street_violations.png" height="75%" width="75%" /></div>
 
 The dreaded Landfair Avenue still holds the title of being the worst
 street in Westwood, namely due to its rough roads, tandem parking, and
@@ -137,7 +137,7 @@ some point from street cleaning violations, as well as cars parked over the time
 We can create a heatmap of the tickets given to create a better visual of where
 hotspots for ticketing occurs:
 
-<div style="text-align: center"><img src="/assets/images/overall_heatmap.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/overall_heatmap.png" height="85%" width="85%" /></div>
 
 
 ```r
@@ -169,7 +169,7 @@ of ticket being handed out.
 
 Subsetting for different types of violations lets us get a more granular look:
 
-<div style="text-align: center"><img src="/assets/images/heatmap_matrix.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/heatmap_matrix.png" height="85%" width="85%" /></div>
 
 
 Reviewing each category:
@@ -203,7 +203,7 @@ right away that Thursdays and Fridays are when a majority of tickets are
 given out. Almost 58% of parking tickets occur on Thursday and Friday.
 In Westwood, all street cleaning happens on these two days of the week.
 
-<div style="text-align: center"><img src="/assets/images/violations_per_day.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/violations_per_day.png" height="85%" width="85%" /></div>
 
 Additionally, we see that Sundays have the least violations. This is
 likely due to many streets normally having two hour parking limits, which are
@@ -214,7 +214,7 @@ ticketing when we look at the time of day tickets are being given. A
 staggering amount of tickets are given bright and early at 8 AM, an
 uncomfortable time of day for many sleep deprived UCLA students.
 
-<div style="text-align: center"><img src="/assets/images/violations_per_hour.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/violations_per_hour.png" height="85%" width="85%" /></div>
 
 Street cleaning continues until 10 AM for Westwood streets. So why is
 there no drop-in violations until 12ish? A second round of ticketing
@@ -230,14 +230,14 @@ Avoiding the Street Cleaning Ticket
 Instead of idiling in your car from 8am to 11am once a week, wouldn't it be great
 if you could move your car back before the designated time? Lets look at when every street cleaning ticket was given, and determine when you do and don't have to move your car.
 
-<div style="text-align: center"><img src="/assets/images/first_ticket_copy.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/first_ticket_copy.png" height="85%" width="85%" /></div>
 
 The first tickets given<sup>4</sup> consistently make the 8AM mark, with parking enforcement officers
 getting to their designated spots right on time for their daily bounty. This leaves little wriggle room
 for error when moving your car in the morning. It is interesting to note that the tickets
 seem to work their way into Westwood, from Gayley and Veteran slowly inwards toward Glenrock, where you have a few additional minutes after 8 to get to your car.
 
-<div style="text-align: center"><img src="/assets/images/last_ticket_given_copy.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/last_ticket_given_copy.png" height="85%" width="85%" /></div>
 
 The last tickets given<sup>5</sup> are significantly different by street. Not only are they all over
 the place, their range given can vary widely by the day. Variations can be attributed to how
@@ -248,7 +248,7 @@ open up as early as 10:20, the bulk of last tickets are given out until closer t
 
 But what if you have a tolerance for risk? Would you take a 1% chance at a ticket?
 
-<div style="text-align: center"><img src="/assets/images/nn_perc_tickets_given_copy.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/nn_perc_tickets_given_copy.png" height="85%" width="85%" /></div>
 
 This last graphic illustrates when 99% of tickets have been given out on a particular
 street. Most of Strathmore and Landfair have their last tickets given by 10:17,  
@@ -267,7 +267,7 @@ Given the already rising tuition, rent, and general fees associated with
 being a UCLA student, getting an additional fee can put someone over the
 financial edge.
 
-<div style="text-align: center"><img src="/assets/images/costs.jpeg" height="85%" width="85%" /></div>
+<div style="text-align: center"><img src="/assets/images/costs.png" height="85%" width="85%" /></div>
 
 From 2015 to the through August 2019, *$4,280,750* in revenue has been made from
 the Westwood area in tickets. This is a staggering amount of money to be taken
