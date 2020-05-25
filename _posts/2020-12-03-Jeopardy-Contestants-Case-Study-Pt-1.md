@@ -1,6 +1,6 @@
 ---
 title: "Jeopardy Contestants Case Study [Part 1]"
-date: '2020-02-12'
+date: '2020-03-12'
 layout: post
 summary: Who makes it onto Jeopardy, and just how interesting are they?
         *This is a three part workshop for DataFest 2020 competitors on
@@ -54,7 +54,9 @@ Reviewing an individual game on the archive, we see the page stores player's det
 
 To capture this information, we can put together a function that will iterate through the pages to pull these out for each game played. We will start on game ID [6389](http://www.j-archive.com/showgame.php?game_id=6389), and iterate back in time to capture a specified number of games.
 
-```Python
+#```Python
+{% highlight python %}
+
 # Set-Up
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup  #main web-scraping package
@@ -182,8 +184,8 @@ def jep_scraper(game_id = 6389, num_pages_to_extract = 300):
 
     #return items
     return output, error_catalog
-```
-
+#```
+{% endhighlight %}
 
 The function  works by extracting the title of each game, and assigning it to each player, along with their scores and details. One of the tricky aspects with
 this data is that the players are named right to left, but their data is recorded left to right. This is a simple problem but one
