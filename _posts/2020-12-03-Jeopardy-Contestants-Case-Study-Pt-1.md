@@ -3,10 +3,11 @@ title: "Jeopardy Contestants Case Study [Part 1]"
 date: '2020-03-12'
 layout: post
 summary: Who makes it onto Jeopardy, and just how interesting are they?
-        *This is a three part workshop for DataFest 2020 competitors on
-        how to organize a basic data analytics project with Python.*
 categories: Workshop Python Jeopardy
 ---
+
+*This is a three part workshop for DataFest 2020 competitors on
+how to organize a basic data analytics project with Python.*
 
 <div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg"
 height="90%" width="90%" /></div>
@@ -46,17 +47,17 @@ hometown, number of games won, cash winnings, and more.
 Using the BeautifulSoup library in Python 3.7, we can scrape the website for
 these variables and build a data set of details for each contestant on each show.
 
-### Archive Scraper Function
+### Web-Scrape the Jeopardy Archive
 
 Reviewing an individual game on the archive, we see the page stores player's details at the top of each game, and their total scores throughout each of the rounds, displaying their total and final scores at the end at the bottom.
 
-*screenshots of the archive page*
+<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_archive.jpg"
+height="90%" width="90%" /></div>
 
 To capture this information, we can put together a function that will iterate through the pages to pull these out for each game played. We will start on game ID [6389](http://www.j-archive.com/showgame.php?game_id=6389), and iterate back in time to capture a specified number of games.
 
 
-{% highlight python linenos %}
-
+```python
 # Set-Up
 # -*- coding: utf-8 -*-
 from bs4 import BeautifulSoup  #main web-scraping package
@@ -185,7 +186,7 @@ def jep_scraper(game_id = 6389, num_pages_to_extract = 300):
     #return items
     return output, error_catalog
 
-{% endhighlight %}
+```
 
 The function  works by extracting the title of each game, and assigning it to each player, along with their scores and details. One of the tricky aspects with
 this data is that the players are named right to left, but their data is recorded left to right. This is a simple problem but one
@@ -194,9 +195,11 @@ that can isn't obvious without cross checking some live game footage.
 Once a game's information has been scraped, the function simply calls
 the previous page's link, and loops continuously until it finds the predetermined number of game details. Any errors found are stored in a separate output list, for review once the task is complete. These errors highlight some of the different game types that jeopardy tends to host, such as the Celebrity or Team tournaments (i.e. Game ID [6223](http://www.j-archive.com/showgame.php?game_id=6223) )
 
-{:refdef: style=“text-align: center;”}
-![CoolJeopardyStores](/assets/jeopardy_images/cooljepstories.jpeg){:height="550px" width="750px"}
-{: refdef}
+
+### Extract Tweets from @CoolJepStories
+
+<div style="text-align: center"><img src="/assets/jeopardy_images/cooljepstories.jpg"
+height="90%" width="90%" /></div>
 
 But what about those "fun facts" that players share after the first
 commercial break? These are not recorded at all on the archive, and there is next to no centralized database for these anywhere online.
@@ -209,9 +212,7 @@ of each show contestant’s story. While these transcription aren’t
 perfect representations, they get to the meat of the stories and will
 work for our purposes.
 
-### @CoolJepStories Twitter Archive
-
-To extract data from a Twitter account, first set up a developer account. Once you have credentials, you can build a simple script using the Tweepy package in Python to extract tweets from specified accounts.
+First, set up a Twitter developer account to extract data their site. Once you have credentials, you can build a simple script using the Tweepy package in Python to extract tweets from specified accounts.
 
 ```python
 # -*- coding: utf-8 -*-
@@ -235,7 +236,7 @@ api = tweepy.API(auth)
 ```
 
 
-```Python
+```python
 # 1750 tweets to be extracted
 number_of_tweets=1750
 tweets = api.user_timeline(screen_name=userID, count = number_of_tweets,
@@ -262,7 +263,7 @@ while True:
 ```
 
 
-```Python
+```python
 #transform the Tweepy tweets into a 2D array that will populate the csv
 outtweets = [[tweet.id_str,
               tweet.created_at,
