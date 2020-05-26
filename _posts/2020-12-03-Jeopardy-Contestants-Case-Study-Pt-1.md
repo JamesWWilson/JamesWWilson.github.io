@@ -54,8 +54,8 @@ Reviewing an individual game on the archive, we see the page stores player's det
 
 To capture this information, we can put together a function that will iterate through the pages to pull these out for each game played. We will start on game ID [6389](http://www.j-archive.com/showgame.php?game_id=6389), and iterate back in time to capture a specified number of games.
 
-#```Python
-{% highlight python %}
+
+{% highlight python linenos %}
 
 # Set-Up
 # -*- coding: utf-8 -*-
@@ -64,7 +64,7 @@ import requests # allows you to send https requests
 import pandas as pd # for manipulating data into data frames
 import re # regular expressions package
 
-# Define Function that sets a game id and number of pages to extract from the jeopardy archive
+# Define Function that sets a game ID and number of pages to extract from the jeopardy archive
 def jep_scraper(game_id = 6389, num_pages_to_extract = 300):
 
     # initialize variables
@@ -184,7 +184,7 @@ def jep_scraper(game_id = 6389, num_pages_to_extract = 300):
 
     #return items
     return output, error_catalog
-#```
+
 {% endhighlight %}
 
 The function  works by extracting the title of each game, and assigning it to each player, along with their scores and details. One of the tricky aspects with
@@ -213,7 +213,7 @@ work for our purposes.
 
 To extract data from a Twitter account, first set up a developer account. Once you have credentials, you can build a simple script using the Tweepy package in Python to extract tweets from specified accounts.
 
-```Python
+```python
 # -*- coding: utf-8 -*-
 import tweepy
 import pandas as pd
