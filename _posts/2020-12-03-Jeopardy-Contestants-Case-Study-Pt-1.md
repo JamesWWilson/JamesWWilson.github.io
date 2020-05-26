@@ -37,9 +37,6 @@ own personality?
 Part 1: Capturing The Data
 ----------------
 
-<div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy-archive.jpg" height="90%" width="90%" /></div>
-
-
 We can collect information on Jeopardy contestants from the
 [*Official Jeopardy Archive*](https://j-archive.com/). The Jeopardy Archive collects and maintains all
 details related to the show, including each contestant’s name, occupation,
@@ -212,7 +209,7 @@ of each show contestant’s story. While these transcription aren’t
 perfect representations, they get to the meat of the stories and will
 work for our purposes.
 
-First, set up a Twitter developer account to extract data their site. Once you have credentials, you can build a simple script using the Tweepy package in Python to extract tweets from specified accounts.
+First, we set up a Twitter developer account to extract data from the site. Once we have credentials, we can build a simple script using the Tweepy package in Python to extract tweets from specified accounts.
 
 ```python
 # -*- coding: utf-8 -*-
@@ -235,6 +232,8 @@ auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 ```
 
+Twitter contains plenty of documentation on how to use their API, as
+well as other resources online. We first want to specify the number of tweets to call from the user account, as well as they type of tweets. In this case, we only need actual tweets from the account (no retweets.)
 
 ```python
 # 1750 tweets to be extracted
@@ -261,10 +260,10 @@ while True:
     print('N of tweets downloaded till now {}'.format(len(all_tweets)))
 
 ```
-
+We can then continuously call chunks of these tweets, 200 at a time in this case due to limits on the API. Once collected, we use Pandas to convert them to a Dataframe, and quickly save them to a csv to avoid having to run anything again.
 
 ```python
-#transform the Tweepy tweets into a 2D array that will populate the csv
+#transform the tweets into an array that will populate the csv
 outtweets = [[tweet.id_str,
               tweet.created_at,
               tweet.favorite_count,
@@ -277,10 +276,10 @@ df.to_csv('%s_tweets.csv' % userID,index=False)
 ```
 
 After some additional data cleaning and string extraction, we can merge these datasets together on their respective player IDs and
-show date fields to create a full data set of contestant details.
+date fields to create a full data set of contestant details.
 The final dataset for our analysis contains *1,971* contestants playing in games ranging from October 24th, 2010 to July 26th, 2019.
 
-*Read Part 2 for the general analysis of this data.*
+*Read Part 2 for the analysis of the contestant data!*
 
 
 Data
