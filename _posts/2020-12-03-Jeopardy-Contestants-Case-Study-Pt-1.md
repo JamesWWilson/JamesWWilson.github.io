@@ -2,11 +2,11 @@
 title: "Jeopardy Contestants Case Study [Part 1]"
 date: '2020-03-12'
 layout: post
-summary: Who makes it onto Jeopardy, and just how interesting are they?
+summary: What data is available on contestants who appear on Jeopardy, and how can we capture it? 
 categories: Workshop Python Jeopardy
 ---
 
-*This is a three part workshop for DataFest 2020 competitors on
+*This is a two part workshop for DataFest 2020 competitors on
 how to organize a basic data analytics project with Python.*
 
 <div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg"

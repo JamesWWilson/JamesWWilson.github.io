@@ -2,11 +2,11 @@
 title: "Jeopardy Contestants Case Study [Part 2]"
 date: '2020-04-19'
 layout: post
-summary: Who makes it onto Jeopardy, and just how interesting are they?
+summary: Who makes it onto Jeopardy, and just how likely are they to win? 
 categories: Workshop Python Jeopardy
 ---
 
-*This is a three part workshop for DataFest 2020 competitors on
+*This is a two part workshop for DataFest 2020 competitors on
 how to organize a basic data analytics project with Python.*
 
 In Part 1 of this workshop series, Python's BeautifulSoup and Tweepy libraries were utilized to collect data online for the analysis of Jeopardy contestant profiles. 
@@ -131,27 +131,40 @@ From first glance, nothing seems too special about these job categories. 'Musici
 
 So of a given job category, which tends to produce the most *winners*? [4]
 
-<div style="text-align: center"><img src="/assets/jeopardy_images/winner_ratio_map.png"
+<div style="text-align: center"><img src="/assets/jeopardy_images/job_win_ratio.png"
 height="90%" width="90%" /></div>
 
-Several of our underrepresented job categories seem to feature a higher than average proportion of winners! 
+Several of our underrepresented job categories seem to feature a higher than average proportion of winners! Overall, little to no pattern emerges in the categories as to which seems to have a liklihood for winning more often than not. 
 
+#### Gender  
 
+An additional element we can extract from the data, even if just roughly, is the gender of our contestants. The 'gender_guesser' package can be used to discern the gender based on the name of each contestant. Doing a bit of grouping and manual review, we get the following counts:
 
+<div style="text-align: center"><img src="/assets/jeopardy_images/gender_counts.png"
+height="90%" width="90%" /></div>
 
+The pairity of gender seems roughly equal, with  males being more prominent then females by ~14%. The number of winners also appears to parallel the gender counts, with a difference of 317 male winners versus 260 female winners. 
 
+#### Personal Anecdotes
 
+Pulling in the Twitter dataset allows us to perform sentiment analysis on each individual's 'fun fact' summary and attempt to capture some inference on their personality. These being summarizations makes this data a bit corrupted, but worth analyzing regardless.
 
-#### Gender & Personal Anecdotes 
+Using the 'textblob' NLP package, we can capture the 
+polarity and subjectivity of each fun fact [5]. Contestants on average have a positive polarity score of 0.41 which indicates that most of the fun facts shared seem to be full of fun and interesting content. We also see most of these tweets are being recorded with a subjectivity score of 0.15, indicating they are objective in their format and content. 
 
+For fun, we can also generate our own fun facts using the 'textgenrnn' package, which utilizes recurrent neural networks to generate text[6]. Some of my legitamate fun facts used in the program are just as absurd as the ones generated, such as:
 
+* "In Mexico, I was mistaken for Nicolas Cage."
+* "I snuck my friend out of the hospital disguised as an EMT."
+* "My bride and I wore giant inflatable T. Rex costumes."
 
+Compared to the ones generated with textgenrnn: 
 
+* "I love blood with my name in a sun."
+* "I was a boat for a powerlifter."
+* "I was a college bartender."
 
-
-
-
-
+Pretty neat! 
 
 
 #### Winnings & Winners
@@ -186,8 +199,6 @@ So what does this mean? Has all this work been for nothing? Quite the contrary. 
 Or are we? Instead, I would argue our investigation has shown that *anyone* can make it onto Jeopardy and be a successful contestant. Regardless of your hometown, job, gender, or your funny quip during the show, what really likely matters is the strategy and effort contestants take to study and prepare for these challenges. As in the famous words of my favorite disney movie " Anyone can cook" translate to "Anyone can win Jeopardy!". 
 
 
-
-
 ##### Footnotes
 
 [1] When calculating total scores, we are calculating the gross final scores that players earned in their game play. However, the majority of contestants will not see these totals in their winnings, as most tournaments settle to give second place $2,000 and third place $1,000, regardless of what they earned in game. 
@@ -198,4 +209,8 @@ Or are we? Instead, I would argue our investigation has shown that *anyone* can 
 
 [4] For the purposes of the winner table I removed "Student" / "Teacher" / "unemployed" given that these individuals have their own tournaments. Those indicated as "Professor" are NOT featured in Teacher's tournaments and therefore do not need to be excluded. 
 
+[5] Polarity is a float that lies between [-1,1], -1 indicates negative sentiment and +1 indicates positive sentiments. 
+#Subjectivity is also a float which lies in the range of [0,1]. Subjective sentences generally refer to personal opinion, 
+#emotion, or judgment. 
 
+[6] A more detailed walkthrough into the neural networks used to operate textgenrnn can be read here: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
