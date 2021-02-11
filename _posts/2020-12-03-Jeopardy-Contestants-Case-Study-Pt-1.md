@@ -6,8 +6,8 @@ summary: What data is available on contestants who appear on Jeopardy, and how c
 categories: Workshop Python Jeopardy
 ---
 
-*This is a two part workshop for DataFest 2020 competitors on
-how to organize a basic data analytics project with Python.*
+*This is a two part workshop for UCLA DataFest competitors on
+how to organize a data analytics project with Python.*
 
 <div style="text-align: center"><img src="/assets/jeopardy_images/jeopardy_pic.jpg"
 height="90%" width="90%" /></div>
