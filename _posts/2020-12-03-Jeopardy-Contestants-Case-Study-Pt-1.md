@@ -1,8 +1,10 @@
 ---
-title: "Jeopardy Contestants Case Study [Part 1]"
+title: "Webscrapping Jeopardy Contestant Profiles"
 date: '2020-03-12'
 layout: post
-summary: What data is available on contestants who appear on Jeopardy, and how can we capture it? 
+summary: Utilizing Python's BeautifulSoup and Tweepy libraries, we can collect and organize Jeopardy contestant data publicly recorded online to build profiles on the 'typical' Jeopardy contestant. 
+
+
 categories: Workshop Python Jeopardy
 ---
 

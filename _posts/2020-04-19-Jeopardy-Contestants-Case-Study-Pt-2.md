@@ -1,8 +1,8 @@
 ---
-title: "Jeopardy Contestants Case Study [Part 2]"
+title: "A Review of the Average Jeopardy Contestant"
 date: '2020-04-19'
 layout: post
-summary: Who makes it onto Jeopardy, and just how likely are they to win? 
+summary: Using previously collected Jeopardy contestant data, we investigate the charactieristics of those who makes it onto Jeopardy, and ask the question; how likely are they predicted to win? 
 categories: Workshop Python Jeopardy
 ---
 
@@ -47,7 +47,7 @@ So which career paths appear most often on Jeopardy?
 <tbody>
 <tr class="odd">
 <td style="text-align:center">Unemployed</td>
-<td style="text-align:center">169</td>
+<td style="text-align:center">196</td>
 </tr>
 <tr class="even">
 <td style="text-align:center">Teacher</td>
@@ -202,7 +202,7 @@ When competing in DataFest, remember: its not the results themselves that matter
 
 #### Footnotes
 
-[1] Individuals listed as "retired", "originally", or by a unique 'age' are listed as "unemployed". 
+[1] Individuals listed as "retired", "originally X", or listed as a unique 'age' are listed as "unemployed". 
 
 [2] When evaluating the winner ratios for job categories, "Student" / "Teacher" / "Unemployed" should be regarded seperately given that these individuals have their own tournaments. Those indicated as "Professor" are NOT featured in Teacher's tournaments and therefore do not need to be considered in this way. 
 
