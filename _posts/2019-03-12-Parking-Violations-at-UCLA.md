@@ -1,9 +1,9 @@
 ---
-title: "Parking Violations at UCLA"
+title: "A Geospatial Investigation of Parking Violations at UCLA"
 date: '2019-10-07'
 layout: post
-summary: Where, when, and why are students getting ticketed?
-categories: null
+summary: Using data made public by the City of Los Angeles, we map and review where, when, and why UCLA students are getting ticketed! 
+categories: Investigation
 ---
 
 A deep dive into how students get ticketed in Westwood.
