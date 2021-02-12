@@ -1,5 +1,5 @@
 ---
-title: "Webscrapping Jeopardy Contestant Profiles"
+title: "Web-scraping Jeopardy Contestant Profiles"
 date: '2020-03-12'
 layout: post
 summary: Utilizing Python's BeautifulSoup and Tweepy libraries, we can collect and organize Jeopardy contestant data publicly recorded online to build profiles on the 'typical' Jeopardy contestant. 

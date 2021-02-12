@@ -2,7 +2,7 @@
 title: "A Review of the Average Jeopardy Contestant"
 date: '2020-04-19'
 layout: post
-summary: Using previously collected Jeopardy contestant data, we investigate the charactieristics of those who makes it onto Jeopardy, and ask the question; how likely are they predicted to win? 
+summary: Using previously collected Jeopardy contestant data, we investigate the charactieristics of those who makes it onto Jeopardy, and ask the question; how likely can they be predicted to win? 
 categories: Workshop Python Jeopardy
 ---
 
