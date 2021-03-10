@@ -189,7 +189,10 @@ But is it possible to *predict* who will win based on just a contestant's demogr
 
 For the purpose of this analysis and the data available, we will address the former question. We can create a unique database of contestants and build a binary flag of whether or not they have won *at least one* game of Jeopardy. In this case, '1' would indicate the contestant has won at least one game, and '0' would indicate the contestant has won no games. This helps address outliers like the infamous James Holzhauer who has played in 30+ games, and boil him down to a single snapshot. 
 
-Evaluating this criteria in the form of a logistic regression model, we find next to no correlation between the variables (Pseudo R-Squared -0.005). In fact, when attempting to predict results with several different models, we find next to everyone in the test dataset being labeled as a non-winner! (Which produces a test dataset accuracy of 68%, a misleading statistic given that a two-thirds of the data are non-winners from the get-go.)
+Evaluating this criteria in the form of a logistic regression model, we find next to no correlation between the variables (Pseudo R-Squared -0.005). In fact, when attempting to predict results with several different models, we find next to everyone in the test dataset being labeled as a non-winner! Our model produces a test dataset accuracy of 68%, a misleading statistic given that a two-thirds of the data are non-winners from the get-go. This can be reviewed with a ROC curve, seen below. Our model is only slightly better than picking winners at random. 
+
+<div style="text-align: center"><img src="/assets/jeopardy_images/log_model_roc_curve.png"
+height="90%" width="90%" /></div>
 
 ### Final thoughts
 
