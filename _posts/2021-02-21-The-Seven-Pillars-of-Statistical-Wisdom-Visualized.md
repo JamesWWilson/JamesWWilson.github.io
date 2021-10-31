@@ -25,7 +25,7 @@ Boxplots allow statisticians to 'boil down' the data into a clean illustration o
 
 ### Information
     
-Speaking of information, how do we, as Stigler puts it, "measure the value and aquisition of information"? How do we determine when we have enough data, and that the data we have can accurately measure the goal of the investigation in question? This has been a challenge for reseachers for a long time, dating back to when the Bank of England had to determine the accuracy of the weight and density of gold coins. At that point in time, the bank would sample coins to determine if the whole was accurate, to varying degrees of accuracy[4]. Since that point in time, statisticians have refined their methodology of sample review to develop the now famous Central Limit Theorem. The Central Limit Theorem, or CTL for short, states that as the size of the sample increases, the distribution of the mean across multiple samples will approximate a Gaussian (aka "normal") distribution. Just what does this mean? 
+Speaking of information, how do we, as Stigler puts it, "measure the value and aquisition of information"? How do we determine when we have enough data, and that the data we have can accurately measure the goal of the investigation in question? This has been a challenge for reseachers for a long time, dating back to when the Bank of England had to determine the accuracy of the weight and density of gold coins. At that point in time, the bank would sample coins to determine if the whole was accurate, to varying degrees of accuracy[4]. Since that point in time, statisticians have refined their methodology of sample review to develop the now famous Central Limit Theorem. The Central Limit Theorem, or CTL for short, states that as the size of the sample increases, the distribution of the mean across multiple samples will approximate a Gaussian, or "normal", distribution. Just what does this mean? 
 
 When performing a study, multiple observations are drawn from the sample population. Additional independent observations are collected repeatedly that represent a sample of observations. When we generate an average from this sample, it will be an *estimate* of the average for the general population from which those samples were drawn. However, this estimated average will contain some *error*. What the CTL allows for is for researchers to draw multiple *other* samples and calculate their means, and which together those means will form a normal distribution (around the average).
 
@@ -38,7 +38,7 @@ So where do we see the central limit theorem, or rather, the normal distribution
 <div style="text-align: center"><img src="/assets/penguin_images/information_1.png"
 height="90%" width="90%" /></div>
 
-But let's assume we *didn't* have our data, and that the 344 penguins in our study represent all the penguins available in the population. Now imagine that 100 different research teams had, independetly, gone down to Antartica and gathered data for 30 penguins each from our population, and then calculated an average body mass for their group of penguins. If we were to take each of those average values and combine them, they would *still* accurate produce the average body mass of 4,200 grams, as seen in the randomly sampled version of this concept below. 
+But let's assume we *didn't* have our data, and that the 344 penguins in our study represent all the penguins available in the population. Now imagine that 100 different research teams had, independetly, gone down to Antartica and gathered data for 30 penguins each from our population, and then calculated an average body mass for their group of penguins. If we were to take each of those average values and combine them, they would *still* accurately produce the average body mass of 4,200 grams, as seen in the randomly sampled version of this concept below. 
 
 <div style="text-align: center"><img src="/assets/penguin_images/information_2.png"
 height="90%" width="90%" /></div>
@@ -50,37 +50,69 @@ height="90%" width="90%" /></div>
 
 ### Likelihood
 
-"A measurement with no context is just a number" Stigler writes to start out his chapter on Likelihood. Probability distributions are one of many ways to provide such context.  Probability distributions are used to summarize the probabilities of possible values of a random variable, as well as to calculate the confidence intervals for parameters involved in hypothesis testing. Bayesian statisticians use probability distributions in their defining of their prior and posterior distributions for hypothesis testing. Two common way of approaching probabilty distributions include probability density functions (PDF) and cummulative distribution functions (CDF), which we will see shortly. 
+"A measurement with no context is just a number" Stigler writes to start out his chapter on Likelihood. Probability distributions are one of many ways to provide such context.  They are used to summarize the probabilities of possible values of a random variable, as well as to calculate the confidence intervals for parameters involved in hypothesis testing. Bayesian focused statisticians use probability distributions in their defining of their prior and posterior distributions for hypothesis testing. Two common way of approaching probabilty distributions include probability density functions (PDF) and cummulative distribution functions (CDF), which we will see shortly. 
 
-In the real world, the shape of a histogram of most random samples will match a well-known probability distribution. Common distributions are common because they occur again and again in different and sometimes unexpected domains. Determining the type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results. 
+In the real world, the shape of a histogram of most random samples will match a well-known probability distribution. Common distributions are 'common' because they occur again and again in different and sometimes unexpected domains. Determining the type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results. 
 
-In our case, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying". The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging/ dieting behaviors and niches that male and female penguins might occupy. 
+In our case, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying". The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging and /or dieting behaviors and niches that male and female penguins might occupy[5]. 
 
-Let's pretend a researcher comes across a Delta 15 N value of 9 (). What is the probability of finding a value greater than 9 () in our population? Rather, can we determine how rare of a chance this value occurs in our data? 
+Let's consider a scenario where a researcher comes across a Delta 15 N value of 9. What is the probability of finding a value greater than 9 in our population? Rather, can we determine how rare of a chance this value occurs in our data? 
 
-First, we need to fit a distribution to our data. We can visualize our data as a histogram, and try to visualize which distributions fit best to our data. Our data appears to ...
+First, we need to fit a distribution to our data - visualized as a histogram below. We can visualize our data as a histogram and try to match which distributions fit best. 
 
-* distribution of 15 N values 
+<div style="text-align: center"><img src="/assets/penguin_images/likelihood_1.png"
+height="90%" width="90%" /></div>
 
-Next, we can use the *fitditr* package in R to test multiple probability distributions against our data . The package let's us first review potential fits based on common models, then we can fit a few of these models ourselves and review their criteria / diagnostic plots. 
+Our data appears to be somewhat normal with a skew towards the right. A version of the Gamma distribution seems like a solid contender, as well as some additional distributions often found in the life sciences, such as the Weibull distribution. 
 
-* QQ plot for best fits 
-    -- how to interpret QQ / AIC 
+We'll use the *fitditrplus* package in R to test several of these probability distributions against our data. The package let's us first review potential fits based on common models, which we can then fit to the data ourselves and review their criteria and diagnostic plots. Upon review, we produce the following QQ plot and summary statistics associated with the Weibull, Log Logistic, and Generalized Gamma distributions. 
 
+<div style="text-align: center"><img src="/assets/penguin_images/likelihood_2.png"
+height="90%" width="90%" /></div>
 
-Reviewing a variey of models, we find that a Generalized Gamma (GenGamma) distribution fits our data best. 
-The Generalized Gamma Distribution adds a scale parameter in the ... 
+<table>
+<thead>
+<tr class="header">
+<th>Modeled Distribution</th>
+<th>AIC</th>
+<th>Kolmogorov-Smirnow statistic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align:center">Weibull</td>
+<td style="text-align:center">587.32</td>
+<td style="text-align:center">0.0997</td>
+</tr>
+<tr class="even">
+<td style="text-align:center">Log Logistic</td>
+<td style="text-align:center">564.00</td>
+<td style="text-align:center">0.0594</td>
+</tr>
+<tr class="odd">
+<td style="text-align:center">Gen Gamma</td>
+<td style="text-align:center">543.64</td>
+<td style="text-align:center">0.0498</td>
+</tr>
+</tbody>
+</table>
 
-Using this best fit probability distribution, we can now utlize its underlying ___ to answer our question. Using a simple r commad ( ), we find that there is a ____ chance of a __ value of less than 9. We can visualize this concept with the use of the Cummulative Distribution Function ... 
+Reviewing our tested distributions, we find that a Generalized Gamma (GenGamma) distribution fits our data best. This can be determined by optimizing for a high AIC value and low Kolmogorov-Smirnov value, both of which are statistics used to find the distribution of best fit. In addition, a visual review of the above QQ plot lets us determine how best the distribution fits to our data, and how it accounts for outliers. 
 
-* CDF of values 
+With a fit distribution, we can now utlize it's underlying parameters to answer our question. The R command 'pgengamma' allows us to enter in our distribution's parameters and find the probability associated with a specific value. 
 
+```r
+pgengamma(9, mu = 2.159, sigma = 0.0622, Q= -0.210, log = FALSE, lower.tail = TRUE) 
+```
+Therefore, our review finds that there is a 70% chance of a Delta 15 N value of less than 9. We can visualize this concept with the use of the Generalized Gamma's Cummulative Distribution Function modeled with our dataset.
 
+<div style="text-align: center"><img src="/assets/penguin_images/likelihood_3.png"
+height="90%" width="90%" /></div>
 
 ### Intercomparison
 Statisitcans are often tasked with determining the differences between specified populations. A powerful application of this differentiaion is the concept that it can be done *internally*, or rather, without the reference of exterior criteria. The idea first become prominent with Francis Galton's famous essay "Statistics by Intercomparison"...   
     
-William Gosset introduced the idea when employed as a Chemist for the Guiness Company [5] and found practical appliations for statistics in the brewing process. "The Probable Error of a Mean" in 1908 under the "Student" pseudonym, where "Student's T-Test" now gets its name [6].
+William Gosset introduced the idea when employed as a Chemist for the Guiness Company [6] and found practical appliations for statistics in the brewing process. "The Probable Error of a Mean" in 1908 under the "Student" pseudonym, where "Student's T-Test" now gets its name [7].
 
     This concept expanded upon by fisher
 
@@ -176,8 +208,9 @@ Footnotes
 [2] Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
 [3] Photo citation. 
 [4] Trial of Pyx 
-[5] Yum beer stats 
-[6] Guniess policy against publicaiton of work under its name. 
+[5] https://pubmed.ncbi.nlm.nih.gov/11179580/
+[6] Yum beer stats 
+[7] Guniess policy against publicaiton of work under its name. 
  
 
 
