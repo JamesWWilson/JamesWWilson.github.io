@@ -8,11 +8,11 @@ categories: Book Review
 
 *A visual book review of Stephen M. Stigler's The Seven Pillars of Statistical Wisdom*
 
-After our UCLA commencement ceremony, the Statistics program gave each graduate a copy of Stephen M. Stigler's *The Seven Pillars of Statistical Wisdom* as a sort of yearbook to sign amongst classmates and cement our capstone as undergraduates. Almost two years later, and I  finally got around to reading the book! Reviewing the so called "pillars of statistics" has grown my appreciation of its simple description of the functionality and durability of the field of Statisitcs (which is still in it's infancy relative to most sciences). The one shortfall of the book, in my opinion, is a lack of visualizations to convey each of the 7 pillars that define the field. So in reviewing and summarizing the book, let's try to visualize each concept with one of my new favorite datasets: the Palmer's Penguin dataset [1][2]. The Penguins dataset contains data for 344 penguins, which were collected and made available by Dr. Kristen Gorman and the Palmer Station located at the Palmer Archipelago in Antarctica.
+After our UCLA commencement ceremony, the Statistics program gave each graduate a copy of Stephen M. Stigler's *The Seven Pillars of Statistical Wisdom* as a sort of yearbook to sign amongst classmates and cement our capstone as undergraduates. Almost two years later, and I  finally got around to reading the book! Reviewing the so called "pillars of statistics" has grown my appreciation of its simple description of the functionality and durability of the field of Statisitcs (which is still in it's infancy relative to most sciences). The one shortfall of the book, in my opinion, is a lack of visualizations to convey each of the 7 pillars that define the field. So in reviewing and summarizing the book, let's try to visualize each concept with one of my new favorite datasets: the Palmer's Penguin dataset [^1][^2]. The Penguins dataset contains data for 344 penguins, which were collected and made available by Dr. Kristen Gorman and the Palmer Station located at the Palmer Archipelago in Antarctica.
 
 <div style="text-align: center"><img src="/assets/penguin_images/lter_penguins.png"
 height="90%" width="90%" /></div>
-[3]
+[^3]
 
 ### Aggregation
 
@@ -25,7 +25,7 @@ Boxplots allow statisticians to 'boil down' the data into a clean illustration o
 
 ### Information
     
-Speaking of information, how do we, as Stigler puts it, "measure the value and aquisition of information"? How do we determine when we have enough data, and that the data we have can accurately measure the goal of the investigation in question? This has been a challenge for reseachers for a long time, dating back to when the Bank of England had to determine the accuracy of the weight and density of gold coins. At that point in time, the bank would sample coins to determine if the whole was accurate, to varying degrees of accuracy[4]. Since that point in time, statisticians have refined their methodology of sample review to develop the now famous Central Limit Theorem. The Central Limit Theorem, or CTL for short, states that as the size of the sample increases, the distribution of the mean across multiple samples will approximate a Gaussian, or "normal", distribution. Just what does this mean? 
+Speaking of information, how do we, as Stigler puts it, "measure the value and aquisition of information"? How do we determine when we have enough data, and that the data we have can accurately measure the goal of the investigation in question? This has been a challenge for reseachers for a long time, dating back to when the Bank of England had to determine the accuracy of the weight and density of gold coins. At that point in time, the bank would sample coins to determine if the whole was accurate, to varying degrees of accuracy[^4]. Since that point in time, statisticians have refined their methodology of sample review to develop the now famous Central Limit Theorem. The Central Limit Theorem, or CTL for short, states that as the size of the sample increases, the distribution of the mean across multiple samples will approximate a Gaussian, or "normal", distribution. Just what does this mean? 
 
 When performing a study, multiple observations are drawn from the sample population. Additional independent observations are collected repeatedly that represent a sample of observations. When we generate an average from this sample, it will be an *estimate* of the average for the general population from which those samples were drawn. However, this estimated average will contain some *error*. What the CTL allows for is for researchers to draw multiple *other* samples and calculate their means, and which together those means will form a normal distribution (around the average).
 
@@ -54,7 +54,7 @@ height="90%" width="90%" /></div>
 
 In the real world, the shape of a histogram of most random samples will match a well-known probability distribution. Common distributions are 'common' because they occur again and again in different and sometimes unexpected domains. Determining the type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results. 
 
-In our case, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying". The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging and /or dieting behaviors and niches that male and female penguins might occupy[5]. 
+In our case, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying". The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging and /or dieting behaviors and niches that male and female penguins might occupy[^5]. 
 
 Let's consider a scenario where a researcher comes across a Delta 15 N value of 9. What is the probability of finding a value greater than 9 in our population? Rather, can we determine how rare of a chance this value occurs in our data? 
 
@@ -110,59 +110,68 @@ Therefore, our review finds that there is a 70% chance of a Delta 15 N value of 
 height="90%" width="90%" /></div>
 
 ### Intercomparison
-Statisitcans are often tasked with determining the differences between specified populations. A powerful application of this differentiaion is the concept that it can be done *internally*, or rather, without the reference of exterior criteria. The idea first become prominent with Francis Galton's famous essay "Statistics by Intercomparison"...   
+Statisitcans are often tasked with determining the differences between specified populations. A powerful application of this differentiaion is the concept that it can be done *internally*, or rather, without the reference of exterior criteria. The idea first become prominent with Francis Galton's famous essay "Statistics by Intercomparison"... 
+
+
     
-William Gosset introduced the idea when employed as a Chemist for the Guiness Company [6] and found practical appliations for statistics in the brewing process. "The Probable Error of a Mean" in 1908 under the "Student" pseudonym, where "Student's T-Test" now gets its name [7].
+William Gosset introduced the idea when employed as a Chemist for the Guiness Company [^6] and found practical appliations for statistics in the brewing process. "The Probable Error of a Mean" in 1908 under the "Student" pseudonym, where "Student's T-Test" now gets its name [^7].
 
-    This concept expanded upon by fisher
 
-    Allowed for the comparison of sample means with mathematical assumptions based on normality of sample sizes. 
+This concept was expanded upon by fisher
 
-    Create the ttest table we know today 
+Allowed for the comparison of sample means with mathematical assumptions based on normality of sample sizes. 
 
-*of standard deviations a parameter is away from a constant 
+Created the ttest table we know today 
+
+X# of standard deviations a parameter is away from a constant 
 
 ** show case formula ** 
 
+<div style="text-align: center"><img src="/assets/penguin_images/intercomparison_1.png"
+height="90%" width="90%" /></div>
 
-* visual of female vs male bill lengths 
-
-
-* TTest results 
-
+```r
+#Welch Two Sample t-test
+#data:  penguins[sex == "female", .(bill_length_mm)] and penguins[sex == "male", .(bill_length_mm)]
+#t = -6.6725, df = 329.29, p-value = 1.066e-10
+#alternative hypothesis: true difference in means is not equal to 0
+#95 percent confidence interval:
+# -4.865676 -2.649908
+#sample estimates:
+#mean of x mean of y 
+# 42.09697  45.85476 
+```
 
 
 ### Regression
     
-    Prediction is the main component of modern day data science practices, where intricate machine learning models are used to attempt to classify and evaluate future inferences based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by ___ Galton in 1885, where he first defined the term "regression". In his analysis of children and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of belo average height tend to produce taller children. Predicitive models, ranging in complextion from simple linear regression to (Support Vector Machines? Neural Networks?), allow us to utilize the concept that <groups within data tend to produce variation of varying definitions that >
+Prediction is the main component of modern day data science practices, where intricate machine learning models are used to attempt to classify and evaluate future inferences based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by ___ Galton in 1885, where he first defined the term "regression". In his analysis of children and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of belo average height tend to produce taller children. Predicitive models, ranging in complextion from simple linear regression to (Support Vector Machines? Neural Networks?), allow us to utilize the concept that groups within data tend to produce variation of varying definitions that...
     
-    For the purpose of illustration, we can take a stab at replicating one of the models performed by the Penguins research team. One of the main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes, penguins are controlled by species, and then a mix of numerical variables such as [] and [] are used. Reivewing the researchers notes, we can create a simplifid version of the Chinstrap penguin model, and try to predict sex based on just their flipper length.
+For the purpose of illustration, we can take a stab at replicating one of the models performed by the Penguins research team. One of the main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes, penguins are controlled by species, and then a mix of numerical variables such as [] and [] are used. Reivewing the researchers notes, we can create a simplifid version of the Chinstrap penguin model, and try to predict sex based on just their flipper length.
 
-    Using R, we can illustrate 
+Using R, we can illustrate ...
 
-* Plot for logistic regression of Gender ~ Bill Length for chinstrap penguins 
+<div style="text-align: center"><img src="/assets/penguin_images/regression_1.png"
+height="90%" width="90%" /></div>
 
 ##### report R2 value 
 
 A reminder that *correlation is not causation*. For instance, being born with an abnomally large bill doesn't imply that a penguin will be male. Rather, males *on average* have larger bills, and we can use that metric to explain the difference in the groups. 
 
 
-
 ### Design
-    Randomization 
-    Florence Nightengale 
-    How does one design a study to control for randomization / error / sample sizes. 
+
+Randomization 
+Florence Nightengale 
+How does one design a study to control for randomization / error / sample sizes. 
 
     
+The Penguin research team took design qualities into practice when they produced the underlying data for the study they performed. 
 
-    The Penguin research team took design qualities into practice when they produced the underlying data for the study they performed. 
+Collected data from three different islands 
+OF population, randomly sampled populations 
 
-    Collected data from three different islands 
-    OF population, randomly sampled populations 
-
-    Considered the power of the sample 
-
-
+Considered the power of the sample 
 
 
 
@@ -172,15 +181,13 @@ A reminder that *correlation is not causation*. For instance, being born with an
 
 
 ### Residual 
-    Difference between predicted and actual results in overall model. Regression to the mean. Evaluation of success of model.
+Difference between predicted and actual results in overall model. Regression to the mean. Evaluation of success of model.
 
-    Going back to our previous logistic regression, let's 'diagnose' the issues the plot may have. Residuals are a way of comparing our model's predicted training data results to it's raw testing data, and seeing how well our model performs in the real world 
+Going back to our previous logistic regression, let's 'diagnose' the issues the plot may have. Residuals are a way of comparing our model's predicted training data results to it's raw testing data, and seeing how well our model performs in the real world 
 
 
-
-    OR Linear Regression based on DELTA15N 
-    ? log vs normal scale for residuals
-
+OR Linear Regression based on DELTA15N 
+? log vs normal scale for residuals
 
 
 
@@ -198,19 +205,14 @@ Statistics is a field of varying methodolgies and techinques that attempt to giv
 
 
 
-
-
-
-
-
 Footnotes
-[1] Cite penguins data https://github.com/allisonhorst/palmerpenguins
-[2] Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
-[3] Photo citation. 
-[4] Trial of Pyx 
-[5] https://pubmed.ncbi.nlm.nih.gov/11179580/
-[6] Yum beer stats 
-[7] Guniess policy against publicaiton of work under its name. 
+[^1] Cite penguins data https://github.com/allisonhorst/palmerpenguins
+[^2] Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
+[^3] Photo citation. 
+[^4] Trial of Pyx 
+[^5] https://pubmed.ncbi.nlm.nih.gov/11179580/
+[^6] Yum beer stats 
+[^7] Guniess policy against publicaiton of work under its name. 
  
 
 
