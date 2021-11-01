@@ -206,13 +206,13 @@ Statistics is a field of varying methodolgies and techinques that attempt to giv
 
 
 Footnotes
-[^1] Cite penguins data https://github.com/allisonhorst/palmerpenguins
-[^2] Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
-[^3] Photo citation. 
-[^4] Trial of Pyx 
-[^5] https://pubmed.ncbi.nlm.nih.gov/11179580/
-[^6] Yum beer stats 
-[^7] Guniess policy against publicaiton of work under its name. 
+[^1]: Cite penguins data https://github.com/allisonhorst/palmerpenguins
+[^2]: Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
+[^3]: Photo citation. 
+[^4]: Trial of Pyx 
+[^5]: https://pubmed.ncbi.nlm.nih.gov/11179580/
+[^6]: Yum beer stats 
+[^7]: Guniess policy against publicaiton of work under its name. 
  
 
 
