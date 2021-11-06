@@ -281,13 +281,17 @@ roll around. It only serves to add more traffic and pollution that can be fixed 
 informed decision making. Hopefully, this information can help car owners in reducing
 the chaos and problems associated with parking in the hills of Westwood.
 
+---
 
-Citations / Footnotes
----------
+#### Data
 
-[Data](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
+[LA City Parking Citations](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
 
-[Code](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
+#### Code
+
+[Parking Tickets Analysis Code](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
+
+#### Footnotes + Citations
 
 [^1]: [Traffic Congestion in Los Angeles will get Worse](https://www.citywatchla.com/index.php/2016-01-01-13-17-00/los-angeles/17537-traffic-congestion-in-los-angeles-will-get-worse)
 

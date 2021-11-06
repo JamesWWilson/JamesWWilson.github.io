@@ -287,14 +287,12 @@ The final dataset for our analysis contains *1,971* contestants playing in games
 
 #### Data
 
-[Jeopardy Archive](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
-
-[@CoolJeopardyStores](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
+[Jeopardy Archive](https://j-archive.com/)
 
 #### Code
 
 [Github](https://github.com/JamesWWilson/Jeopardy-Fun-Facts)
 
-#### Citations
+#### Footnotes + Citations
 
 [^1]: If you work for Jeopardy or NBC, I would love access to transcripts from the show to analyze!

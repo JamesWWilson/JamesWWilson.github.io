@@ -215,9 +215,10 @@ https://en.wikipedia.org/wiki/Central_limit_theorem  <- SEE PLOT
 https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html
 
 
-Footnotes
 
 ---
+
+#### Footnotes + Citations
 
 [^1]: Cite penguins data https://github.com/allisonhorst/palmerpenguins
 

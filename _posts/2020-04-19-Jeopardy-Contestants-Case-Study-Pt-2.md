@@ -33,7 +33,7 @@ Contestants hometown state locations tend to correlate with population demograph
 
 A wide range of occupations are represented in our sample of Jeopardy contestants. Within our range of contestants, there are approximately 1,317 distinct careers held by individual contestants. 
 
-Doing the grunt work, we can go ahead and group each of these occupations into a 'job category'. For instance, a '10th grade english teacher' and 'violin teacher' are categorized as just 'teacher', and occupations such as 'public health doctor' and 'emergency physician' are grouped as simply 'physician'. Doing so presents us with a count of 33 distinct job categories [1^].
+Doing the grunt work, we can go ahead and group each of these occupations into a 'job category'. For instance, a '10th grade english teacher' and 'violin teacher' are categorized as just 'teacher', and occupations such as 'public health doctor' and 'emergency physician' are grouped as simply 'physician'. Doing so presents us with a count of 33 distinct job categories [^1].
 
 So which career paths appear most often on Jeopardy? 
 
@@ -130,7 +130,7 @@ We can also review the least common job categories:
 
 From first glance, nothing seems too special about these job categories. 'Musician' seems somewhat suprising given the number of music related subject matter seen in Jeopardy questions. Of significant note is the general lack of jobs that tend to involve physical labor requirements (Military/ Laborer). Jeopardy has always tended to be one of the most pronounced "white collar" focused game shows on television, and the data seems to support that argument. 
 
-So of a given job category, which tends to produce the most *winners* [2^]? 
+So of a given job category, which tends to produce the most *winners* [^2]? 
 
 <div style="text-align: center"><img src="/assets/jeopardy_images/job_win_ratio.png"
 height="90%" width="90%" /></div>
@@ -151,9 +151,9 @@ The pairity of gender seems roughly equal, with  males being more prominent then
 Pulling in the Twitter dataset allows us to perform sentiment analysis on each individual's 'fun fact' summaries and attempt to capture some inference on their personality. These being summarizations makes this data a bit corrupted, but worth analyzing regardless.
 
 Using the 'textblob' NLP package, we can capture the 
-polarity and subjectivity of each fun fact [3^]. Contestants on average have a positive polarity score of 0.41 which indicates that most of the fun facts shared seem to be full of fun and interesting content. We also see most of these tweets are being recorded with a subjectivity score of 0.15, indicating they are objective in their format and content. 
+polarity and subjectivity of each fun fact [^3]. Contestants on average have a positive polarity score of 0.41 which indicates that most of the fun facts shared seem to be full of fun and interesting content. We also see most of these tweets are being recorded with a subjectivity score of 0.15, indicating they are objective in their format and content. 
 
-For fun, we can also generate our own fun facts using the 'textgenrnn' package, which utilizes recurrent neural networks to generate text [4^]. Some of my legitamate fun facts used in the program are just as absurd as the ones generated, such as:
+For fun, we can also generate our own fun facts using the 'textgenrnn' package, which utilizes recurrent neural networks to generate text [^4]. Some of my legitamate fun facts used in the program are just as absurd as the ones generated, such as:
 
 * "In Mexico, I was mistaken for Nicolas Cage."
 * "I snuck my friend out of the hospital disguised as an EMT."
@@ -171,7 +171,7 @@ Pretty neat!
 
 Contestants typically play an average of 1.6 games. Roughly 72% of all conetestants will only ever play a single game, with 98% of contestants playing 5 games or less. Any player who gets above this 5 game threshold is considered to be a bit of an outlier, having carved out a significant amount of cash winnings for oneself.
 
-The median end score needed to win and move on in any given game of a Jeopardy tournament is $18,800. To come in second place still requires that you win a hefty average sum of $10,399 [5^].
+The median end score needed to win and move on in any given game of a Jeopardy tournament is $18,800. To come in second place still requires that you win a hefty average sum of $10,399 [^5].
 
 Due to these statisitcs, it is typically seen that a strong player with a solid strategy and wit can keep dominating the board and win multiple games in a row. For example Julia Collins won 20 consecutive victories between April 21 and May 30 of 2014. 
 
@@ -204,7 +204,7 @@ When competing in DataFest, remember: its not the results themselves that matter
 
 ---
 
-#### Footnotes
+#### Footnotes + Citations
 
 [^1]: Individuals listed as "retired", "originally X", or listed as a unique 'age' are listed as "unemployed". 
 
