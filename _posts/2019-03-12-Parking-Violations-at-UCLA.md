@@ -19,14 +19,14 @@ parking ticket*.
 
 For many students with cars, parking is a daily hassle on the
 residential side of Westwood. With rising rates of
-congestion<sup>1</sup> and a lack of infrastructure to handle more car
+congestion [^1] and a lack of infrastructure to handle more car
 owners, the competition increases for students to fit cars wherever possible.
 I myself, along with many other drivers in Westwood, have
 been face to face with a ticket at some point or another. This lead me
 to the question: how are Westwood residents getting ticketed, and are there
 possible ways to minimize such tickets?
 
-Utilizing Los Angeles's Open Data Initiative<sup>2</sup>, started by
+Utilizing Los Angeles's Open Data Initiative [^2], started by
 Mayor Eric Garceti in 2013, we can collect every parking ticket handed
 out in the City of Los Angeles since the beginning of 2015. The raw data
 set contains upwards of nine million parking tickets total. Using the data's
@@ -67,7 +67,7 @@ mismatched, and need to be corrected and aggregated.
 The overall trend in ticketed violations has been on the rise, despite a drop
 in ticketing in 2019. From the start of 2015 through most of 2018, there was a
 rise in ticketing by a little over 9%. Westwood is already one of the most
-ticketed neighborhoods in all of Los Angeles <sup>3</sup>.
+ticketed neighborhoods in all of Los Angeles [^3].
 
 Where are tickets given?
 ----------------
@@ -232,14 +232,14 @@ if you could move your car back before the designated time? Lets look at when ev
 
 <div style="text-align: center"><img src="/assets/images/first_ticket_copy.png" height="85%" width="85%" /></div>
 
-The first tickets given<sup>4</sup> consistently make the 8AM mark, with parking enforcement officers
+The first tickets given [^4] consistently make the 8AM mark, with parking enforcement officers
 getting to their designated spots right on time for their daily bounty. This leaves little wriggle room
 for error when moving your car in the morning. It is interesting to note that the tickets
 seem to work their way into Westwood, from Gayley and Veteran slowly inwards toward Glenrock, where you have a few additional minutes after 8 to get to your car.
 
 <div style="text-align: center"><img src="/assets/images/last_ticket_given_copy.png" height="85%" width="85%" /></div>
 
-The last tickets given<sup>5</sup> are significantly different by street. Not only are they all over
+The last tickets given [^5] are significantly different by street. Not only are they all over
 the place, their range given can vary widely by the day. Variations can be attributed to how
 many spots are available on a particular street in the first place, as well as the route chosen
 by the parking violation officers in the morning. While its safe to say that some spots
@@ -289,12 +289,12 @@ Citations / Footnotes
 
 [Code](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
 
-1 [Traffic Congestion in Los Angeles will get Worse](https://www.citywatchla.com/index.php/2016-01-01-13-17-00/los-angeles/17537-traffic-congestion-in-los-angeles-will-get-worse)
+[^1]: [Traffic Congestion in Los Angeles will get Worse](https://www.citywatchla.com/index.php/2016-01-01-13-17-00/los-angeles/17537-traffic-congestion-in-los-angeles-will-get-worse)
 
-2 [Los Angeles's Open Data Initiative](https://data.lacity.org/)
+[^2]: [Los Angeles's Open Data Initiative](https://data.lacity.org/)
 
-3 [Mapping the Most Parking-Ticketed Blocks in All of Los Angeles](https://la.curbed.com/2014/12/30/10006936/mapping-the-most-parkingticketed-blocks-in-all-of-los-angeles#more)
+[^3]: [Mapping the Most Parking-Ticketed Blocks in All of Los Angeles](https://la.curbed.com/2014/12/30/10006936/mapping-the-most-parkingticketed-blocks-in-all-of-los-angeles#more)
 
-4 First 1% of Tickets given on particular street.
+[^4]: First 1% of Tickets given on particular street.
 
-5 Last 1% of Tickets given on particular street.
+[^5]: Last 1% of Tickets given on particular street.

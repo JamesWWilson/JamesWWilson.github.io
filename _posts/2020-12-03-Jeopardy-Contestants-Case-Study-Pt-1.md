@@ -205,7 +205,7 @@ commercial break? These are not recorded at all on the archive, and there is nex
 
 To get a sense of these anecdotes, we rely on the work of Chad
 Mosher, as there are no episode transcripts easily available
-online<sup>1</sup>. Chad ran the @CoolJeopardyStories account from February
+online [^1]. Chad ran the @CoolJeopardyStories account from February
 11th, 2014 to July 26th, 2019, where he created tweet length version’s
 of each show contestant’s story. While these transcription aren’t
 perfect representations, they get to the meat of the stories and will
@@ -283,20 +283,18 @@ The final dataset for our analysis contains *1,971* contestants playing in games
 
 *Read Part 2 for the analysis of the contestant data!*
 
+---
 
-Data
-====
+#### Data
 
 [Jeopardy Archive](https://data.lacity.org/A-Well-Run-City/Parking-Citations/wjz9-h9np)
 
 [@CoolJeopardyStores](https://github.com/JamesWWilson/UCLA-Parking-Tickets-Analysis)
 
-Code
-====
+#### Code
 
 [Github](https://github.com/JamesWWilson/Jeopardy-Fun-Facts)
 
-Citations
-=========
+#### Citations
 
-1 If you work for Jeopardy or NBC, I would love access to transcripts from the show to analyze!
+[^1]: If you work for Jeopardy or NBC, I would love access to transcripts from the show to analyze!

@@ -33,7 +33,7 @@ Contestants hometown state locations tend to correlate with population demograph
 
 A wide range of occupations are represented in our sample of Jeopardy contestants. Within our range of contestants, there are approximately 1,317 distinct careers held by individual contestants. 
 
-Doing the grunt work, we can go ahead and group each of these occupations into a 'job category'. For instance, a '10th grade english teacher' and 'violin teacher' are categorized as just 'teacher', and occupations such as 'public health doctor' and 'emergency physician' are grouped as simply 'physician'. Doing so presents us with a count of 33 distinct job categories[1].
+Doing the grunt work, we can go ahead and group each of these occupations into a 'job category'. For instance, a '10th grade english teacher' and 'violin teacher' are categorized as just 'teacher', and occupations such as 'public health doctor' and 'emergency physician' are grouped as simply 'physician'. Doing so presents us with a count of 33 distinct job categories [1^].
 
 So which career paths appear most often on Jeopardy? 
 
@@ -130,7 +130,7 @@ We can also review the least common job categories:
 
 From first glance, nothing seems too special about these job categories. 'Musician' seems somewhat suprising given the number of music related subject matter seen in Jeopardy questions. Of significant note is the general lack of jobs that tend to involve physical labor requirements (Military/ Laborer). Jeopardy has always tended to be one of the most pronounced "white collar" focused game shows on television, and the data seems to support that argument. 
 
-So of a given job category, which tends to produce the most *winners* [2]? 
+So of a given job category, which tends to produce the most *winners* [2^]? 
 
 <div style="text-align: center"><img src="/assets/jeopardy_images/job_win_ratio.png"
 height="90%" width="90%" /></div>
@@ -151,9 +151,9 @@ The pairity of gender seems roughly equal, with  males being more prominent then
 Pulling in the Twitter dataset allows us to perform sentiment analysis on each individual's 'fun fact' summaries and attempt to capture some inference on their personality. These being summarizations makes this data a bit corrupted, but worth analyzing regardless.
 
 Using the 'textblob' NLP package, we can capture the 
-polarity and subjectivity of each fun fact [3]. Contestants on average have a positive polarity score of 0.41 which indicates that most of the fun facts shared seem to be full of fun and interesting content. We also see most of these tweets are being recorded with a subjectivity score of 0.15, indicating they are objective in their format and content. 
+polarity and subjectivity of each fun fact [3^]. Contestants on average have a positive polarity score of 0.41 which indicates that most of the fun facts shared seem to be full of fun and interesting content. We also see most of these tweets are being recorded with a subjectivity score of 0.15, indicating they are objective in their format and content. 
 
-For fun, we can also generate our own fun facts using the 'textgenrnn' package, which utilizes recurrent neural networks to generate text[4]. Some of my legitamate fun facts used in the program are just as absurd as the ones generated, such as:
+For fun, we can also generate our own fun facts using the 'textgenrnn' package, which utilizes recurrent neural networks to generate text [4^]. Some of my legitamate fun facts used in the program are just as absurd as the ones generated, such as:
 
 * "In Mexico, I was mistaken for Nicolas Cage."
 * "I snuck my friend out of the hospital disguised as an EMT."
@@ -171,7 +171,7 @@ Pretty neat!
 
 Contestants typically play an average of 1.6 games. Roughly 72% of all conetestants will only ever play a single game, with 98% of contestants playing 5 games or less. Any player who gets above this 5 game threshold is considered to be a bit of an outlier, having carved out a significant amount of cash winnings for oneself.
 
-The median end score needed to win and move on in any given game of a Jeopardy tournament is $18,800. To come in second place still requires that you win a hefty average sum of $10,399.[5]
+The median end score needed to win and move on in any given game of a Jeopardy tournament is $18,800. To come in second place still requires that you win a hefty average sum of $10,399 [5^].
 
 Due to these statisitcs, it is typically seen that a strong player with a solid strategy and wit can keep dominating the board and win multiple games in a row. For example Julia Collins won 20 consecutive victories between April 21 and May 30 of 2014. 
 
@@ -185,7 +185,7 @@ Unsurprisingly, states with few overall contestants tend to have a higher propor
 
 ### Putting it all together: can you *make* a winner?   
 
-But is it possible to *predict* who will win based on just a contestant's demographic data (e.g. hometown, gender, job category, and personal anecode sentiment)?  This is a challenging quesiton that requires defining. Are we prediciting if an individual candidate will win, or prediciting their total amount of winnings they earn before being set into their final rank[6]?
+But is it possible to *predict* who will win based on just a contestant's demographic data (e.g. hometown, gender, job category, and personal anecode sentiment)?  This is a challenging quesiton that requires defining. Are we prediciting if an individual candidate will win, or prediciting their total amount of winnings they earn before being set into their final rank [^6]?
 
 For the purpose of this analysis and the data available, we will address the former question. We can create a unique database of contestants and build a binary flag of whether or not they have won *at least one* game of Jeopardy. In this case, '1' would indicate the contestant has won at least one game, and '0' would indicate the contestant has won no games. This helps address outliers like the infamous James Holzhauer who has played in 30+ games, and boil him down to a single snapshot. 
 
@@ -202,19 +202,20 @@ Or are we? Instead, I would argue our investigation has shown that *anyone* can 
 
 When competing in DataFest, remember: its not the results themselves that matter, but the story you tell with them! 
 
+---
 
 #### Footnotes
 
-[1] Individuals listed as "retired", "originally X", or listed as a unique 'age' are listed as "unemployed". 
+[^1]: Individuals listed as "retired", "originally X", or listed as a unique 'age' are listed as "unemployed". 
 
-[2] When evaluating the winner ratios for job categories, "Student" / "Teacher" / "Unemployed" should be regarded seperately given that these individuals have their own tournaments. Those indicated as "Professor" are NOT featured in Teacher's tournaments and therefore do not need to be considered in this way. 
+[^2]: When evaluating the winner ratios for job categories, "Student" / "Teacher" / "Unemployed" should be regarded seperately given that these individuals have their own tournaments. Those indicated as "Professor" are NOT featured in Teacher's tournaments and therefore do not need to be considered in this way. 
 
-[3] Polarity is a float that lies between [-1,1], -1 indicates negative sentiment and +1 indicates positive sentiments. Subjectivity is also a float which lies in the range of [0,1]. Subjective sentences generally refer to personal opinion, emotion, or judgment. 
+[^3]: Polarity is a float that lies between [-1,1], -1 indicates negative sentiment and +1 indicates positive sentiments. Subjectivity is also a float which lies in the range of [0,1]. Subjective sentences generally refer to personal opinion, emotion, or judgment. 
 
-[4] A more detailed walkthrough into the neural networks used to operate textgenrnn can be read here: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+[^4]: A more detailed walkthrough into the neural networks used to operate textgenrnn can be read here: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
-[5] When calculating total scores, we are calculating the gross final scores that players earned in their game play. However, the majority of contestants will not see these totals in their winnings, as most tournaments settle to give second place $2,000 and third place $1,000, regardless of what they earned in game. 
+[^5]: When calculating total scores, we are calculating the gross final scores that players earned in their game play. However, the majority of contestants will not see these totals in their winnings, as most tournaments settle to give second place $2,000 and third place $1,000, regardless of what they earned in game. 
 
-[6] In Jeopardy, only first place takes home their overall winnings. Second place receives $2,000 and Third place receives $1,000. 
+[^6]: In Jeopardy, only first place takes home their overall winnings. Second place receives $2,000 and Third place receives $1,000. 
 
 
