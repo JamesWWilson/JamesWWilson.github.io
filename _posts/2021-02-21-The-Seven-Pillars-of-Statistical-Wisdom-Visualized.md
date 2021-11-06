@@ -8,7 +8,7 @@ categories: Book Review
 
 *A visual book review of Stephen M. Stigler's The Seven Pillars of Statistical Wisdom*
 
-After our UCLA commencement ceremony, the Statistics program gave each graduate a copy of Stephen M. Stigler's *The Seven Pillars of Statistical Wisdom* as a sort of yearbook to sign amongst classmates and cement our capstone as undergraduates. Almost two years later, and I  finally got around to reading the book! Reviewing the so called "pillars of statistics" has grown my appreciation of its simple description of the functionality and durability of the field of Statisitcs (which is still in it's infancy relative to most sciences). The one shortfall of the book, in my opinion, is a lack of visualizations to convey each of the 7 pillars that define the field. So in reviewing and summarizing the book, let's try to visualize each concept with one of my new favorite datasets: the Palmer's Penguin dataset `[^1]``[^2]`. The Penguins dataset contains data for 344 penguins, which were collected and made available by Dr. Kristen Gorman and the Palmer Station located at the Palmer Archipelago in Antarctica.
+After our UCLA commencement ceremony, the Statistics program gave each graduate a copy of Stephen M. Stigler's *The Seven Pillars of Statistical Wisdom* as a sort of yearbook to sign amongst classmates and cement our capstone as undergraduates. Almost two years later, and I  finally got around to reading the book! Reviewing the so called "pillars of statistics" has grown my appreciation of its simple description of the functionality and durability of the field of Statisitcs (which is still in it's infancy relative to most sciences). The one shortfall of the book, in my opinion, is a lack of visualizations to convey each of the 7 pillars that define the field. So in reviewing and summarizing the book, let's try to visualize each concept with one of my new favorite datasets: the Palmer's Penguin dataset `[^1]` [^1] .Eat this`[^2]`.  The Penguins dataset contains data for 344 penguins, which were collected and made available by Dr. Kristen Gorman and the Palmer Station located at the Palmer Archipelago in Antarctica.
 
 <div style="text-align: center"><img src="/assets/penguin_images/lter_penguins.png"
 height="90%" width="90%" /></div>
@@ -204,18 +204,6 @@ Statistics is a field of varying methodolgies and techinques that attempt to giv
 
 
 
-
-Footnotes
-[^1]: Cite penguins data https://github.com/allisonhorst/palmerpenguins
-[^2]: Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
-[^3]: Photo citation. 
-[^4]: Trial of Pyx 
-[^5]: https://pubmed.ncbi.nlm.nih.gov/11179580/
-[^6]: Yum beer stats 
-[^7]: Guniess policy against publicaiton of work under its name. 
- 
-
-
 https://cran.r-project.org/web/packages/fitdistrplus/vignettes/paper2JSS.pdf
 https://en.wikipedia.org/wiki/Generalized_gamma_distribution
 
@@ -224,4 +212,24 @@ CTL
 https://machinelearningmastery.com/a-gentle-introduction-to-the-central-limit-theorem-for-machine-learning/
 https://en.wikipedia.org/wiki/Central_limit_theorem  <- SEE PLOT 
 https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html
+
+
+Footnotes
+
+---
+
+[^1]: Cite penguins data https://github.com/allisonhorst/palmerpenguins
+
+[^2]: Common replacement for IRIS data - which has recently been 'canceled' by many statisticians due to recent growth in knowledge that is create ___ (fisher?) had policial views that do not sit well with our current generation (i.e. )
+
+[^3]: Photo citation. 
+
+[^4]: Trial of Pyx 
+
+[^5]: See here https://pubmed.ncbi.nlm.nih.gov/11179580/
+
+[^6]: Yum beer stats 
+
+[^7]: Guniess policy against publicaiton of work under its name. 
+ 
 
