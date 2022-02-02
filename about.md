@@ -7,7 +7,7 @@ tags: about
 
 Howdy! Welcome to my blog. 
 
-My name is James Wilson ([@jwilson2032](https://twitter.com/jwilson2032)). I am currently a Data Scientist - Senior Consultant for Capgemini, where I focus on applying data science and data engineering methodologies to challenges that top companies face in today's data driven world. I graduated from UCLA in 2019 with a B.S. in Statistics & minor in Digital Humanities, and plan to return to graduate school in the future. 
+My name is James Wilson ([@jwilson2032](https://twitter.com/jwilson2032)). I am currently a Data Scientist - Senior Consultant for Capgemini, where I focus on applying data science and data engineering methodologies to challenges that top companies face in today's data driven world. I graduated from UCLA in 2019 with a B.S. in Statistics & minor in Digital Humanities, and I plan to return to graduate school (sometime!?) in the future. 
 
 My previous experiences have included:
 - DataStat Associate for Ankura Consulting 
