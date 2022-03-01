@@ -53,9 +53,9 @@ height="90%" width="90%" /></div>
 
 "A measurement with no context is just a number" Stigler writes to start out his chapter on Likelihood. Probability distributions are one of many ways to provide such context.  They are used to summarize the probabilities of possible values of a random variable, as well as to calculate the confidence intervals for parameters involved in hypothesis testing. Bayesian focused statisticians use probability distributions in their defining of their prior and posterior distributions for hypothesis testing. Two common way of approaching probabilty distributions include probability density functions (PDF) and cummulative distribution functions (CDF), which we will see shortly. 
 
-In the real world, the shape of a histogram of most random samples will match a well-known probability distribution. Common distributions are 'common' because they occur again and again in different and sometimes unexpected domains. Determining the type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results. 
+The shape of a histogram of most random samples will match a well-known probability distribution. Common distributions are 'common' because they occur again and again in different and sometimes unexpected domains. Determining the type of distribution is useful when you need to know which outcomes are most likely, the spread of potential values, and the likelihood of different results. 
 
-In our case, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying". The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging and /or dieting behaviors and niches that male and female penguins might occupy [^5]. 
+In this situation, the Penguin reaserch team that produced our data collected "Delta13C and Delta15N SI signatures of blood tissue, obtained during egg laying. The Delta 15 N values from the blood samples were helpful in testing the amount of Nitrogen in the biome, which can aid in indicating the foraging and /or dieting behaviors and niches that male and female penguins might occupy [^5]. 
 
 Let's consider a scenario where a researcher comes across a Delta 15 N value of 9. What is the probability of finding a value greater than 9 in our population? Rather, can we determine how rare of a chance this value occurs in our data? 
 
@@ -111,84 +111,129 @@ Therefore, our review finds that there is a 70% chance of a Delta 15 N value of 
 height="90%" width="90%" /></div>
 
 ### Intercomparison
-Statisitcans are often tasked with determining the differences between specified populations. A powerful application of this differentiaion is the concept that it can be done *internally*, or rather, without the reference of exterior criteria. The idea first become prominent with Francis Galton's famous essay "Statistics by Intercomparison"... 
 
+Statisitcans are often tasked with determining the differences between specified populations. A powerful application of this differentiaion is the concept that it can be done *internally*, or rather, without the reference of exterior criteria. The idea was first prominent with Francis Galton's famous essay "Statistics by Intercomparison" in 1875 [^6], but didn't find practical application until William Gosset published the now famous Student's t-test in "The Probable Error of a Mean" in 1908 [^7]. While employed as a chemist for the Guiness Company [^8], Gosset was interested in analyzing problems of small samples, say the quality control of a new beer recipie that has only been made six times. Gosset remarks that "any series of experiments is only of value is so far as it enables us to form a judgment as to the statistical content of the population to which the experiment belongs." The key here was that the goal was to not rely on any exterior industry standards for what counted as a 'significant difference'. 
 
-    
-William Gosset introduced the idea when employed as a Chemist for the Guiness Company [^6] and found practical appliations for statistics in the brewing process. "The Probable Error of a Mean" in 1908 under the "Student" pseudonym, where "Student's T-Test" now gets its name [^7].
+The underlying mathematics of the Student's t-test stayed consistent, later being refined by Ronald A. Fisher, and eventually culminating in tests such as the Two Sample T-Test: 
 
+$$ 
+t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s^2 (\frac{1}{n_1} + \frac{1}{n_2})}}
+$$
 
-This concept was expanded upon by fisher
+Where $\bar{x}_1$ and $\bar{x}_2$ are the sample means, $s²$ is the pooled sample variance, $n_1$ and $n_2$ are the sample sizes and $t$ is a Student t quantile with $n_1 + n_2 - 2$ degrees of freedom.
 
-Allowed for the comparison of sample means with mathematical assumptions based on normality of sample sizes. 
+The two sample t-test, as presented above, allows the comparison of the means from two data sets. The t-test is useful in that it can be used when our data set is small, namely less than 30 observations, while still being useful if our data grows large. The t-test does require an assumption that the data are drawn from a normally distributed population, and that the groups drawn from roughly the have the same variance. The test works by comparing the number of standard deviations between groups based on the amount of data present. The less data available, the more of a difference that is required to assume that a significant difference was secured. 
 
-Created the ttest table we know today 
+In our modern era, intercomparison is used in the application of A/B testing and general population comparisons. While we often have plenty of data to work with and assume normality from, there are times when data isn't as readily available. For instance, let's assume that we only had 12 female and 12 male penguins available in our study. Let's pose the question: <i> is there a significant difference between the bill length of female and male penguins?</i> We can randomly draw 24 observations from our data and calculate the summary statistics as follows: 
 
-X# of standard deviations a parameter is away from a constant 
+<table>
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>Count</th>
+<th>Mean</th>
+<th>Standard Deviation</th>
+</tr>
+</thead>
+<tbody>
+<td style="text-align:center">Female</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">40.9</td>
+<td style="text-align:center">4.58</td>
+</tr>
+<td style="text-align:center">Male</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">46.2</td>
+<td style="text-align:center">5.27</td>
+</tr>
+</tbody>
+</table>
 
-** show case formula ** 
+We see that our means do appear different and that our standard deviation is similar within one standard deviation. We can visualize these results to confirm our understanding.
 
 <div style="text-align: center"><img src="/assets/penguin_images/intercomparison_1.png"
 height="90%" width="90%" /></div>
 
-```r
-#Welch Two Sample t-test
-#data:  penguins[sex == "female", .(bill_length_mm)] and penguins[sex == "male", .(bill_length_mm)]
-#t = -6.6725, df = 329.29, p-value = 1.066e-10
-#alternative hypothesis: true difference in means is not equal to 0
-#95 percent confidence interval:
-# -4.865676 -2.649908
-#sample estimates:
-#mean of x mean of y 
-# 42.09697  45.85476 
-```
+Given this, we can compute a two sample t-test which provides us with a t-value of -2.6 and p-value of 0.016. This is a significant finding and helps prove what we already knew: that the bills of female and male penguins do differ by a significan margin. 
 
 
 ### Regression
     
-Prediction is the main component of modern day data science practices, where intricate machine learning models are used to attempt to classify and evaluate future inferences based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by ___ Galton in 1885, where he first defined the term "regression". In his analysis of children and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of belo average height tend to produce taller children. Predicitive models, ranging in complextion from simple linear regression to (Support Vector Machines? Neural Networks?), allow us to utilize the concept that groups within data tend to produce variation of varying definitions that...
-    
-For the purpose of illustration, we can take a stab at replicating one of the models performed by the Penguins research team. One of the main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes, penguins are controlled by species, and then a mix of numerical variables such as [] and [] are used. Reivewing the researchers notes, we can create a simplifid version of the Chinstrap penguin model, and try to predict sex based on just their flipper length.
+Prediction is a main component of modern day data science practices, where intricate machine learning models are used to attempt to classify and evaluate future inferences based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by Galton in 1885, where he first defined the term "regression". In his analysis of children and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of below average height tended to produce taller children. 
 
-Using R, we can illustrate ...
+Predicitive models, ranging in complextion from simple linear regression to neural networks, allow us to utilize the concept that groups within data tend to produce variation of varying definitions that...
+
+
+
+
+    
+For the purpose of illustration, we can replicate a model performed by the Penguins research team. One main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes, penguins are controlled by species, and then a mix of numerical variables such as culmen length, flipper length, and body mass are used. Reviewing the researcher's notes, we can create a simplified version of the Chinstrap penguin model, and try to predict sex based on just their culmen length, better know as bill length. 
+
+<div style="text-align: center"><img src="/assets/penguin_images/bill_dimensions.png"
+height="90%" width="90%" /></div>
+
+$$ Sex \sim CulmenLength + \epsilon $$
+
+Let's visualize what a logistic regression would appear like when applied to our data: 
 
 <div style="text-align: center"><img src="/assets/penguin_images/regression_1.png"
 height="90%" width="90%" /></div>
 
-##### report R2 value 
+When evaluating our model results, we find that ...
+
+
+We can say that for a 1 mm increase in chinstrap penguin bill length, the odds of being a male chinstrap penguin increase by a factor of 2.22.
 
 A reminder that *correlation is not causation*. For instance, being born with an abnomally large bill doesn't imply that a penguin will be male. Rather, males *on average* have larger bills, and we can use that metric to explain the difference in the groups. 
 
-
 ### Design
 
-Randomization 
-Florence Nightengale 
-How does one design a study to control for randomization / error / sample sizes. 
-
-    
-The Penguin research team took design qualities into practice when they produced the underlying data for the study they performed. 
-
-Collected data from three different islands 
-OF population, randomly sampled populations 
-
-Considered the power of the sample 
+Structure is a crucial component of any scientific endeavor. The design(s) implemented into a research project are key to providing controlled and replicable results being achieved. In experimental designs, the use of blocking factors and randomization are essential features for ensuring statistical assumptions can be met. The late statistician David Cox is quoted as describing randomness as "a device for eliminating biases, for example from unobserved explantatory variables and selection teffects; as a basis for estimating standard errors; and as a foundation for formally exact significance tests." []
 
 
 
 
+The Penguin research team practiced good design qualities when they produced their research data. The study was pre-planned to examine "ecological sexual dimorphism among... penguins asking whether environmental variability is associated with differences in male and female pre-breeding foraging niche." []
+
+Dr. ___ and their team collected samples from three different island populations over the course of three years. This stratification by species, island location, and time period eliminates ____ and allows for the study of these individual effects. These images from the study demonstrate the execution of these results. 
+
+<div style="text-align: center"><img src="/assets/penguin_images/islands.png"
+height="90%" width="90%" /></div>
+
+Furthermore, we can break out the data by feature to examine just what blocking was conducted. 
+
+Large sample size to ensure ... 
+
+"The reduced sample size for chinstraps was due to the overall smaller number of individuals breeding at rookeries on Dream Island."
+
+"These sample sizes are reduced in comparison with the original number of study nests marked and monitored per species as at times weather conditions hindered rookery access resulting in some study nests not being sampled if the pair had already reached clutch completion"
+
+"some pairs were excluded from statistical analyses because a final egg was never observed at the nest"
+
+While natural limitations prevented perfect cuts of data being available, the design prevents.... 
 
 
 
 
 ### Residual 
+
+
 Difference between predicted and actual results in overall model. Regression to the mean. Evaluation of success of model.
 
-Going back to our previous logistic regression, let's 'diagnose' the issues the plot may have. Residuals are a way of comparing our model's predicted training data results to it's raw testing data, and seeing how well our model performs in the real world 
 
 
-OR Linear Regression based on DELTA15N 
-? log vs normal scale for residuals
+residuals commonly found in model diagnostics 
+
+
+
+Let's create one last hypothetical situation: assume we are the Penguin research team, and the scale we use to measure the body mass breaks! We still have 86 penguins to go, and don't have time to find a replacement. How can we determine the final penguins weight before leaving Antartica for the season? Well, its not perfect, but we can attempt to fill our null data with predicted results based on the flipper_length, sex, and species of the penguin from our already collected data. 
+
+
+<div style="text-align: center"><img src="/assets/penguin_images/residual_1.png"
+height="90%" width="90%" /></div>
+
+
+Of the 86 penguins we theoretically couldn't weigh, we were within 10% of their actual weight for 61 of them, or roughly 3/4 of the our missing weight population. These residuals allow us to review our model and determine that while this can inform our understanding of a reasonable weight for these penguins, we should be cognizant that some won't line up to reality. 
 
 
 
@@ -198,6 +243,7 @@ OR Linear Regression based on DELTA15N
 Statistics is a field of varying methodolgies and techinques that attempt to give us a better understanding of our world through the data we collect and analyze. The seven pillars that form it's foundaton provide us with a concrete understanding of how to 
 
 
+last pillar ...
 
 
 
@@ -205,14 +251,6 @@ Statistics is a field of varying methodolgies and techinques that attempt to giv
 
 
 
-https://cran.r-project.org/web/packages/fitdistrplus/vignettes/paper2JSS.pdf
-https://en.wikipedia.org/wiki/Generalized_gamma_distribution
-
-
-CTL 
-https://machinelearningmastery.com/a-gentle-introduction-to-the-central-limit-theorem-for-machine-learning/
-https://en.wikipedia.org/wiki/Central_limit_theorem  <- SEE PLOT 
-https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html
 
 
 
@@ -234,4 +272,14 @@ https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probabili
 
 [^7]: Guniess policy against publicaiton of work under its name. 
  
+
+
+https://cran.r-project.org/web/packages/fitdistrplus/vignettes/paper2JSS.pdf
+https://en.wikipedia.org/wiki/Generalized_gamma_distribution
+
+https://machinelearningmastery.com/a-gentle-introduction-to-the-central-limit-theorem-for-machine-learning/
+https://en.wikipedia.org/wiki/Central_limit_theorem  <- SEE PLOT 
+https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html
+
+https://drsimonj.svbtle.com/visualising-residuals
 
