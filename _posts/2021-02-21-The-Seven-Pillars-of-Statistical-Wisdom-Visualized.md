@@ -116,9 +116,11 @@ Statisitcans are often tasked with determining the differences between specified
 
 The underlying mathematics of the Student's t-test stayed consistent, later being refined by Ronald A. Fisher, and eventually culminating in tests such as the Two Sample T-Test: 
 
+{% raw %}
 $$ 
 t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s^2 (\frac{1}{n_1} + \frac{1}{n_2})}}
 $$
+{% endraw %}
 
 Where $\bar{x}_1$ and $\bar{x}_2$ are the sample means, $s²$ is the pooled sample variance, $n_1$ and $n_2$ are the sample sizes and $t$ is a Student t quantile with $n_1 + n_2 - 2$ degrees of freedom.
 
