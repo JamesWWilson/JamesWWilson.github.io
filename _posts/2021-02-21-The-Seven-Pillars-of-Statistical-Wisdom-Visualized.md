@@ -165,10 +165,10 @@ Given this, we can compute a two sample t-test which provides us with a t-value 
     
 Prediction is a main component of modern day data science practices, where intricate machine learning models are used to attempt to classify and evaluate future inferences based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by Galton in 1885, where he first defined the term "regression". In his analysis of children and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of below average height tended to produce taller children. 
 
-Predicitive models, ranging in complextion from simple linear regression to neural networks, allow us to utilize the concept that groups within data tend to produce variation of varying definitions that...
+Predicitive models, ranging in complextion from simple linear regression to neural networks, allow us to utilize the concept that groups within data tend to produce variation of varying definitions.
 
 
-
+...
 
     
 For the purpose of illustration, we can replicate a model performed by the Penguins research team. One main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes, penguins are controlled by species, and then a mix of numerical variables such as culmen length, flipper length, and body mass are used. Reviewing the researcher's notes, we can create a simplified version of the Chinstrap penguin model, and try to predict sex based on just their culmen length, better know as bill length. 
@@ -194,12 +194,11 @@ A reminder that *correlation is not causation*. For instance, being born with an
 
 Structure is a crucial component of any scientific endeavor. The design(s) implemented into a research project are key to providing controlled and replicable results being achieved. In experimental designs, the use of blocking factors and randomization are essential features for ensuring statistical assumptions can be met. The late statistician David Cox is quoted as describing randomness as "a device for eliminating biases, for example from unobserved explantatory variables and selection teffects; as a basis for estimating standard errors; and as a foundation for formally exact significance tests." []
 
-
-
+...
 
 The Penguin research team practiced good design qualities when they produced their research data. The study was pre-planned to examine "ecological sexual dimorphism among... penguins asking whether environmental variability is associated with differences in male and female pre-breeding foraging niche." []
 
-Dr. ___ and their team collected samples from three different island populations over the course of three years. This stratification by species, island location, and time period eliminates ____ and allows for the study of these individual effects. These images from the study demonstrate the execution of these results. 
+Dr. Kristen Gorman and their team collected samples from three different island populations over the course of three years. This stratification by species, island location, and time period eliminates bias and error, which allows for the study of these individual effects. These images from the study demonstrate the execution of these results. 
 
 <div style="text-align: center"><img src="/assets/penguin_images/islands.png"
 height="90%" width="90%" /></div>
@@ -217,18 +216,9 @@ Large sample size to ensure ...
 While natural limitations prevented perfect cuts of data being available, the design prevents.... 
 
 
-
-
 ### Residual 
 
-
-Difference between predicted and actual results in overall model. Regression to the mean. Evaluation of success of model.
-
-
-
-residuals commonly found in model diagnostics 
-
-
+Difference between predicted and actual results in overall model. Regression to the mean. Evaluation of success of model. Residuals can be plotted and reviewed to determine that not only our model assumptions are being maintained but that the results of our model are accurate enough for our purposes.
 
 Let's create one last hypothetical situation: assume we are the Penguin research team, and the scale we use to measure the body mass breaks! We still have 86 penguins to go, and don't have time to find a replacement. How can we determine the final penguins weight before leaving Antartica for the season? Well, its not perfect, but we can attempt to fill our null data with predicted results based on the flipper_length, sex, and species of the penguin from our already collected data. 
 
@@ -239,28 +229,15 @@ height="90%" width="90%" /></div>
 
 Of the 86 penguins we theoretically couldn't weigh, we were within 10% of their actual weight for 61 of them, or roughly 3/4 of the our missing weight population. These residuals allow us to review our model and determine that while this can inform our understanding of a reasonable weight for these penguins, we should be cognizant that some won't line up to reality. 
 
-
-
-
 ### Conclusion 
 
-Statistics is a field of varying methodolgies and techinques that attempt to give us a better understanding of our world through the data we collect and analyze. The seven pillars that form it's foundaton provide us with a concrete understanding of how to 
+Statistics is a field of varying methodolgies and techinques that attempt to give us a better understanding of our world through the data we collect and analyze. The seven pillars that form it's foundaton provide us with a concrete understanding of how to build, interpret, and model information for our *own understanding* of the world. 
 
-
-last pillar ...
-
-
-
-
-
-
-
-
-
+Many topics are posited by Stigler as the future '8th' pillar of statistics. Causal inference, best described by Judea Pearl in the "The Book of Why", is a potential catch-all for that next pillar in the history of statistics.  
 
 ---
 
-#### Footnotes + Citations
+#### Footnotes 
 
 [^1]: Cite penguins data https://github.com/allisonhorst/palmerpenguins
 
@@ -277,13 +254,11 @@ last pillar ...
 [^7]: Guniess policy against publicaiton of work under its name. 
  
 
+#### Citations
 
-https://cran.r-project.org/web/packages/fitdistrplus/vignettes/paper2JSS.pdf
-https://en.wikipedia.org/wiki/Generalized_gamma_distribution
+[Data]: Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
+Archipelago (Antarctica) penguin data. R package version 0.1.0.
+https://allisonhorst.github.io/palmerpenguins/. doi:
+10.5281/zenodo.3960218.
 
-https://machinelearningmastery.com/a-gentle-introduction-to-the-central-limit-theorem-for-machine-learning/
-https://en.wikipedia.org/wiki/Central_limit_theorem  <- SEE PLOT 
-https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_probability/BS704_Probability12.html
-
-https://drsimonj.svbtle.com/visualising-residuals
-
+[Research_Paper]: Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
