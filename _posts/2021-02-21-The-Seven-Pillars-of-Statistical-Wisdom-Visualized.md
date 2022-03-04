@@ -6,6 +6,8 @@ summary: Using the Palmer's Penguins Dataset, I visualize the "7 Pillars of Stat
 categories: Book Review
 ---
 
+{%- include mathjax.html -%}
+
 *A visual book review of Stephen M. Stigler's The Seven Pillars of Statistical Wisdom*
 
 After our UCLA commencement ceremony, the Statistics program gave each graduate a copy of Stephen M. Stigler's *The Seven Pillars of Statistical Wisdom* as a sort of yearbook to sign amongst classmates and cement our capstone as undergraduates. Almost two years later, and I  finally got around to reading the book! Reviewing the so called "pillars of statistics" has grown my appreciation of its simple description of the functionality and durability of the field of Statisitcs (which is still in it's infancy relative to most sciences). The one shortfall of the book, in my opinion, is a lack of visualizations to convey each of the 7 pillars that define the field. So in reviewing and summarizing the book, let's try to visualize each concept with one of my new favorite datasets: the Palmer's Penguin dataset [^1] [^2].  The Penguins dataset contains data for 344 penguins, which were collected and made available by Dr. Kristen Gorman and the Palmer Station located at the Palmer Archipelago in Antarctica.
