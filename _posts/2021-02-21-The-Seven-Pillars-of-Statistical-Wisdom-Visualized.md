@@ -122,7 +122,7 @@ t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s^2 (\frac{1}{n_1} + \frac{1}{n_2})}}
 $$
 {% endraw %}
 
-Where {% raw %} $ \bar{x}_1 $ {% endraw %} and $ \bar{x}_2 $ are the sample means, $s²$ is the pooled sample variance, $n_1$ and $n_2$ are the sample sizes and $t$ is a Student t quantile with $n_1 + n_2 - 2$ degrees of freedom.
+Where <span> $ \bar{x}_1 </span> $ {% endraw %} and $ \bar{x}_2 $ are the sample means, $s²$ is the pooled sample variance, $n_1$ and $n_2$ are the sample sizes and $t$ is a Student t quantile with $n_1 + n_2 - 2$ degrees of freedom.
 
 The two sample t-test, as presented above, allows the comparison of the means from two data sets. The t-test is useful in that it can be used when our data set is small, namely less than 30 observations, while still being useful if our data grows large. The t-test does require an assumption that the data are drawn from a normally distributed population, and that the groups drawn from roughly the have the same variance. The test works by comparing the number of standard deviations between groups based on the amount of data present. The less data available, the more of a difference that is required to assume that a significant difference was secured. 
 
