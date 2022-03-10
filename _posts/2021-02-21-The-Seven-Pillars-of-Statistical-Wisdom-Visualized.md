@@ -185,6 +185,8 @@ height="90%" width="90%" /></div>
 
 When evaluating our model results, we find that ...
 
+<table>
+</table>
 
 We can say that for a 1 mm increase in chinstrap penguin bill length, the odds of being a male chinstrap penguin increase by a factor of 2.22.
 
@@ -192,9 +194,7 @@ A reminder that *correlation is not causation*. For instance, being born with an
 
 ### Design
 
-Structure is a crucial component of any scientific endeavor. The design(s) implemented into a research project are key to providing controlled and replicable results being achieved. In experimental designs, the use of blocking factors and randomization are essential features for ensuring statistical assumptions can be met. The late statistician David Cox is quoted as describing randomness as "a device for eliminating biases, for example from unobserved explantatory variables and selection teffects; as a basis for estimating standard errors; and as a foundation for formally exact significance tests." []
-
-...
+Structure is a crucial component of any scientific endeavor. The design(s) implemented into a research project are key to providing controlled and replicable results being achieved. In experimental designs, the use of blocking factors and randomization are essential features for ensuring statistical assumptions can be met. The late statistician David Cox is quoted as describing randomness as "a device for eliminating biases, for example from unobserved explantatory variables and selection teffects; as a basis for estimating standard errors; and as a foundation for formally exact significance tests." [] Randomness, or rather controlled randomness, is what allows us to discern meaningful results from the often limited data we can collect. 
 
 The Penguin research team practiced good design qualities when they produced their research data. The study was pre-planned to examine "ecological sexual dimorphism among... penguins asking whether environmental variability is associated with differences in male and female pre-breeding foraging niche." []
 
@@ -204,6 +204,9 @@ Dr. Kristen Gorman and their team collected samples from three different island 
 height="90%" width="90%" /></div>
 
 Furthermore, we can break out the data by feature to examine just what blocking was conducted. 
+
+<table>
+</table>
 
 Large sample size to ensure ... 
 
@@ -222,10 +225,8 @@ Difference between predicted and actual results in overall model. Regression to 
 
 Let's create one last hypothetical situation: assume we are the Penguin research team, and the scale we use to measure the body mass breaks! We still have 86 penguins to go, and don't have time to find a replacement. How can we determine the final penguins weight before leaving Antartica for the season? Well, its not perfect, but we can attempt to fill our null data with predicted results based on the flipper_length, sex, and species of the penguin from our already collected data. 
 
-
 <div style="text-align: center"><img src="/assets/penguin_images/residual_1.png"
 height="90%" width="90%" /></div>
-
 
 Of the 86 penguins we theoretically couldn't weigh, we were within 10% of their actual weight for 61 of them, or roughly 3/4 of the our missing weight population. These residuals allow us to review our model and determine that while this can inform our understanding of a reasonable weight for these penguins, we should be cognizant that some won't line up to reality. 
 
@@ -233,7 +234,7 @@ Of the 86 penguins we theoretically couldn't weigh, we were within 10% of their 
 
 Statistics is a field of varying methodolgies and techinques that attempt to give us a better understanding of our world through the data we collect and analyze. The seven pillars that form it's foundaton provide us with a concrete understanding of how to build, interpret, and model information for our *own understanding* of the world. 
 
-Many topics are posited by Stigler as the future '8th' pillar of statistics. Causal inference, best described by Judea Pearl in the "The Book of Why", is a potential catch-all for that next pillar in the history of statistics.  
+Many topics are posited by Stigler as the future '8th' Pillar of Statistics. Causal inference, best described by Judea Pearl in the "The Book of Why", is in my opinion, a potential candidate for that title. But more on that in a future post!
 
 ---
 
