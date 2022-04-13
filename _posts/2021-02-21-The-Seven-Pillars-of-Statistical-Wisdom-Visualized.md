@@ -246,12 +246,9 @@ Many topics are posited by Stigler as the future '8th' Pillar of Statistics. Cau
 
 ---
 
-#### Footnotes 
+#### Footnotes & Citations
 
-[^1]: Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
-Archipelago (Antarctica) penguin data. R package version 0.1.0.
-https://allisonhorst.github.io/palmerpenguins/. doi:
-10.5281/zenodo.3960218.
+[^1]: Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi:10.5281/zenodo.3960218.
 
 [^2]: The Palmer's Penguins dataset has become a common replacement for the widespread [IRIS dataset](https://archive.ics.uci.edu/ml/datasets/iris), which has in recent years been 'canceled' by many statisticians due to a growing understand of the unfavorable politcial views it's creator, Ronald Fisher, had (i.e. eugenics).
 
@@ -271,14 +268,3 @@ https://allisonhorst.github.io/palmerpenguins/. doi:
 
 [^10]: Cox, D. (2006). Principles of Statistical Inference. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511813559
 
-
-
-
-#### Citations
-
-[Data]: Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer
-Archipelago (Antarctica) penguin data. R package version 0.1.0.
-https://allisonhorst.github.io/palmerpenguins/. doi:
-10.5281/zenodo.3960218.
-
-[Research_Paper]: Gorman KB, Williams TD, Fraser WR (2014). Ecological sexual dimorphism and environmental variability within a community of Antarctic penguins (genus Pygoscelis). PLoS ONE 9(3):e90081. https://doi.org/10.1371/journal.pone.0090081
