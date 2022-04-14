@@ -167,11 +167,7 @@ Given this, we can compute a two sample t-test which provides us with a t-value 
     
 Prediction is a main component of modern data science, where intricate machine learning models are used to classify and evaluate future results based on prior data. The concept of building a model that allows us to compare predicted results to the expected results was originally formed by Galton in 1885, where he first defined the term "regression". In his analysis of child and parent height data, Galton introduced the concept of individual data points 'regressing to the average', exemplified where parents of above average height tended to produce shorter children, and parents of below average height tended to produce taller children. 
 
-Predicitive models, ranging in complextion from simple linear regression to neural networks, allow us to utilize the concept that groups within data tend to produce variation of varying definitions. 
-
-
-...
- 
+Predicitive models, ranging in complextion from simple linear regression to neural networks, allow us to utilize the concept that groups within data tend to produce variation of varying but predictable definitions. For instance, offspring can vary in height that is often directly correlated to the height of their parents, in within a specific degree of variability is seen and typically benchmarked by the offspring's sex. The situation of one's height can not be confidently predicted by parent's height alone, but with a combination of factors (genetic, environmental, etc.) that can improve this confidence and increase the probability of 'regressing' to a mean that closely resembles the population we want to model. 
     
 For the purpose of illustration, we can replicate a model performed by the Penguins research team. One main goals of their team's research was evaluating a penguin's sex based on it's physical characteristics. This sort of research question is a great case example for a logistic regression model, which allows us (and the research team) to determine and evaluate a binary classification of the data, in this case Male (1) vs Female (0). In the study notes [^9], penguins are controlled by species, and then a mix of numerical variables such as culmen length, flipper length, and body mass are used. Reviewing the researcher's notes, we can create a simplified version of the Chinstrap penguin model, and try to predict sex based on just their culmen length, better know as bill length. 
 
