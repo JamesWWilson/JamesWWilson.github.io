@@ -198,36 +198,119 @@ height="90%" width="90%" /></div>
 
 Furthermore, we can break out the data by feature to examine just what blocking was conducted. 
 
+<table>
+<thead>
+<tr class="header">
+<th>Species</th>
+<th>Island</th>
+<th>Year</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Torgersen</td>
+<td style="text-align:center">2007</td>
+<td style="text-align:center">19</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2007</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2007</td>
+<td style="text-align:center">20</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2008</td>
+<td style="text-align:center">18</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Torgersen</td>
+<td style="text-align:center">2008</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2008</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2009</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Torgersen</td>
+<td style="text-align:center">2009</td>
+<td style="text-align:center">16</td>
+</tr>
+<tr>
+<td style="text-align:center">Adelie</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2009</td>
+<td style="text-align:center">20</td>
+</tr>
+<tr>
+<td style="text-align:center">Gentoo</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2007</td>
+<td style="text-align:center">34</td>
+</tr>
+<tr>
+<td style="text-align:center">Gentoo</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2008</td>
+<td style="text-align:center">46</td>
+</tr>
+<tr>
+<td style="text-align:center">Gentoo</td>
+<td style="text-align:center">Biscoe</td>
+<td style="text-align:center">2009</td>
+<td style="text-align:center">43</td>
+</tr>
+<tr>
+<td style="text-align:center">Chinstrap</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2007</td>
+<td style="text-align:center">26</td>
+</tr>
+<tr>
+<td style="text-align:center">Chinstrap</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2008</td>
+<td style="text-align:center">18</td>
+</tr>
+<tr>
+<td style="text-align:center">Chinstrap</td>
+<td style="text-align:center">Dream</td>
+<td style="text-align:center">2009</td>
+<td style="text-align:center">24</td>
+</tr>
+</tbody>
+</table>
 
-| Species   | Island    | Year | Count |
-| --------- | --------- | ---- | ----- |
-| Adelie    | Torgersen | 2007 | 19    |
-| Adelie    | Biscoe    | 2007 | 10    |
-| Adelie    | Dream     | 2007 | 20    |
-| Adelie    | Biscoe    | 2008 | 18    |
-| Adelie    | Torgersen | 2008 | 16    |
-| Adelie    | Dream     | 2008 | 16    |
-| Adelie    | Biscoe    | 2009 | 16    |
-| Adelie    | Torgersen | 2009 | 16    |
-| Adelie    | Dream     | 2009 | 20    |
-| Gentoo    | Biscoe    | 2007 | 34    |
-| Gentoo    | Biscoe    | 2008 | 46    |
-| Gentoo    | Biscoe    | 2009 | 43    |
-| Chinstrap | Dream     | 2007 | 26    |
-| Chinstrap | Dream     | 2008 | 18    |
-| Chinstrap | Dream     | 2009 | 24    |
 
+As can be noted, a minimum of 10 penguins per blocking group was maintained thoughout the study. This was done in light of challenges faced by the study group, which they detailed in the study: 
 
-Large sample size to ensure ... 
+- <i>"The reduced sample size for chinstraps was due to the overall smaller number of individuals breeding at rookeries on Dream Island."</i>
 
-"The reduced sample size for chinstraps was due to the overall smaller number of individuals breeding at rookeries on Dream Island."
+- <i>"These sample sizes are reduced in comparison with the original number of study nests marked and monitored per species as at times weather conditions hindered rookery access resulting in some study nests not being sampled if the pair had already reached clutch completion."</i>
 
-"These sample sizes are reduced in comparison with the original number of study nests marked and monitored per species as at times weather conditions hindered rookery access resulting in some study nests not being sampled if the pair had already reached clutch completion"
+- <i> "some pairs were excluded from statistical analyses because a final egg was never observed at the nest" </i>
 
-"some pairs were excluded from statistical analyses because a final egg was never observed at the nest"
-
-While natural limitations prevented perfect cuts of data being available, the design prevents.... 
-
+While natural limitations prevented perfect even cuts of data being available per blocking group, the design and sample sizes still allow for us to control for excess randomness caused bu these features and eliminate a significant amount of their impact on the overaching study. 
 
 
 ### Residual 
