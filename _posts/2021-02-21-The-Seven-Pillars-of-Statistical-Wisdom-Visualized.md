@@ -181,14 +181,9 @@ Let's visualize what a logistic regression would appear like when applied to our
 <div style="text-align: center"><img src="/assets/penguin_images/regression_1.png"
 height="90%" width="90%" /></div>
 
-When evaluating our model results, we find that ...
+Our model's assumptions are met, albiet with a single outlier being present in the residual and QQ plots. The results indicate that bill length is statistically significant in its correlation to the sex of the penguin. The intercept for our model is 2.22. Therefore, we can say that on average, for a 1 mm increase in chinstrap penguin bill length, the odds of being a male chinstrap penguin increase by a factor of 2.22.
 
-<table>
-</table>
-
-We can say that for a 1 mm increase in chinstrap penguin bill length, the odds of being a male chinstrap penguin increase by a factor of 2.22.
-
-A reminder that *correlation is not causation*. For instance, being born with an abnomally large bill doesn't imply that a penguin will be male. Rather, males *on average* have larger bills, and we can use that metric to explain the difference in the groups. 
+A reminder that *correlation is not causation* and this is not a direct causal relationship. For instance, being born with an abnomally large bill doesn't imply that a penguin will be male. Rather, males *on average* have larger bills, and we can use that metric to explain the difference in the groups. 
 
 ### Design
 
@@ -203,8 +198,24 @@ height="90%" width="90%" /></div>
 
 Furthermore, we can break out the data by feature to examine just what blocking was conducted. 
 
-<table>
-</table>
+
+| Species   | Island    | Year | Count |
+| --------- | --------- | ---- | ----- |
+| Adelie    | Torgersen | 2007 | 19    |
+| Adelie    | Biscoe    | 2007 | 10    |
+| Adelie    | Dream     | 2007 | 20    |
+| Adelie    | Biscoe    | 2008 | 18    |
+| Adelie    | Torgersen | 2008 | 16    |
+| Adelie    | Dream     | 2008 | 16    |
+| Adelie    | Biscoe    | 2009 | 16    |
+| Adelie    | Torgersen | 2009 | 16    |
+| Adelie    | Dream     | 2009 | 20    |
+| Gentoo    | Biscoe    | 2007 | 34    |
+| Gentoo    | Biscoe    | 2008 | 46    |
+| Gentoo    | Biscoe    | 2009 | 43    |
+| Chinstrap | Dream     | 2007 | 26    |
+| Chinstrap | Dream     | 2008 | 18    |
+| Chinstrap | Dream     | 2009 | 24    |
 
 
 Large sample size to ensure ... 
@@ -221,11 +232,7 @@ While natural limitations prevented perfect cuts of data being available, the de
 
 ### Residual 
 
-The last pillars deals with the comparison of expectations to reality. A residual is the difference between the predicted and actual results in an inference model. 
-
-
-Regression to the mean. Evaluation of success of model. Residuals can be plotted and reviewed to determine that not only our model assumptions are being maintained but that the results of our model are accurate enough for our purposes.
-
+The last pillars deals with the comparison of expectations to reality. A residual is the difference between the predicted and actual result in an inference model. The evaluation of residuals can be understood as the evaluation of the success of the model itself. Residuals can be plotted and reviewed to determine that not only our model assumptions are being maintained, but that the results of our model are accurate enough for our purposes.
 
 Let's create one last hypothetical situation: assume we are the Penguin research team, and the scale we use to measure the body mass breaks! We still have 86 penguins to go, and don't have time to find a replacement. How can we determine the final penguins weight before leaving Antartica for the season? Well, its not perfect, but we can attempt to fill our null data with predicted results based on the flipper_length, sex, and species of the penguin from our already collected data. 
 
