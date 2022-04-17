@@ -1,6 +1,6 @@
 ---
 title: "The Seven Pillars of Statistical Wisdom *Visualized*"
-date: '2021-03-20'
+date: '2021-09-20'
 layout: post
 summary: Using the Palmer's Penguins Dataset, I visualize the "7 Pillars of Statistics" with worked out examples to bolster my own and other's understanding of the foundation of the field. 
 categories: Book Review
