@@ -2,7 +2,7 @@
 title: "One Year of Data Science @ Capgemini"
 date: '2022-06-04'
 layout: post
-summary: Some thoughts after a year of data science with Capgemini
+summary: Some thoughts and advice from my experience with Cap's Artifical Intelligence and Analytics team
 categories: Work Experience
 ---
 
