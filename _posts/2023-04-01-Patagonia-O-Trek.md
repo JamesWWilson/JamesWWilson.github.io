@@ -1,8 +1,8 @@
 ---
-title: "Patagonia: Torres Del Paine's O-Trek"
+title: "The Patagonian O-Circuit"
 date: '2023-04-01'
 layout: post
-summary: A walkthrough and advice of trekking Patagonia's O-Circuit
+summary: A walkthrough and how-to for trekking through Torres Del Paine's National Park 
 categories: Travel 
 ---
 
@@ -16,7 +16,9 @@ Patagonia: Torres Del Paine's O-Trek
 
 Patagonia. A term not for a place but a *region*; namely the vast and vague territory that encompasses 900,000+ square kilometers of southern Chile and Argentia. The area comprises the southern portion of the Andes mountain range, full of lakes, rainforests, glaciers, and steppes. 
 
+
 <div style="text-align: center"><img src="/assets/patagonia_images/pat_map.png" height="85%" width="85%" /></div>
+
 
 In March of 2023, my friend Pierce and I embarked on a journey south to accomplish the challenging 'O-Circuit' within the Torres del Paine National Park.
 
@@ -42,7 +44,9 @@ The 'O' Circuit, commonly referred to as the 'O' or 'O' Trek, was pioneered in 1
 
 *Approximate elevation profile along the Circuit Trek*
 
-<div style="text-align: center"><img src="/assets/patagonia_images/Full_Circuit_Elevation.png" height="85%" width="85%" /></div>
+
+<div style="text-align: center"><img src="/assets/patagonia_images/Full_Circuit_Elevation.jpg" height="85%" width="85%" /></div>
+
 
 This is a difficult trip, even for the experienced backpacker. Therefore, proper preparation will make for a more enjoyable journey and give you the best likelihood for a safe and successful completion. 
 
@@ -131,7 +135,8 @@ Here is a list of gear I brought on the trail:
 - Cooking Stove: [GSI Outdoors Mimialist Cookset](https://www.rei.com/product/147772/gsi-outdoors-halulite-minimalist-ii-system-cookset?sku=1477720001&store=107&cm_mmc=PLA_Google%7C21700000001700551_1477720001%7C92700058217262589%7CBA%7C71700000074421680&gclid=Cj0KCQjwiZqhBhCJARIsACHHEH-73KtMk40ySO5xul45UKUfYjU0wi0eXSt8UhFrMl05ZAUITnw2cVwaAiJWEALw_wcB&gclsrc=aw.ds)
 	- You can purchase gas for your stove in Puerto Natales at one of the many outdoor equipment stores. 
 
-<div style="text-align: center"><img src="/assets/patagonia_images/gear_layout.png" height="85%" width="85%" /></div>
+
+<div style="text-align: center"><img src="/assets/patagonia_images/gear_layout.jpg" height="85%" width="85%" /></div>
 
 
 If hauling all of this sounds like a nightmare, you can lighten your load by upgrading your setup at campsites. When booking you can pay extra to have a pre-built tent, and sometimes a sleeping bag, available at your campsites. You can also eat with the Refugio's meal plan and minimize the food you carry. 
