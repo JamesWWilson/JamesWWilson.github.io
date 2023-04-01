@@ -6,6 +6,7 @@ summary: Some thoughts and advice from my experience with Cap's Artifical Intell
 categories: Work Experience
 ---
 
+
 This past week I celebrated my one year anniversary with Capgemini's Advanced Insights and Analytics division as a Senior Data Scientist. I've worked on several engagements and POC's, using a range of technologies to provide automated solutions for our clients. These technolgoies have included using Spark libraries (SparkR, PySpark), distributed computing platforms (Databricks, Snowflake), and multiple cloud services (Azure Data Factory, Google Cloud, Amazon SageMaker), all of which have been new learning opportunties to embrace. 
 
 Today, I want to share some non-technical insights I have had over the past year. I now find these to be essential for my success at Capgemini, as well as any future career I should hold. This advice is catered towards those entering the remote tech world, mainly when faced with a culture that encourages ownership of one's own career and doesn't hand an outline for them to follow. 

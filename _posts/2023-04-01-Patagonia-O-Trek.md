@@ -6,9 +6,7 @@ summary: A walkthrough and how-to for trekking through Torres Del Paine's Nation
 categories: Travel 
 ---
 
-Patagonia: Torres Del Paine's O-Trek
 
----------------------------------------------------------------
 
 ## A Brief Introduction to Patagonia
 
