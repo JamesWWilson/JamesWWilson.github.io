@@ -23,7 +23,7 @@ In March 2023, my friend Pierce and I embarked on a journey south to accomplish 
 
 ## An Overview of Torres Del Paine's O-Circuit
 
-Towards the southern end of Chilean Patagonia lies the country's prize jewel: [Torres del Paine National Park](https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park). Established in 1959, the 700 square mile region is one of the largest and most visited national parks in Chile. The park is named for its centerpiece set of three towers (**Torres d'Agostini, Torres Central, and Torres Monzino**) which extend 8,200 ft above sea level. 
+Toward the southern end of Chilean Patagonia lies the country's prize jewel: [Torres del Paine National Park](https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park). Established in 1959, the 700 square mile region is one of the largest and most visited national parks in Chile. The park is named for its centerpiece set of three towers (**Torres d'Agostini, Torres Central, and Torres Monzino**) which extend 8,200 ft above sea level. 
 
 > _Paine_ means "blue" in the native [Tehuelche](https://en.wikipedia.org/wiki/Tehuelche_language "Tehuelche language") (Aonikenk) language and is pronounced _PIE-neh_, while _Torres_ means "towers"
 >
