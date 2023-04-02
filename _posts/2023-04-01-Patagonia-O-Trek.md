@@ -10,21 +10,25 @@ categories: Travel
 
 ## A Brief Introduction to Patagonia
 
-> "'Patagonia!' he cried. 'She is a hard mistress. She casts her spell. An enchantress! She folds you in her arms and never lets go.'" - An excerpt from Bruce Chatwin's *In Patagonia*
+> "'Patagonia!' he cried. 'She is a hard mistress. She casts her spell. An enchantress! She folds you in her arms and never lets go.'" 
+> 
+> -- <cite>An excerpt from Bruce Chatwin's *In Patagonia*</cite>
 
-Patagonia. A term not for a place but a *region*; namely the vast and vague territory that encompasses 900,000+ square kilometers of southern Chile and Argentia. The area comprises the southern portion of the Andes mountain range, full of lakes, rainforests, glaciers, and steppes. 
+Patagonia. A term not for a place but a *region*; namely the vast and vague territory that encompasses 900,000+ square kilometers of southern Chile and Argentina. The area comprises the southern portion of the Andes Mountain range, full of lakes, rainforests, glaciers, and steppes. 
 
 
 <div style="text-align: center"><img src="/assets/patagonia_images/pat_map.png" height="85%" width="85%" /></div>
 
 
-In March of 2023, my friend Pierce and I embarked on a journey south to accomplish the challenging 'O-Circuit' within the Torres del Paine National Park.
+In March 2023, my friend Pierce and I embarked on a journey south to accomplish the challenging 'O-Circuit' within the Torres del Paine National Park.
 
 ## An Overview of Torres Del Paine's O-Circuit
 
-Towards the southern end of Chilean Patagonia lies the country's prize jewel: [Torres del Paine National Park](https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park). Established in 1959, the 700 square mile region is one of the largest and most visited national parks in Chile. The park is named for its centerpiece set of three towers (**Torres d'Agostini, Torres Central and Torres Monzino**) which extend 8,200 ft above sea level. From Wikipedia: 
+Towards the southern end of Chilean Patagonia lies the country's prize jewel: [Torres del Paine National Park](https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park). Established in 1959, the 700 square mile region is one of the largest and most visited national parks in Chile. The park is named for its centerpiece set of three towers (**Torres d'Agostini, Torres Central, and Torres Monzino**) which extend 8,200 ft above sea level. 
 
 > _Paine_ means "blue" in the native [Tehuelche](https://en.wikipedia.org/wiki/Tehuelche_language "Tehuelche language") (Aonikenk) language and is pronounced _PIE-neh_, while _Torres_ means "towers"
+>
+> -- Torres Del Paine's Wikipedia
 
 
 [my image of torres del paine]
@@ -32,13 +36,14 @@ Towards the southern end of Chilean Patagonia lies the country's prize jewel: [T
 
 #### *How do you visit and hike through this daring part of the world?*
 
-Torres de Paine provides two major hiking options: the 'W' and 'O' Treks. Named aptly for their shapes, both trails offer incredible views of the park and take you through many of its natural features.  
+Torres de Paine provides two major hiking options: the 'W' and 'O' Treks. Named for their shapes, both trails offer incredible views of the park and take you through many of its natural features.  
 
 <div style="text-align: center"><img src="/assets/patagonia_images/loop_overview.png" height="85%" width="85%" /></div>
 
+
 [2017 CONAF map of Torres del Paine National Park (pdf)](https://backpackersreview.files.wordpress.com/2018/01/map_overall_conaf.pdf)
 
-The 'O' Circuit, commonly referred to as the 'O' or 'O' Trek, was pioneered in 1976 by British mountaineer John Gardner along with two Torres del Paine rangers, Pepe Alarcon and Oscar Guineo. The roguhly 74 mile loop takes you through 5,200+ meters (or 17,000+ feet) of elevation gain. It should be noted that recorded trail distances vary wildly as the twists and turns of the trail can lead to shorter or longer treks depending on the conditions and season. 
+The 'O' Circuit, commonly referred to as the 'O' or 'O' Trek, was pioneered in 1976 by British mountaineer John Gardner along with two Torres del Paine rangers, Pepe Alarcon and Oscar Guineo. The roughly 74 mile loop takes you through 5,200+ meters (or 17,000+ feet) of elevation gain. It should be noted that recorded trail distances vary wildly as the twists and turns of the trail can lead to shorter or longer treks depending on the conditions and season. 
 
 *Approximate elevation profile along the Circuit Trek*
 
@@ -53,7 +58,7 @@ This is a difficult trip, even for the experienced backpacker. Therefore, proper
 
 ### 1) Booking your campsites 
 
-**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to enter Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most inclue water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often times asking for your passport to verify your identify. For the Circuit trek, the number of trekkers is limited to 80 per day.
+**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to enter Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most include  water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often asking for your passport to verify your identity. For the Circuit trek, the number of trekkers is limited to 80 per day.
 
 #### *Which campsites should I book, and how far in advance?*
 
@@ -77,17 +82,17 @@ We made these reservations about 6 months prior to the trip, and I would encoura
 
 An important note about the campgrounds is you can pay for upgrades. Pre-built tents, dinner made on site, and even bunks in a *refugio* are options you can pay for to make your journey easier and lighter. Sometimes you might even need to book something more expensive to make the dates of the campgrounds work. For instance, at Camp Chileano, we paid extra for a pre-built tent as the open campground spots for that day were all full. Being flexible in your planning is key to success. 
 
-The only change to our itinerary I would have made was to camp in Los Cuernos instead of Frances, or add an additional day to enjoy both campsites. Frances is a much more rustic campsite on the side of a mountain, and will be a cold damp experience depending on the weather. Los Curenos has an incredible interior refugio and bar that makes for a much more comforting experience. 
+The only change to our itinerary I would have made was to camp in Los Cuernos instead of Frances, or add an additional day to enjoy both campsites. Frances is a much more rustic campsite on the side of a mountain and will be a cold damp experience depending on the weather. Los Curenos has an incredible interior refugio and bar that makes for a much more comforting experience. 
 
 Once you have your camping reservations, the rest of the trip begins to plan itself.
 
 ### 2) Scheduling flights, transportation, and hostels 
 
-Its time to get to the park! The most common approach to reaching Torres del Paine is via a two hour bus ride from Puerto Natales, a small fishing town on the Pacific Ocean. 
+It's time to get to the park! The most common approach to reaching Torres del Paine is via a two-hour bus ride from Puerto Natales, a small fishing town on the Pacific Ocean. 
 
-We booked out flights into Puerto Natales from Santiago via Sky Airlines, which flys most days of the week. We arrived in the town a day before our trip began, and in hindsight should have given ourselves a day to recover from jetlag in the city. Do what works best for you! 
+We booked our flights into Puerto Natales from Santiago via Sky Airlines, which flys most days of the week. We arrived in the town a day before our trip began, and in hindsight should have given ourselves a day to recover from jetlag in the city. Do what works best for you! 
 
-There are many good accomidations in Puerto Natales to choose from. We stayed at two hostels that were highly rated on HostelWorld: [Nikos ll Adventure](https://www.hostelworld.com/st/hotels/p/18755/niko-s-ii-adventure/) and [Hostal Factoria Patagonia](https://www.hostelworld.com/st/hostels/p/289614/factoria-patagonia/). Two important questions to inquire about with your hostel are breakfast and storage options. Your morning bus to the park should be early, so having a pre-arranged breakfast at say 6:30 AM can make your life much easier. In addition, having the option to store some clothes and items you traveled with but won't need on the trail can be a nice pleasantry if it makes sense for you.
+There are many good accommodations in Puerto Natales to choose from. We stayed at two hostels that were highly rated on HostelWorld: [Nikos ll Adventure](https://www.hostelworld.com/st/hotels/p/18755/niko-s-ii-adventure/) and [Hostal Factoria Patagonia](https://www.hostelworld.com/st/hostels/p/289614/factoria-patagonia/). Two important questions to inquire about with your hostel are breakfast and storage options. Your morning bus to the park should be early, so having a pre-arranged breakfast at say 6:30 AM can make your life much easier. In addition, having the option to store some clothes and items you traveled with but won't need on the trail can be a nice pleasantry if it makes sense for you.
 
 
 [Photo of Puerto Natales]
@@ -99,7 +104,7 @@ Some additional notes on Puerto Natales:
 - We had our laundry done at [Lavandería Lavamag](https://www.facebook.com/LAVAMAG/) on our return from the trail, which made for a much more comfortable and pleasant return home.
 - Bus tickets from Puerto Natales' [bus station](https://www.google.com/maps/place/Terminal+Rodoviario+(Estaci%C3%B3n+de+Autobuses)/@-51.7290827,-72.4887283,15.21z/data=!4m6!3m5!1s0xbdafe8006c2e3475:0x9893010f835d796c!8m2!3d-51.7285535!4d-72.4881366!16s%2Fg%2F11c70hs1xn) to Torres del Paine should be purchased ahead of time at [this website](https://www.bussur.com/). 
 
-A weird note about entering the park. When you get to the official park enterance, rangers will escort you off the bus to pay for your enterance fee into the park (roughly $35). You then can either hike to the actual trainhead (5 miles) or take the park's shuttle to the enterance (about $10). The shuttle is reccomended, and I am still unaware if you can pay for this ahead of time. Having Chilean pesos on hand at all times is a good idea for this trip!
+A weird note about entering the park. When you get to the official park entrance, rangers will escort you off the bus to pay for your entrance fee into the park (roughly $35). You then can either hike to the actual trailhead (5 miles) or take the park's shuttle to the entrance (about $10). The shuttle is recommended, and I am still unaware if you can pay for this ahead of time. Having Chilean pesos on hand at all times is a good idea for this trip!
 
 ### 3) Preparing your gear - choose your own adventure!
 
@@ -111,7 +116,7 @@ A weird note about entering the park. When you get to the official park enteranc
 
 Let's talk gear. What you bring is what you have, and many different types of conditions will be present on the trail. 
 
-General adivce is to bring and wear lightweight, water-wicking gear that can dry out fast. The weather changes on a dime in this region due to its complex [orology]. Therefore, gear like ponchos and gaiters can be a pain to put on and take off. GoreTex outer laters, synthetic dry-fit materials, and wool are your best chance to avoid being wet and smelly! Basically: NO COTTON. 
+General advice is to pack lightweight, water-wicking gear that can dry out fast. The weather changes on a dime in this region due to its complex [orology](https://en.wikipedia.org/wiki/Mountain_research). Therefore, gear like ponchos and gaiters can be a pain to put on and take off. GoreTex outer layers, synthetic dry-fit materials, and wool are your best chance to avoid being wet and smelly! Basically: NO COTTON. 
 
 We placed our clothes in zip lock bags to compress them and keep them dry. For bulkier items, like your sleeping bag and tent, wrap them in trash bags as a preventative layer when hiking throughout the day and your bag gets caught in a storm. You bag's rain cover will only offer so much protection when the rain blows in sideways!
 
@@ -129,8 +134,8 @@ Here is a list of gear I brought on the trail:
 - Hiking Pants: [prAna Stretch Zion Pants](https://www.rei.com/product/200887/prana-stretch-zion-slim-pants-ii-mens?sku=2008870224&store=107&cm_mmc=PLA_Google%7C21700000001700551_2008870224%7C92700058217320636%7CBA%7C71700000074727276&gclid=Cj0KCQjwiZqhBhCJARIsACHHEH8XbCiWXgyWxoAsSBnKRyNuJbnlLs-uSLzxa4zeSiDdNm3CiC8w1RYaAlJUEALw_wcB&gclsrc=aw.ds)
 - Book: Don't bring one. You will not have time to read! If you do bring one though make it a Paperweight Kindle, and not Ulysses by James Joyce.
 - Hiking Poles: [REI Co-op Trailmade Trekking Poles](https://www.rei.com/product/216314/rei-co-op-trailmade-trekking-poles-pair)
-	- Rent these instead of dealing with bringing your own. Collapsable are preferred, and you will need them to make the ascents easier. 
-- Cooking Stove: [GSI Outdoors Mimialist Cookset](https://www.rei.com/product/147772/gsi-outdoors-halulite-minimalist-ii-system-cookset?sku=1477720001&store=107&cm_mmc=PLA_Google%7C21700000001700551_1477720001%7C92700058217262589%7CBA%7C71700000074421680&gclid=Cj0KCQjwiZqhBhCJARIsACHHEH-73KtMk40ySO5xul45UKUfYjU0wi0eXSt8UhFrMl05ZAUITnw2cVwaAiJWEALw_wcB&gclsrc=aw.ds)
+	- Rent these instead of dealing with bringing your own. Collapsible are preferred, and you will need them to make the ascents easier. 
+- Cooking Stove: [GSI Outdoors Minimalist Cookset](https://www.rei.com/product/147772/gsi-outdoors-halulite-minimalist-ii-system-cookset?sku=1477720001&store=107&cm_mmc=PLA_Google%7C21700000001700551_1477720001%7C92700058217262589%7CBA%7C71700000074421680&gclid=Cj0KCQjwiZqhBhCJARIsACHHEH-73KtMk40ySO5xul45UKUfYjU0wi0eXSt8UhFrMl05ZAUITnw2cVwaAiJWEALw_wcB&gclsrc=aw.ds)
 	- You can purchase gas for your stove in Puerto Natales at one of the many outdoor equipment stores. 
 
 
