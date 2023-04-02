@@ -7,7 +7,6 @@ categories: Travel
 ---
 
 
-
 ## A Brief Introduction to Patagonia
 
 > "'Patagonia!' he cried. 'She is a hard mistress. She casts her spell. An enchantress! She folds you in her arms and never lets go.'" 
@@ -31,10 +30,10 @@ Towards the southern end of Chilean Patagonia lies the country's prize jewel: [T
 > -- Torres Del Paine's Wikipedia
 
 
-[my image of torres del paine]
+<div style="text-align: center"><img src="/assets/patagonia_images/torres_del_paine.jpg" height="85%" width="85%" /></div>
 
 
-#### *How do you visit and hike through this daring part of the world?*
+### *How do you visit and hike through this daring part of the world?*
 
 Torres de Paine provides two major hiking options: the 'W' and 'O' Treks. Named for their shapes, both trails offer incredible views of the park and take you through many of its natural features.  
 
@@ -58,9 +57,10 @@ This is a difficult trip, even for the experienced backpacker. Therefore, proper
 
 ### 1) Booking your campsites 
 
-**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to enter Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most include  water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often asking for your passport to verify your identity. For the Circuit trek, the number of trekkers is limited to 80 per day.
+<div style="text-align: center"><img src="/assets/patagonia_images/campground.jpg" height="85%" width="85%" /></div>
 
-#### *Which campsites should I book, and how far in advance?*
+
+**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to enter Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most include  water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often asking for your passport to verify your identity. For the Circuit trek, the number of trekkers is limited to 80 per day.
 
 For our 'O' circuit, we camped at the following sites across 7 nights:
 
@@ -69,14 +69,10 @@ For our 'O' circuit, we camped at the following sites across 7 nights:
 | Seron        | 2/28/2023   |
 | Dickson      | 3/1/2023    |
 | Los Perros   | 3/2/2023    |
-| Paso         |             |
 | Grey         | 3/3/2023    |
 | Paine Grande | 3/4/2023    |
-| Italiano     |             |
 | Frances      | 3/5/2023    |
-| Cuernos      |             |
 | Chileno      | 3/6/2023    |
-| Central      |             |
 
 We made these reservations about 6 months prior to the trip, and I would encourage you to book even further in advance to get some of the 'peak season' dates between December and February, though anytime from November through March is feasible. 
 
@@ -92,10 +88,10 @@ It's time to get to the park! The most common approach to reaching Torres del Pa
 
 We booked our flights into Puerto Natales from Santiago via Sky Airlines, which flys most days of the week. We arrived in the town a day before our trip began, and in hindsight should have given ourselves a day to recover from jetlag in the city. Do what works best for you! 
 
+<div style="text-align: center"><img src="/assets/patagonia_images/airplane.jpg" height="85%" width="85%" /></div>
+
+
 There are many good accommodations in Puerto Natales to choose from. We stayed at two hostels that were highly rated on HostelWorld: [Nikos ll Adventure](https://www.hostelworld.com/st/hotels/p/18755/niko-s-ii-adventure/) and [Hostal Factoria Patagonia](https://www.hostelworld.com/st/hostels/p/289614/factoria-patagonia/). Two important questions to inquire about with your hostel are breakfast and storage options. Your morning bus to the park should be early, so having a pre-arranged breakfast at say 6:30 AM can make your life much easier. In addition, having the option to store some clothes and items you traveled with but won't need on the trail can be a nice pleasantry if it makes sense for you.
-
-
-[Photo of Puerto Natales]
 
 
 Some additional notes on Puerto Natales:
@@ -110,8 +106,7 @@ A weird note about entering the park. When you get to the official park entrance
 
 *It will rain. The wind will blow you off your feet. Falling in the mud and streams is a real problem you will face. The cold will bite at you at night and on the mornings of your early ascents.* **BE PREPARED.**
 
-
-[photo hiking with shot of backpack]
+<div style="text-align: center"><img src="/assets/patagonia_images/backpack_hiking.jpg" height="85%" width="85%" /></div>
 
 
 Let's talk gear. What you bring is what you have, and many different types of conditions will be present on the trail. 
@@ -154,9 +149,9 @@ If hauling all of this sounds like a nightmare, you can lighten your load by upg
 
 ### Conclusion
 
-[cool picture]
+<div style="text-align: center"><img src="/assets/patagonia_images/glacier.jpg" height="85%" width="85%" /></div>
 
-Patagonia is a worthy treasure of the world, arguably one of the greatest natural wonders available for us to explore. Should you be up for the expedition, I would encourage you to visit this place for yourself. 
+Torres del Paine is a worthy treasure of the world, arguably one of the greatest natural wonders available for us to explore. I encourage you to visit this place for yourself, should you be up for the expedition! 
 
 
 
