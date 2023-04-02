@@ -23,6 +23,7 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Set up Ruby 2.7
       uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.7.4
     - name: Bundle install
