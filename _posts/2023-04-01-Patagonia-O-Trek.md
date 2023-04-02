@@ -60,7 +60,7 @@ This is a difficult trip, even for the experienced backpacker. Therefore, proper
 <div style="text-align: center"><img src="/assets/patagonia_images/campground.jpg" height="85%" width="85%" /></div>
 
 
-**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to enter Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most include  water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often asking for your passport to verify your identity. For the Circuit trek, the number of trekkers is limited to 80 per day.
+**This is the main requirement for doing the 'O'-Circuit. It is mandatory to have reservations for camping and refugio shelters prior to entering Torres del Paine National Park.** Two companies manage the campgrounds along the circuit: [Fantastico Sur](https://www.fantasticosur.com/web/) and [Vertice Patagonia](https://reservas.verticepatagonia.cl/index.xhtml).  Campgrounds range from $9 to $11 USD per night, and most include  water, bathrooms, showers, electricity, gear rental, re-supply shops, and sometimes even restaurants! All campgrounds require reservations made ahead of time to stay the night, often asking for your passport to verify your identity. For the Circuit trek, the number of trekkers is limited to 80 per day.
 
 For our 'O' circuit, we camped at the following sites across 7 nights:
 
@@ -76,7 +76,7 @@ For our 'O' circuit, we camped at the following sites across 7 nights:
 
 We made these reservations about 6 months prior to the trip, and I would encourage you to book even further in advance to get some of the 'peak season' dates between December and February, though anytime from November through March is feasible. 
 
-An important note about the campgrounds is you can pay for upgrades. Pre-built tents, dinner made on site, and even bunks in a *refugio* are options you can pay for to make your journey easier and lighter. Sometimes you might even need to book something more expensive to make the dates of the campgrounds work. For instance, at Camp Chileano, we paid extra for a pre-built tent as the open campground spots for that day were all full. Being flexible in your planning is key to success. 
+An important note about the campgrounds is you can pay for upgrades. Pre-built tents, dinner made on site, and even bunks in a *refugio* are options you can pay for to make your journey easier and lighter. Sometimes you might even need to book something more expensive to make the dates of the campgrounds work. For instance, at Camp Chileno, we paid extra for a pre-built tent as the open campground spots for that day were all full. Being flexible in your planning is key to success. 
 
 The only change to our itinerary I would have made was to camp in Los Cuernos instead of Frances, or add an additional day to enjoy both campsites. Frances is a much more rustic campsite on the side of a mountain and will be a cold damp experience depending on the weather. Los Curenos has an incredible interior refugio and bar that makes for a much more comforting experience. 
 
@@ -86,7 +86,7 @@ Once you have your camping reservations, the rest of the trip begins to plan its
 
 It's time to get to the park! The most common approach to reaching Torres del Paine is via a two-hour bus ride from Puerto Natales, a small fishing town on the Pacific Ocean. 
 
-We booked our flights into Puerto Natales from Santiago via Sky Airlines, which flys most days of the week. We arrived in the town a day before our trip began, and in hindsight should have given ourselves a day to recover from jetlag in the city. Do what works best for you! 
+We booked our flights into Puerto Natales from Santiago via Sky Airlines, which flies most days of the week. We arrived in the town a day before our trip began, and in hindsight should have given ourselves a day to recover from jetlag in the city. Do what works best for you! 
 
 <div style="text-align: center"><img src="/assets/patagonia_images/airplane.jpg" height="85%" width="85%" /></div>
 
@@ -96,7 +96,7 @@ There are many good accommodations in Puerto Natales to choose from. We stayed a
 
 Some additional notes on Puerto Natales:
 - For food and drinks, I recommend [Cafe Artimana](https://www.tripadvisor.es/Restaurant_Review-g297400-d8581008-Reviews-Cafe_Artimana-Puerto_Natales_Magallanes_Region.html) and [Baguales Brewery](https://www.tripadvisor.com/Restaurant_Review-g297400-d1646802-Reviews-Cerveceria_Baguales-Puerto_Natales_Magallanes_Region.html). 
-	- At Cafe Arimana, the *Pobre Artimana* is a must have! 
+	- At Cafe Artimana, the *Pobre Artimana* is a must have! 
 - We had our laundry done at [Lavandería Lavamag](https://www.facebook.com/LAVAMAG/) on our return from the trail, which made for a much more comfortable and pleasant return home.
 - Bus tickets from Puerto Natales' [bus station](https://www.google.com/maps/place/Terminal+Rodoviario+(Estaci%C3%B3n+de+Autobuses)/@-51.7290827,-72.4887283,15.21z/data=!4m6!3m5!1s0xbdafe8006c2e3475:0x9893010f835d796c!8m2!3d-51.7285535!4d-72.4881366!16s%2Fg%2F11c70hs1xn) to Torres del Paine should be purchased ahead of time at [this website](https://www.bussur.com/). 
 
@@ -144,7 +144,7 @@ If hauling all of this sounds like a nightmare, you can lighten your load by upg
 ### Additional Advice 
 - Download AllTrails or a similar GPS Companion app to track your daily route and keep an eye on the trail. 
 	- [AllTrails O-Circuit Link](https://www.alltrails.com/trail/chile/magallanes/torres-del-paine-circuito-o-w?u=i&u=)
-- Problems will happen. Someone might get forget their sock bag, or have their tent poles snap in the middle of the night due to winds. You might sprain a knee or ankle, have a hiking pole bend 90 degrees, or worse. Keep your head up and expect the unexpected - its part of the journey! 
+- Problems will happen. Someone might forget their sock bag, or have their tent poles snap in the middle of the night due to winds. You might sprain a knee or ankle, have a hiking pole bend 90 degrees, or worse. Keep your head up and expect the unexpected - its part of the journey! 
 
 
 
