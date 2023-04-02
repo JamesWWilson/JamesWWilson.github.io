@@ -106,6 +106,7 @@ A weird note about entering the park. When you get to the official park entrance
 
 *It will rain. The wind will blow you off your feet. Falling in the mud and streams is a real problem you will face. The cold will bite at you at night and on the mornings of your early ascents.* **BE PREPARED.**
 
+
 <div style="text-align: center"><img src="/assets/patagonia_images/backpack_hiking.jpg" height="85%" width="85%" /></div>
 
 
