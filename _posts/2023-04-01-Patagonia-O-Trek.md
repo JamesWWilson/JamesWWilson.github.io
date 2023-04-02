@@ -1,8 +1,8 @@
 ---
-title: "The Patagonian O-Circuit"
+title: "Torres del Paines' O-Circuit"
 date: '2023-04-01'
 layout: post
-summary: A walkthrough and how-to for trekking through Torres Del Paine's National Park 
+summary: A walkthrough and how-to for trekking through Torres Del Paine's National Park in Patagonian Chile 
 categories: Travel 
 ---
 
