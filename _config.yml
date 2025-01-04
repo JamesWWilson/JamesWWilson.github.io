@@ -6,7 +6,7 @@ description: "Personal Blog."
 baseurl:     ""
 url:         "http://www.jameswwilson.dev/"
 date_format: "%b %-d, %Y"
-header: ![image](/assets/images/James.jpg)
+# header: ![image](/assets/images/James.jpg)
 header_pages:
  - about.md
  #- contact.html
